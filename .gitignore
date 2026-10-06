@@ -1,0 +1,11 @@
+.env
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Large local working data and generated publication assets.
+work/
+treemap/*/*.tif
+treemap/*/*.tiff

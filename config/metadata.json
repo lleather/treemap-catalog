@@ -1,0 +1,112 @@
+{
+  "catalog": {
+    "id": "treemap",
+    "title": "TreeMap",
+    "contact": {
+      "name": "TreeMap Help",
+      "email": "sm.fs.treemaphelp@usda.gov"
+    },
+    "license": "other",
+    "license_url": "https://www.fs.usda.gov/rds/archive/catalog/RDS-2025-0032",
+    "human_url": "https://source.coop/redcastle-resources/treemap",
+    "machine_url": "https://data.source.coop/redcastle-resources/treemap/",
+    "source_url": "https://data.fs.usda.gov/geodata/rastergateway/treemap/",
+    "spatial_extent": [-128.97722, 22.76862, -65.25445, 51.64968],
+    "temporal_extent": ["2016-01-01T00:00:00Z", "2023-12-31T23:59:59Z"],
+    "providers": [
+      {
+        "name": "USDA Forest Service",
+        "roles": ["producer", "licensor"],
+        "url": "https://data.fs.usda.gov/geodata/rastergateway/treemap/"
+      },
+      {
+        "name": "RedCastle Resources",
+        "roles": ["processor", "host"],
+        "url": "https://source.coop/redcastle-resources"
+      }
+    ],
+    "use_constraints": "These data were collected using funding from the U.S. Government and can be used without additional permissions or fees. Cite each TreeMap vintage used in a publication, presentation, or other research product."
+  },
+  "years": {
+    "2016": {
+      "year_released": 2021,
+      "tm_methods_ver": "2.1",
+      "methods_publication": "Riley et al. 2021",
+      "tm_dataset_release": "1.0",
+      "tm_data_ver": "2021-2.1-1.0",
+      "landfire_ver_name": "LF2016",
+      "landfire_ver_num": "2.0.0",
+      "fiadb_ver": "1.9",
+      "study_area": "CONUS",
+      "doi": "https://doi.org/10.2737/RDS-2021-0074"
+    },
+    "2020": {
+      "year_released": 2025,
+      "tm_methods_ver": "2.2",
+      "methods_publication": "Riley et al. 2022",
+      "tm_dataset_release": "1.0",
+      "tm_data_ver": "2025-2.2-1.0",
+      "landfire_ver_name": "LF2020",
+      "landfire_ver_num": "2.2.0",
+      "fiadb_ver": "1.9.1",
+      "study_area": "CONUS",
+      "doi": "https://doi.org/10.2737/RDS-2025-0031"
+    },
+    "2022": {
+      "year_released": 2025,
+      "tm_methods_ver": "2.2",
+      "methods_publication": "Riley et al. 2022",
+      "tm_dataset_release": "1.0",
+      "tm_data_ver": "2025-2.2-1.0",
+      "landfire_ver_name": "LF2022",
+      "landfire_ver_num": "2.3.0",
+      "fiadb_ver": "1.9.1",
+      "study_area": "CONUS",
+      "doi": "https://doi.org/10.2737/RDS-2025-0032"
+    },
+    "2023": {
+      "year_released": 2026,
+      "tm_methods_ver": "2.2",
+      "methods_publication": "Riley et al. (in preparation)",
+      "tm_dataset_release": "1.0",
+      "tm_data_ver": "2026-2.2-1.0",
+      "landfire_ver_name": "LF2023",
+      "landfire_ver_num": "2.4.0",
+      "fiadb_ver": "1.9.1",
+      "study_area": "CONUS",
+      "doi": "https://doi.org/10.2737/RDS-2026-0038"
+    }
+  },
+  "attributes": {
+    "ALSTK": {"title": "All-live-tree stocking", "unit": "percent", "kind": "continuous"},
+    "BALIVE": {"title": "Live-tree basal area", "unit": "square foot per acre", "kind": "continuous"},
+    "CANOPYPCT": {"title": "Live canopy cover", "unit": "percent", "kind": "continuous"},
+    "CARBON_D": {"title": "Standing dead carbon", "unit": "ton per acre", "kind": "continuous"},
+    "CARBON_DWN": {"title": "Down dead carbon", "unit": "ton per acre", "kind": "continuous"},
+    "CARBON_L": {"title": "Live above-ground carbon", "unit": "ton per acre", "kind": "continuous"},
+    "DRYBIO_D": {"title": "Above-ground dry standing dead-tree biomass", "unit": "ton per acre", "kind": "continuous"},
+    "DRYBIO_L": {"title": "Above-ground dry live-tree biomass", "unit": "ton per acre", "kind": "continuous"},
+    "FLDSZCD": {"title": "Field stand-size class code", "unit": null, "kind": "categorical", "classes_source": "../gtac-treemap/data_delivery/supp_files/class_definitions/FLDSZCD.json"},
+    "FLDTYPCD": {"title": "Field forest-type code", "unit": null, "kind": "categorical", "classes_source": "../gtac-treemap/data_delivery/supp_files/class_definitions/FLDTYPCD.json"},
+    "FORTYPCD": {"title": "Algorithm forest-type code", "unit": null, "kind": "categorical", "classes_source": "../gtac-treemap/data_delivery/supp_files/class_definitions/FORTYPCD.json"},
+    "GSSTK": {"title": "Growing-stock stocking", "unit": "percent", "kind": "continuous"},
+    "QMD": {"title": "Stand quadratic mean diameter", "unit": "inch", "kind": "continuous", "available_years": [2020, 2022, 2023]},
+    "QMD_RMRS": {"title": "Stand quadratic mean diameter (RMRS)", "unit": "inch", "kind": "continuous", "available_years": [2016]},
+    "SDIsum": {"title": "Sum of stand density index", "unit": null, "kind": "continuous", "available_years": [2020, 2022, 2023]},
+    "SDIPCT_RMRS": {"title": "Stand density index (RMRS)", "unit": null, "kind": "continuous", "available_years": [2016]},
+    "STANDHT": {"title": "Height of dominant trees", "unit": "foot", "kind": "continuous"},
+    "STDSZCD": {"title": "Algorithm stand-size class code", "unit": null, "kind": "categorical", "classes_source": "../gtac-treemap/data_delivery/supp_files/class_definitions/STDSZCD.json"},
+    "TM_ID": {"title": "TreeMap identifier", "unit": null, "kind": "identifier", "notes": "Mappings to FIA PLT_CN are specific to each data year. The 2016 source raster is named VALUE."},
+    "TPA_DEAD": {"title": "Standing dead trees per acre", "unit": "count per acre", "kind": "continuous"},
+    "TPA_LIVE": {"title": "Live trees per acre", "unit": "count per acre", "kind": "continuous"},
+    "VOLBFNET_L": {"title": "Live sawlog volume", "unit": "sawlog board foot per acre", "kind": "continuous"},
+    "VOLCFNET_D": {"title": "Standing dead volume", "unit": "cubic foot per acre", "kind": "continuous"},
+    "VOLCFNET_L": {"title": "Live volume", "unit": "cubic foot per acre", "kind": "continuous"}
+  },
+  "provenance": {
+    "earth_engine_template": "../earthengine-catalog/catalog/gtac-data-publish/projects_gtac-data-publish_assets_TreeMap_Product_Version_2023-1.jsonnet",
+    "versions": "../gtac-treemap/data_delivery/supp_files/treemap_versions.csv",
+    "delivery_script": "../gtac-treemap/data_delivery/separate_attributes_to_tif.py",
+    "rda_terms": "../gtac-treemap/data_delivery/supp_files/metadata_templates/2022/RDA/TreeMap2022_CONUS_RDA_metadata_.xml"
+  }
+}

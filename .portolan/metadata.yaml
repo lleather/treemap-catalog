@@ -1,0 +1,42 @@
+title: "TreeMap"
+description: >-
+  TreeMap provides 30-meter forest attribute rasters for the forested extent
+  of the conterminous United States. This catalog contains the 2016, 2020,
+  2022, and 2023 vintages as annual items with separate attribute COG assets.
+contact:
+  name: "TreeMap Help"
+  email: "sm.fs.treemaphelp@usda.gov"
+license: "other"
+license_url: "https://www.fs.usda.gov/rds/archive/catalog/RDS-2025-0032"
+providers:
+  - name: "USDA Forest Service"
+    roles: ["producer", "licensor"]
+    url: "https://data.fs.usda.gov/geodata/rastergateway/treemap/"
+  - name: "RedCastle Resources"
+    roles: ["processor", "host"]
+    url: "https://source.coop/redcastle-resources"
+source_url: "https://data.fs.usda.gov/geodata/rastergateway/treemap/"
+keywords:
+  - "biomass"
+  - "carbon"
+  - "conterminous United States"
+  - "forest inventory"
+  - "forest type"
+  - "TreeMap"
+attribution: >-
+  USDA Forest Service TreeMap. Cite each vintage used in a publication,
+  presentation, or other research product.
+processing_notes: >-
+  The source is the GTAC separated-attribute raster delivery. The 2020 and
+  2022 assets come from the 2026_UPDATE delivery. The 2023 assets come from
+  the final-zone-imputation production rerun. The 2016 assets use the default
+  annual directory. The ingest checks each TIFF for COG compliance. It copies
+  compliant COGs unchanged and converts failed checks locally with GDAL. It
+  validates each output before it writes the file to the dedicated network COG
+  delivery. The source was inventoried on 2026-10-06. See AGENTS.md for annual
+  schema notes and reproducible commands.
+known_issues: >-
+  TM_ID values map to FIA PLT_CN through a year-specific Raster Attribute
+  Table that this first publication does not include. The 2016 source calls
+  this raster VALUE; the catalog publishes it as TM_ID. QMD_RMRS and
+  SDIPCT_RMRS occur only in 2016. QMD and SDIsum occur in later vintages.

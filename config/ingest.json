@@ -1,0 +1,45 @@
+{
+  "source_root": "\\\\afssxgtacnas104\\TreeMap\\08_Data_Delivery\\01_Separated_Attribute_Rasters",
+  "collection_id": "treemap",
+  "years": [2016, 2020, 2022, 2023],
+  "source_directories": {
+    "2016": "2016",
+    "2020": "2026_UPDATE/2020",
+    "2022": "2026_UPDATE/2022",
+    "2023": "2023_Production_rerun_final_zone_imputations"
+  },
+  "common_attributes": [
+    "ALSTK",
+    "BALIVE",
+    "CANOPYPCT",
+    "CARBON_D",
+    "CARBON_DWN",
+    "CARBON_L",
+    "DRYBIO_D",
+    "DRYBIO_L",
+    "FLDSZCD",
+    "FLDTYPCD",
+    "FORTYPCD",
+    "GSSTK",
+    "STANDHT",
+    "STDSZCD",
+    "TPA_DEAD",
+    "TPA_LIVE",
+    "TM_ID",
+    "VOLBFNET_L",
+    "VOLCFNET_D",
+    "VOLCFNET_L"
+  ],
+  "year_attributes": {
+    "2016": ["QMD_RMRS", "SDIPCT_RMRS"],
+    "2020": ["QMD", "SDIsum"],
+    "2022": ["QMD", "SDIsum"],
+    "2023": ["QMD", "SDIsum"]
+  },
+  "source_aliases": {
+    "2016": {
+      "VALUE": "TM_ID"
+    }
+  },
+  "ignored_name_suffixes": ["_cat"]
+}
