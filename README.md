@@ -2,7 +2,23 @@
 
 ![biomass](https://img.shields.io/badge/biomass-blue) ![carbon](https://img.shields.io/badge/carbon-blue) ![conterminous United States](https://img.shields.io/badge/conterminous_United_States-blue) ![forest inventory](https://img.shields.io/badge/forest_inventory-blue) ![forest type](https://img.shields.io/badge/forest_type-blue) ![TreeMap](https://img.shields.io/badge/TreeMap-blue)
 
-TreeMap provides 30-meter forest attribute rasters for the forested extent of the conterminous United States. This catalog contains the 2016, 2020, 2022, and 2023 vintages as annual items with separate attribute COG assets.
+TreeMap provides 30-meter forest attribute rasters for the forested extent of the conterminous United States. This initial publication contains the 2023 vintage with 22 separate attribute COG assets and its Raster Attribute Table in CSV and Parquet. A collection-level CSV provides the attribute data dictionary.
+
+## Collections
+
+### [TreeMap](treemap-portolan-ingest/treemap/)
+
+TreeMap 30-meter forest attribute rasters for the conterminous United States. This publication contains the 2023 vintage. The 2023 item includes a Raster Attribute Table in CSV and Parquet. A colle...
+
+## Coverage
+
+**Spatial Extent**
+
+- West: -128.9772, South: 22.7686, East: -65.2545, North: 51.6497
+
+**Temporal Extent**
+
+- 2023-01-01 to 2023-12-31
 
 ## Source
 
@@ -10,7 +26,7 @@ TreeMap provides 30-meter forest attribute rasters for the forested extent of th
 
 ## Processing Notes
 
-The source is the GTAC separated-attribute raster delivery. The 2020 and 2022 assets come from the 2026_UPDATE delivery. The 2023 assets come from the final-zone-imputation production rerun. The 2016 assets use the default annual directory. The ingest keeps source files that pass COG validation and converts only failed files. The source was inventoried on 2026-10-06. See AGENTS.md for annual schema notes and reproducible commands.
+The source is the GTAC separated-attribute raster delivery. The 2020 and 2022 assets come from the 2026_UPDATE delivery. The 2023 assets come from the final-zone-imputation production rerun. The 2016 assets use the default annual directory. The ingest checks each TIFF for COG compliance. It copies compliant COGs unchanged and converts failed checks locally with GDAL. It validates each output before it writes the file to the dedicated network COG delivery. The source was inventoried on 2026-10-06. See AGENTS.md for annual schema notes and reproducible commands. The 2023 Raster Attribute Table is copied unchanged from the GTAC reference-data delivery. A Parquet derivative supports direct remote queries. The attribute data dictionary CSV is a normalized export of the source workbook reviewed on February 25, 2026.
 
 ## Attribution
 

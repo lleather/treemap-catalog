@@ -1,8 +1,10 @@
 title: "TreeMap"
 description: >-
   TreeMap provides 30-meter forest attribute rasters for the forested extent
-  of the conterminous United States. This catalog contains the 2016, 2020,
-  2022, and 2023 vintages as annual items with separate attribute COG assets.
+  of the conterminous United States. This initial publication contains the
+  2023 vintage with 22 separate attribute COG assets and its Raster Attribute
+  Table in CSV and Parquet. A collection-level CSV provides the attribute
+  data dictionary.
 contact:
   name: "TreeMap Help"
   email: "sm.fs.treemaphelp@usda.gov"
@@ -34,9 +36,11 @@ processing_notes: >-
   compliant COGs unchanged and converts failed checks locally with GDAL. It
   validates each output before it writes the file to the dedicated network COG
   delivery. The source was inventoried on 2026-10-06. See AGENTS.md for annual
-  schema notes and reproducible commands.
+  schema notes and reproducible commands. The 2023 Raster Attribute Table is
+  copied unchanged from the GTAC reference-data delivery. A Parquet derivative
+  supports direct remote queries. The attribute data dictionary CSV is a
+  normalized export of the source workbook reviewed on February 25, 2026.
 known_issues: >-
-  TM_ID values map to FIA PLT_CN through a year-specific Raster Attribute
-  Table that this first publication does not include. The 2016 source calls
-  this raster VALUE; the catalog publishes it as TM_ID. QMD_RMRS and
-  SDIPCT_RMRS occur only in 2016. QMD and SDIsum occur in later vintages.
+  TM_ID values are specific to each TreeMap vintage. Do not use the 2023 Raster
+  Attribute Table with another year. Earlier TreeMap vintages are not part of
+  this initial 2023 publication.

@@ -1,0 +1,3026 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/raster/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/classification/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/table/v1.2.0/schema.json"
+  ],
+  "id": "2023",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -127.97721826342728,
+          22.768624251013037
+        ],
+        [
+          -127.97721826342728,
+          51.648047302737474
+        ],
+        [
+          -65.25482506462902,
+          51.648047302737474
+        ],
+        [
+          -65.25482506462902,
+          22.768624251013037
+        ],
+        [
+          -127.97721826342728,
+          22.768624251013037
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -127.97721826342728,
+    22.768624251013037,
+    -65.25482506462902,
+    51.648047302737474
+  ],
+  "properties": {
+    "raster:spatial_resolution": 30.0,
+    "proj:code": "EPSG:5070",
+    "proj:bbox": [
+      -2361585.0,
+      259065.00000000373,
+      2263785.0,
+      3177435.0000000037
+    ],
+    "proj:shape": [
+      97279,
+      154179
+    ],
+    "proj:transform": [
+      -2361585.0,
+      30.0,
+      0.0,
+      3177435.0000000037,
+      0.0,
+      -30.0
+    ],
+    "start_datetime": "2023-01-01T00:00:00Z",
+    "end_datetime": "2023-12-31T23:59:59Z",
+    "treemap:year_released": 2026,
+    "treemap:tm_methods_ver": "2.2",
+    "treemap:methods_publication": "Riley et al. (in preparation)",
+    "treemap:tm_dataset_release": "1.0",
+    "treemap:tm_data_ver": "2026-2.2-1.0",
+    "treemap:landfire_ver_name": "LF2023",
+    "treemap:landfire_ver_num": "2.4.0",
+    "treemap:fiadb_ver": "1.9.1",
+    "treemap:study_area": "CONUS",
+    "sci:doi": "10.2737/RDS-2026-0038",
+    "sci:citation": "USDA Forest Service. TreeMap 2023. https://doi.org/10.2737/RDS-2026-0038",
+    "datetime": null
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Treemap"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Treemap"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/10.2737/RDS-2026-0038",
+      "type": "text/html",
+      "title": "TreeMap 2023 data publication"
+    }
+  ],
+  "assets": {
+    "thumbnail": {
+      "href": "./TreeMap2023_CONUS_ALSTK.thumb.jpg",
+      "type": "image/jpeg",
+      "file:size": 46189,
+      "file:checksum": "122045acc2edf62c40b87e256ef92302065765f68a8705655ea5c2607475b423e41d",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "data": {
+      "href": "./TreeMap2023_CONUS_ALSTK.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "file:size": 4015525744,
+      "file:checksum": "1220b7c596eb644e17b4f5062ebe56b2399764d0fca577d8f31c3d3527f049f9e6a2",
+      "render:colormap_name": "viridis",
+      "bands": [
+        {
+          "name": "ALSTK",
+          "data_type": "float32",
+          "nodata": 3.4028234663852886e+38,
+          "statistics": {
+            "minimum": 0.0,
+            "maximum": 120.00389862061,
+            "mean": 55.986748589846,
+            "stddev": 21.425687298128
+          },
+          "description": "The sum of stocking percent values of all live trees on the condition.",
+          "unit": "percent",
+          "treemap:source": "From COND.ALSTK (Sec. 2.5.52)"
+        }
+      ],
+      "roles": [
+        "data"
+      ],
+      "title": "All-live-tree stocking",
+      "description": "All live tree stocking (percent)"
+    },
+    "TreeMap2023_CONUS_BALIVE": {
+      "href": "./TreeMap2023_CONUS_BALIVE.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "file:size": 4032411416,
+      "file:checksum": "1220ae8414920be187dbd3c884a2a2d1607cf78309829bc1fd0cfbb663e5ecb93063",
+      "render:colormap_name": "viridis",
+      "roles": [
+        "data"
+      ],
+      "title": "Live-tree basal area",
+      "bands": [
+        {
+          "name": "BALIVE",
+          "description": "Basal area in square feet per acre of all live trees greater than or equal to 1.0 inch d.b.h./d.r.c. sampled in the condition.",
+          "unit": "square foot per acre",
+          "data_type": "float32",
+          "nodata": 3.4028234663852886e+38,
+          "statistics": {
+            "minimum": 1.7991000413895,
+            "maximum": 606.83581542969,
+            "mean": 97.840152884783,
+            "stddev": 50.518816191021
+          },
+          "treemap:source": "From COND.BALIVE (Sec. 2.5.50)"
+        }
+      ],
+      "description": "Live tree basal area (sq ft/acre)"
+    },
+    "TreeMap2023_CONUS_CANOPYPCT.thumb": {
+      "href": "./TreeMap2023_CONUS_CANOPYPCT.thumb.jpg",
+      "type": "image/jpeg",
+      "file:size": 38719,
+      "file:checksum": "12200a44422f4aa852b31be488bb66a553766b63fc0d2c793815d225a9dc9fbd22c1",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "TreeMap2023_CONUS_CANOPYPCT": {
+      "href": "./TreeMap2023_CONUS_CANOPYPCT.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "file:size": 2886970944,
+      "file:checksum": "12208ec9aa00456f7d91beb10a85c7a4503ac5ca94a24f2109ef922ef2756f969b10",
+      "render:colormap_name": "viridis",
+      "roles": [
+        "data"
+      ],
+      "title": "Live canopy cover",
+      "bands": [
+        {
+          "name": "CANOPYPCT",
+          "description": "Live canopy cover percent derived from the Forest Vegetation Simulator.",
+          "unit": "percent",
+          "data_type": "uint16",
+          "nodata": 65535.0,
+          "statistics": {
+            "minimum": 10.0,
+            "maximum": 99.0,
+            "mean": 58.154177049989,
+            "stddev": 19.512138635231
+          },
+          "treemap:source": "From Forest Vegetation Simulator"
+        }
+      ],
+      "description": "Live canopy cover (percent)"
+    },
+    "TreeMap2023_CONUS_CARBON_D.thumb": {
+      "href": "./TreeMap2023_CONUS_CARBON_D.thumb.jpg",
+      "type": "image/jpeg",
+      "file:size": 29299,
+      "file:checksum": "1220f260f30f17c8d910b7adf79a2afbd1cad55ee649bf8ff3aed77859b37f549a01",
+      "roles": [
+        "thumbnail"
+      ]
+    },
+    "TreeMap2023_CONUS_CARBON_D": {
+      "href": "./TreeMap2023_CONUS_CARBON_D.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "file:size": 3400446541,
+      "file:checksum": "1220276030800d233b00cafd20d3f848c944682b743401cebda7a505090a43ec1cd1",
+      "render:colormap_name": "viridis",
+      "roles": [
+        "data"
+      ],
+      "title": "Standing dead carbon",
+      "bands": [
+        {
+          "name": "CARBON_D",
+          "description": "Carbon, standing dead (tons per acre)",
+          "unit": "ton per acre",
+          "data_type": "float32",
+          "nodata": 3.4028234663852886e+38,
+          "statistics": {
+            "minimum": 0.0,
+            "maximum": 100.12000274658,
+            "mean": 1.1426943274136,
+            "stddev": 2.9631803088699
+          },
+          "treemap:source": "Query; Sum (DRYBIO_BOLE, DRYBIO_TOP, DRYBIO_STUMP, DRYBIO_SAPLING, DRYBIO_WDLD_SPP) / 2 /2000*TPA_UNADJ WHERE (((COND.COND_STATUS_CD)=1) AND ((TREE.STATUSCD)=2) AND ((TREE.DIA)>=5) AND ((TREE.STANDING_DEAD_CD)=1))"
+        }
+      ],
+      "description": "Carbon, standing dead (tons per acre)"
+    },
+    "TreeMap2023_CONUS_CARBON_DWN": {
+      "href": "./TreeMap2023_CONUS_CARBON_DWN.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "file:size": 4031827759,
+      "file:checksum": "1220a635be72c3fb80b616b682f746c12a01f5b1b3287e3f0a6f42019ad5dfd1382a",
+      "render:colormap_name": "viridis",
+      "roles": [
+        "data"
+      ],
+      "title": "Down dead carbon",
+      "bands": [
+        {
+          "name": "CARBON_DWN",
+          "description": "Carbon (tons per acre) of woody material greater than 3 inches in diameter on the ground, and stumps and their roots greater than 3 inches in diameter. Estimated from models based on geographic area, forest type, and live tree carbon density (Smith and Heath 2008).",
+          "unit": "ton per acre",
+          "data_type": "float32",
+          "nodata": 3.4028234663852886e+38,
+          "statistics": {
+            "minimum": 0.051761999726295,
+            "maximum": 87.450805664062,
+            "mean": 4.85678971034,
+            "stddev": 4.2081652976576
+          },
+          "treemap:source": "From COND.CARBON_DOWN_DEAD (Sec. 2.5.66)"
+        }
+      ],
+      "description": "Carbon, down dead (tons per acre)"
+    },
+    "TreeMap2023_CONUS_CARBON_L": {
+      "href": "./TreeMap2023_CONUS_CARBON_L.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "file:size": 4103089995,
+      "file:checksum": "1220221165a3da904a613e9bb61b4d2484e30707d25369c001d41b5f818789f5e66a",
+      "render:colormap_name": "viridis",
+      "roles": [
+        "data"
+      ],
+      "title": "Live above-ground carbon",
+      "bands": [
+        {
+          "name": "CARBON_L",
+          "description": "Carbon, live above ground (tons per acre)",
+          "unit": "ton per acre",
+          "data_type": "float32",
+          "nodata": 3.4028234663852886e+38,
+          "statistics": {
+            "minimum": 0.079999998211861,
+            "maximum": 300.98001098633,
+            "mean": 21.509422214634,
+            "stddev": 16.944595197452
+          },
+          "treemap:source": "Query; Sum (DRYBIO_BOLE, DRYBIO_TOP, DRYBIO_STUMP, DRYBIO_SAPLING, DRYBIO_WDLD_SPP) / 2 /2000*TPA_UNADJ WHERE (((COND.COND_STATUS_CD)=1) AND ((TREE.STATUSCD)=1))"
+        }
+      ],
+      "description": "Carbon, live above ground (tons per acre)"
+    },
+    "TreeMap2023_CONUS_DRYBIO_D": {
+      "href": "./TreeMap2023_CONUS_DRYBIO_D.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "file:size": 3439606012,
+      "file:checksum": "122081a80497aeea4994c5d16ffbc202dcac019ba8c457fbc1e596a763f2f9177fd6",
+      "render:colormap_name": "viridis",
+      "roles": [
+        "data"
+      ],
+      "title": "Above-ground dry standing dead-tree biomass",
+      "bands": [
+        {
+          "name": "DRYBIO_D",
+          "description": "Dry standing dead tree biomass, above ground (tons per acre)",
+          "unit": "ton per acre",
+          "data_type": "float32",
+          "nodata": 3.4028234663852886e+38,
+          "statistics": {
+            "minimum": 0.0,
+            "maximum": 200.25,
+            "mean": 2.2886353798721,
+            "stddev": 5.9269908231296
+          },
+          "treemap:source": "Query; Sum (DRYBIO_BOLE, DRYBIO_TOP, DRYBIO_STUMP, DRYBIO_SAPLING, DRYBIO_WDLD_SPP) /2000*TPA_UNADJ WHERE (((COND.COND_STATUS_CD)=1) AND ((TREE.STATUSCD)=2) AND ((TREE.DIA)>=5) AND ((TREE.STANDING_DEAD_CD)=1))"
+        }
+      ],
+      "description": "Dry standing dead tree biomass, above ground (tons per acre)"
+    },
+    "TreeMap2023_CONUS_DRYBIO_L": {
+      "href": "./TreeMap2023_CONUS_DRYBIO_L.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "file:size": 4119059958,
+      "file:checksum": "1220e11bdc4f9f20da864c7a19411a7d67222e90f1c6b93f8df1de67ce8dc46ec263",
+      "render:colormap_name": "viridis",
+      "roles": [
+        "data"
+      ],
+      "title": "Above-ground dry live-tree biomass",
+      "bands": [
+        {
+          "name": "DRYBIO_L",
+          "description": "Dry live tree biomass, above ground (tons per acre)",
+          "unit": "ton per acre",
+          "data_type": "float32",
+          "nodata": 3.4028234663852886e+38,
+          "statistics": {
+            "minimum": 0.15999999642372,
+            "maximum": 601.96997070312,
+            "mean": 43.023842406814,
+            "stddev": 33.889189670387
+          },
+          "treemap:source": "Query; Sum (DRYBIO_BOLE, DRYBIO_TOP, DRYBIO_STUMP, DRYBIO_SAPLING, DRYBIO_WDLD_SPP) /2000*TPA_UNADJ WHERE (((COND.COND_STATUS_CD)=1) AND ((TREE.STATUSCD)=1))"
+        }
+      ],
+      "description": "Dry live tree biomass, above ground (tons per acre)"
+    },
+    "TreeMap2023_CONUS_FLDSZCD": {
+      "href": "./TreeMap2023_CONUS_FLDSZCD.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "file:size": 1160329662,
+      "file:checksum": "1220c83915cc185fa67eb5738eb9a25067b098383b8858fd21ccc67a83e747043eed",
+      "render:colormap_name": "viridis",
+      "roles": [
+        "data"
+      ],
+      "title": "Field stand-size class code",
+      "bands": [
+        {
+          "name": "FLDSZCD",
+          "description": "Field-assigned classification of the predominant (based on stocking) diameter class of live trees within the condition.",
+          "classification:classes": [
+            {
+              "value": 0,
+              "name": "Nonstocked",
+              "color_hint": "C62363"
+            },
+            {
+              "value": 1,
+              "name": "≤4.9 inches (seedlings/saplings)",
+              "color_hint": "FEBA12"
+            },
+            {
+              "value": 2,
+              "name": "5.0-8.9 inches (softwoods)/ 5.0-10.9 inches (hardwoods)",
+              "color_hint": "FFFF00"
+            },
+            {
+              "value": 3,
+              "name": "9.0-19.9 inches (softwoods)/ 11.0-19.9 inches (hardwoods)",
+              "color_hint": "38A800"
+            },
+            {
+              "value": 4,
+              "name": "20.0-39.9 inches",
+              "color_hint": "73DFFF"
+            },
+            {
+              "value": 5,
+              "name": "40.0+ inches",
+              "color_hint": "5C09FC"
+            }
+          ],
+          "data_type": "uint8",
+          "nodata": 255.0,
+          "statistics": {
+            "minimum": 0.0,
+            "maximum": 5.0,
+            "mean": 2.5027634705496,
+            "stddev": 0.67533899616926
+          },
+          "treemap:source": "From COND.FLDSZCD (Sec. 2.5.20)"
+        }
+      ],
+      "description": "Stand size code, assigned by FIA field crew"
+    },
+    "TreeMap2023_CONUS_FLDTYPCD": {
+      "href": "./TreeMap2023_CONUS_FLDTYPCD.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "file:size": 2029078192,
+      "file:checksum": "1220208da7cbabc4b17084b07ef21ce84fde6bfab6688e663e5b470d4edd7eaade64",
+      "render:colormap_name": "viridis",
+      "roles": [
+        "data"
+      ],
+      "title": "Field forest-type code",
+      "bands": [
+        {
+          "name": "FLDTYPCD",
+          "description": "A code indicating the forest type, assigned by the field crew, based on the tree species or species groups forming a plurality of all live stocking. The field crew assesses the forest type based on the acre of forest land around the plot, in  addition to the species sampled on the condition. See Appendix D of the FIA database documentation for a table of values.",
+          "classification:classes": [
+            {
+              "value": 100,
+              "name": "White / red / jack pine group",
+              "color_hint": "94d0aa"
+            },
+            {
+              "value": 101,
+              "name": "Jack pine",
+              "color_hint": "81b0b6"
+            },
+            {
+              "value": 102,
+              "name": "Red pine",
+              "color_hint": "7f6a37"
+            },
+            {
+              "value": 103,
+              "name": "Eastern white pine",
+              "color_hint": "c57f69"
+            },
+            {
+              "value": 104,
+              "name": "Eastern white pine / eastern hemlock",
+              "color_hint": "eec289"
+            },
+            {
+              "value": 105,
+              "name": "Eastern hemlock",
+              "color_hint": "f08bf0"
+            },
+            {
+              "value": 120,
+              "name": "Spruce / fir group",
+              "color_hint": "51a0b1"
+            },
+            {
+              "value": 121,
+              "name": "Balsam fir",
+              "color_hint": "f3b035"
+            },
+            {
+              "value": 122,
+              "name": "White spruce",
+              "color_hint": "eba9d1"
+            },
+            {
+              "value": 123,
+              "name": "Red spruce",
+              "color_hint": "af8de6"
+            },
+            {
+              "value": 124,
+              "name": "Red spruce / balsam fir",
+              "color_hint": "bbb92d"
+            },
+            {
+              "value": 125,
+              "name": "Black spruce",
+              "color_hint": "e48fc8"
+            },
+            {
+              "value": 126,
+              "name": "Tamarack",
+              "color_hint": "eea97f"
+            },
+            {
+              "value": 127,
+              "name": "Northern white-cedar",
+              "color_hint": "eaf5e0"
+            },
+            {
+              "value": 128,
+              "name": "Fraser fir",
+              "color_hint": "d2d59b"
+            },
+            {
+              "value": 129,
+              "name": "Red spruce / Fraser fir",
+              "color_hint": "dcc2c0"
+            },
+            {
+              "value": 140,
+              "name": "Longleaf / slash pine group",
+              "color_hint": "c7f0aa"
+            },
+            {
+              "value": 141,
+              "name": "Longleaf pine",
+              "color_hint": "e51eeb"
+            },
+            {
+              "value": 142,
+              "name": "Slash pine",
+              "color_hint": "3a1591"
+            },
+            {
+              "value": 150,
+              "name": "Tropical softwoods group",
+              "color_hint": "c26da6"
+            },
+            {
+              "value": 151,
+              "name": "Tropical pines",
+              "color_hint": "67c6ca"
+            },
+            {
+              "value": 160,
+              "name": "Loblolly / shortleaf pine group",
+              "color_hint": "95ef79"
+            },
+            {
+              "value": 161,
+              "name": "Loblolly pine",
+              "color_hint": "d5c7e9"
+            },
+            {
+              "value": 162,
+              "name": "Shortleaf pine",
+              "color_hint": "bc916f"
+            },
+            {
+              "value": 163,
+              "name": "Virginia pine",
+              "color_hint": "d1dfd6"
+            },
+            {
+              "value": 164,
+              "name": "Sand pine",
+              "color_hint": "49f6ae"
+            },
+            {
+              "value": 165,
+              "name": "Table Mountain pine",
+              "color_hint": "7b677b"
+            },
+            {
+              "value": 166,
+              "name": "Pond pine",
+              "color_hint": "f16791"
+            },
+            {
+              "value": 167,
+              "name": "Pitch pine",
+              "color_hint": "dbf39c"
+            },
+            {
+              "value": 168,
+              "name": "Spruce pine",
+              "color_hint": "dad9bd"
+            },
+            {
+              "value": 170,
+              "name": "Other eastern softwoods group",
+              "color_hint": "7d2f2e"
+            },
+            {
+              "value": 171,
+              "name": "Eastern redcedar",
+              "color_hint": "45e8d5"
+            },
+            {
+              "value": 172,
+              "name": "Florida softwoods",
+              "color_hint": "9bc5e5"
+            },
+            {
+              "value": 180,
+              "name": "Pinyon / juniper group",
+              "color_hint": "4debbe"
+            },
+            {
+              "value": 182,
+              "name": "Rocky Mountain juniper",
+              "color_hint": "3a6a8b"
+            },
+            {
+              "value": 184,
+              "name": "Juniper woodland",
+              "color_hint": "68f0ec"
+            },
+            {
+              "value": 185,
+              "name": "Pinyon / juniper woodland",
+              "color_hint": "aaa7e7"
+            },
+            {
+              "value": 200,
+              "name": "Douglas-fir group",
+              "color_hint": "4589d2"
+            },
+            {
+              "value": 201,
+              "name": "Douglas-fir",
+              "color_hint": "f4df8e"
+            },
+            {
+              "value": 202,
+              "name": "Port-Orford-cedar",
+              "color_hint": "f7d969"
+            },
+            {
+              "value": 203,
+              "name": "Bigcone Douglas-fir",
+              "color_hint": "dfa098"
+            },
+            {
+              "value": 220,
+              "name": "Ponderosa pine group",
+              "color_hint": "d8ecf0"
+            },
+            {
+              "value": 221,
+              "name": "Ponderosa pine",
+              "color_hint": "caf466"
+            },
+            {
+              "value": 222,
+              "name": "Incense-cedar",
+              "color_hint": "e64393"
+            },
+            {
+              "value": 224,
+              "name": "Sugar pine",
+              "color_hint": "8ce7ef"
+            },
+            {
+              "value": 225,
+              "name": "Jeffrey pine",
+              "color_hint": "eec7ea"
+            },
+            {
+              "value": 226,
+              "name": "Coulter pine",
+              "color_hint": "dfa9ef"
+            },
+            {
+              "value": 240,
+              "name": "Western white pine group",
+              "color_hint": "b7f2e0"
+            },
+            {
+              "value": 241,
+              "name": "Western white pine",
+              "color_hint": "bbbcc4"
+            },
+            {
+              "value": 260,
+              "name": "Fir / spruce / mountain hemlock group",
+              "color_hint": "b2b1c8"
+            },
+            {
+              "value": 261,
+              "name": "White fir",
+              "color_hint": "adf6d0"
+            },
+            {
+              "value": 262,
+              "name": "Red fir",
+              "color_hint": "e2c8f9"
+            },
+            {
+              "value": 263,
+              "name": "Noble fir",
+              "color_hint": "bae3f5"
+            },
+            {
+              "value": 264,
+              "name": "Pacific silver fir",
+              "color_hint": "8391a7"
+            },
+            {
+              "value": 265,
+              "name": "Engelmann spruce",
+              "color_hint": "9a2d79"
+            },
+            {
+              "value": 266,
+              "name": "Engelmann spruce / subalpine fir",
+              "color_hint": "b4cfa7"
+            },
+            {
+              "value": 267,
+              "name": "Grand fir",
+              "color_hint": "93dbf2"
+            },
+            {
+              "value": 268,
+              "name": "Subalpine fir",
+              "color_hint": "baaea2"
+            },
+            {
+              "value": 269,
+              "name": "Blue spruce",
+              "color_hint": "8ff390"
+            },
+            {
+              "value": 270,
+              "name": "Mountain hemlock",
+              "color_hint": "b2fa73"
+            },
+            {
+              "value": 271,
+              "name": "Alaska-yellow-cedar",
+              "color_hint": "c6295f"
+            },
+            {
+              "value": 280,
+              "name": "Lodgepole pine group",
+              "color_hint": "ea6375"
+            },
+            {
+              "value": 281,
+              "name": "Lodgepole pine",
+              "color_hint": "a1e073"
+            },
+            {
+              "value": 300,
+              "name": "Hemlock / Sitka spruce group",
+              "color_hint": "2db8ab"
+            },
+            {
+              "value": 301,
+              "name": "Western hemlock",
+              "color_hint": "ae73b2"
+            },
+            {
+              "value": 304,
+              "name": "Western redcedar",
+              "color_hint": "e38bae"
+            },
+            {
+              "value": 305,
+              "name": "Sitka spruce",
+              "color_hint": "cfb0fa"
+            },
+            {
+              "value": 320,
+              "name": "Western larch group",
+              "color_hint": "d3a9b3"
+            },
+            {
+              "value": 321,
+              "name": "Western larch",
+              "color_hint": "90e5d5"
+            },
+            {
+              "value": 340,
+              "name": "Redwood group",
+              "color_hint": "f12c43"
+            },
+            {
+              "value": 341,
+              "name": "Redwood",
+              "color_hint": "b2c387"
+            },
+            {
+              "value": 342,
+              "name": "Giant sequoia",
+              "color_hint": "8fa42c"
+            },
+            {
+              "value": 360,
+              "name": "Other western softwoods group",
+              "color_hint": "cde353"
+            },
+            {
+              "value": 361,
+              "name": "Knobcone pine",
+              "color_hint": "7680ac"
+            },
+            {
+              "value": 362,
+              "name": "Southwestern white pine",
+              "color_hint": "46d7ed"
+            },
+            {
+              "value": 363,
+              "name": "Bishop pine",
+              "color_hint": "eecc39"
+            },
+            {
+              "value": 364,
+              "name": "Monterey pine",
+              "color_hint": "d7baf5"
+            },
+            {
+              "value": 365,
+              "name": "Foxtail pine / bristlecone pine",
+              "color_hint": "9a29f0"
+            },
+            {
+              "value": 366,
+              "name": "Limber pine",
+              "color_hint": "a7c6d7"
+            },
+            {
+              "value": 367,
+              "name": "Whitebark pine",
+              "color_hint": "f28a8d"
+            },
+            {
+              "value": 368,
+              "name": "Miscellaneous western softwoods",
+              "color_hint": "ebf385"
+            },
+            {
+              "value": 369,
+              "name": "Western juniper",
+              "color_hint": "a0cd4f"
+            },
+            {
+              "value": 370,
+              "name": "California mixed conifer group",
+              "color_hint": "81b180"
+            },
+            {
+              "value": 371,
+              "name": "California mixed conifer",
+              "color_hint": "cba1fb"
+            },
+            {
+              "value": 380,
+              "name": "Exotic softwoods group",
+              "color_hint": "6bc35e"
+            },
+            {
+              "value": 381,
+              "name": "Scotch pine",
+              "color_hint": "f5a3ad"
+            },
+            {
+              "value": 383,
+              "name": "Other exotic softwoods",
+              "color_hint": "d4ddef"
+            },
+            {
+              "value": 384,
+              "name": "Norway spruce",
+              "color_hint": "a049b7"
+            },
+            {
+              "value": 385,
+              "name": "Introduced larch",
+              "color_hint": "e1a0b6"
+            },
+            {
+              "value": 390,
+              "name": "Other softwoods group",
+              "color_hint": "f06748"
+            },
+            {
+              "value": 391,
+              "name": "Other softwoods",
+              "color_hint": "7a9252"
+            },
+            {
+              "value": 400,
+              "name": "Oak / pine group",
+              "color_hint": "66d727"
+            },
+            {
+              "value": 401,
+              "name": "Eastern white pine / northern red oak / white ash",
+              "color_hint": "e645dc"
+            },
+            {
+              "value": 402,
+              "name": "Eastern redcedar / hardwood",
+              "color_hint": "aa8d8b"
+            },
+            {
+              "value": 403,
+              "name": "Longleaf pine / oak",
+              "color_hint": "ee405d"
+            },
+            {
+              "value": 404,
+              "name": "Shortleaf pine / oak",
+              "color_hint": "cfadd4"
+            },
+            {
+              "value": 405,
+              "name": "Virginia pine / southern red oak",
+              "color_hint": "9190e6"
+            },
+            {
+              "value": 406,
+              "name": "Loblolly pine / hardwood",
+              "color_hint": "4e655f"
+            },
+            {
+              "value": 407,
+              "name": "Slash pine / hardwood",
+              "color_hint": "57adf1"
+            },
+            {
+              "value": 409,
+              "name": "Other pine / hardwood",
+              "color_hint": "b2eb31"
+            },
+            {
+              "value": 500,
+              "name": "Oak / hickory group",
+              "color_hint": "c6e377"
+            },
+            {
+              "value": 501,
+              "name": "Post oak / blackjack oak",
+              "color_hint": "bea664"
+            },
+            {
+              "value": 502,
+              "name": "Chestnut oak",
+              "color_hint": "c26262"
+            },
+            {
+              "value": 503,
+              "name": "White oak / red oak / hickory",
+              "color_hint": "4b9a91"
+            },
+            {
+              "value": 504,
+              "name": "White oak",
+              "color_hint": "72f4b9"
+            },
+            {
+              "value": 505,
+              "name": "Northern red oak",
+              "color_hint": "da90e3"
+            },
+            {
+              "value": 506,
+              "name": "Yellow-poplar / white oak / northern red oak",
+              "color_hint": "3ebf45"
+            },
+            {
+              "value": 507,
+              "name": "Sassafras / persimmon",
+              "color_hint": "e973bf"
+            },
+            {
+              "value": 508,
+              "name": "Sweetgum / yellow-poplar",
+              "color_hint": "afe7b3"
+            },
+            {
+              "value": 509,
+              "name": "Bur oak",
+              "color_hint": "81629f"
+            },
+            {
+              "value": 510,
+              "name": "Scarlet oak",
+              "color_hint": "9144dd"
+            },
+            {
+              "value": 511,
+              "name": "Yellow-poplar",
+              "color_hint": "e4c0a1"
+            },
+            {
+              "value": 512,
+              "name": "Black walnut",
+              "color_hint": "ac82a2"
+            },
+            {
+              "value": 513,
+              "name": "Black locust",
+              "color_hint": "f5a8e1"
+            },
+            {
+              "value": 514,
+              "name": "Southern scrub oak",
+              "color_hint": "b486f5"
+            },
+            {
+              "value": 515,
+              "name": "Chestnut oak / black oak / scarlet oak",
+              "color_hint": "ecbf68"
+            },
+            {
+              "value": 516,
+              "name": "Cherry / white ash / yellow-poplar",
+              "color_hint": "f340af"
+            },
+            {
+              "value": 517,
+              "name": "Elm / ash / black locust",
+              "color_hint": "c0caf5"
+            },
+            {
+              "value": 519,
+              "name": "Red maple / oak",
+              "color_hint": "c1f89a"
+            },
+            {
+              "value": 520,
+              "name": "Mixed upland hardwoods",
+              "color_hint": "d3f3d2"
+            },
+            {
+              "value": 600,
+              "name": "Oak / gum / cypress group",
+              "color_hint": "ebebc0"
+            },
+            {
+              "value": 601,
+              "name": "Swamp chestnut oak / cherrybark oak",
+              "color_hint": "d350f4"
+            },
+            {
+              "value": 602,
+              "name": "Sweetgum / numeric oak / willow oak",
+              "color_hint": "d1cf7c"
+            },
+            {
+              "value": 605,
+              "name": "Overcup oak / water hickory",
+              "color_hint": "71f943"
+            },
+            {
+              "value": 606,
+              "name": "Atlantic white-cedar",
+              "color_hint": "9e87c0"
+            },
+            {
+              "value": 607,
+              "name": "Baldcypress / water tupelo",
+              "color_hint": "b6707a"
+            },
+            {
+              "value": 608,
+              "name": "Sweetbay / swamp tupelo / red maple",
+              "color_hint": "f7e6d7"
+            },
+            {
+              "value": 609,
+              "name": "Baldcypress / pondcypress",
+              "color_hint": "8caaf2"
+            },
+            {
+              "value": 700,
+              "name": "Elm / ash / cottonwood group",
+              "color_hint": "f1f2f3"
+            },
+            {
+              "value": 701,
+              "name": "Black ash / American elm / red maple",
+              "color_hint": "a3d382"
+            },
+            {
+              "value": 702,
+              "name": "River birch / sycamore",
+              "color_hint": "4ebf86"
+            },
+            {
+              "value": 703,
+              "name": "Cottonwood",
+              "color_hint": "8cf45a"
+            },
+            {
+              "value": 704,
+              "name": "Willow",
+              "color_hint": "f4f3b7"
+            },
+            {
+              "value": 705,
+              "name": "Sycamore / pecan / American elm",
+              "color_hint": "a1cfc9"
+            },
+            {
+              "value": 706,
+              "name": "Sugarberry / hackberry / elm / green ash",
+              "color_hint": "f0dc9f"
+            },
+            {
+              "value": 707,
+              "name": "Silver maple / American elm",
+              "color_hint": "5971ef"
+            },
+            {
+              "value": 708,
+              "name": "Red maple / lowland",
+              "color_hint": "699fcb"
+            },
+            {
+              "value": 709,
+              "name": "Cottonwood / willow",
+              "color_hint": "f7a1f0"
+            },
+            {
+              "value": 722,
+              "name": "Oregon ash",
+              "color_hint": "5e62f8"
+            },
+            {
+              "value": 800,
+              "name": "Maple / beech / birch group",
+              "color_hint": "f0cdbd"
+            },
+            {
+              "value": 801,
+              "name": "Sugar maple / beech / yellow birch",
+              "color_hint": "a7902b"
+            },
+            {
+              "value": 802,
+              "name": "Black cherry",
+              "color_hint": "f2f875"
+            },
+            {
+              "value": 805,
+              "name": "Hard maple / basswood",
+              "color_hint": "e6a55a"
+            },
+            {
+              "value": 809,
+              "name": "Red maple / upland",
+              "color_hint": "f068e4"
+            },
+            {
+              "value": 900,
+              "name": "Aspen / birch group",
+              "color_hint": "de55bf"
+            },
+            {
+              "value": 901,
+              "name": "Aspen",
+              "color_hint": "cff3c0"
+            },
+            {
+              "value": 902,
+              "name": "Paper birch",
+              "color_hint": "f7c1f3"
+            },
+            {
+              "value": 903,
+              "name": "Gray birch",
+              "color_hint": "90896c"
+            },
+            {
+              "value": 904,
+              "name": "Balsam poplar",
+              "color_hint": "f5beb3"
+            },
+            {
+              "value": 905,
+              "name": "Pin cherry",
+              "color_hint": "b49ec7"
+            },
+            {
+              "value": 910,
+              "name": "Alder / maple group",
+              "color_hint": "6bc3f5"
+            },
+            {
+              "value": 911,
+              "name": "Red alder",
+              "color_hint": "6226e8"
+            },
+            {
+              "value": 912,
+              "name": "Bigleaf maple",
+              "color_hint": "7aebcd"
+            },
+            {
+              "value": 920,
+              "name": "Western oak group",
+              "color_hint": "d2ab20"
+            },
+            {
+              "value": 921,
+              "name": "Gray pine",
+              "color_hint": "515891"
+            },
+            {
+              "value": 922,
+              "name": "California black oak",
+              "color_hint": "e47a65"
+            },
+            {
+              "value": 923,
+              "name": "Oregon white oak",
+              "color_hint": "97b45a"
+            },
+            {
+              "value": 924,
+              "name": "Blue oak",
+              "color_hint": "cbd14d"
+            },
+            {
+              "value": 931,
+              "name": "Coast live oak",
+              "color_hint": "64c2a2"
+            },
+            {
+              "value": 933,
+              "name": "Canyon live oak",
+              "color_hint": "adf2ad"
+            },
+            {
+              "value": 934,
+              "name": "Interior live oak",
+              "color_hint": "deefb4"
+            },
+            {
+              "value": 935,
+              "name": "California white oak (valley oak)",
+              "color_hint": "52b8dc"
+            },
+            {
+              "value": 940,
+              "name": "Tanoak / laurel group",
+              "color_hint": "e1f855"
+            },
+            {
+              "value": 941,
+              "name": "Tanoak",
+              "color_hint": "8fa792"
+            },
+            {
+              "value": 942,
+              "name": "California laurel",
+              "color_hint": "ebe545"
+            },
+            {
+              "value": 943,
+              "name": "Giant chinkapin",
+              "color_hint": "c676df"
+            },
+            {
+              "value": 960,
+              "name": "Other hardwoods group",
+              "color_hint": "489744"
+            },
+            {
+              "value": 961,
+              "name": "Pacific madrone",
+              "color_hint": "e2f231"
+            },
+            {
+              "value": 962,
+              "name": "Other hardwoods",
+              "color_hint": "cfbc8f"
+            },
+            {
+              "value": 970,
+              "name": "Woodland hardwoods group",
+              "color_hint": "51dc89"
+            },
+            {
+              "value": 971,
+              "name": "Deciduous oak woodland",
+              "color_hint": "aa511d"
+            },
+            {
+              "value": 972,
+              "name": "Evergreen oak woodland",
+              "color_hint": "846ac6"
+            },
+            {
+              "value": 973,
+              "name": "Mesquite woodland",
+              "color_hint": "bb8fd3"
+            },
+            {
+              "value": 974,
+              "name": "Cercocarpus (mountain brush) woodland",
+              "color_hint": "f1bcd8"
+            },
+            {
+              "value": 975,
+              "name": "Intermountain maple woodland",
+              "color_hint": "4f45a6"
+            },
+            {
+              "value": 976,
+              "name": "Miscellaneous woodland hardwoods",
+              "color_hint": "c6f5f4"
+            },
+            {
+              "value": 980,
+              "name": "Tropical hardwoods group",
+              "color_hint": "e5dd69"
+            },
+            {
+              "value": 982,
+              "name": "Mangrove",
+              "color_hint": "c0a8e1"
+            },
+            {
+              "value": 983,
+              "name": "Palms",
+              "color_hint": "7f5dd7"
+            },
+            {
+              "value": 984,
+              "name": "Dry forest",
+              "color_hint": "dfd3d7"
+            },
+            {
+              "value": 985,
+              "name": "Moist forest",
+              "color_hint": "56f277"
+            },
+            {
+              "value": 986,
+              "name": "Wet and rain forest",
+              "color_hint": "28703c"
+            },
+            {
+              "value": 987,
+              "name": "Lower montane wet and rain forest",
+              "color_hint": "86e799"
+            },
+            {
+              "value": 988,
+              "name": "Cloud forest",
+              "color_hint": "b9d1bf"
+            },
+            {
+              "value": 989,
+              "name": "Other tropical hardwoods",
+              "color_hint": "a5baee"
+            },
+            {
+              "value": 990,
+              "name": "Exotic hardwoods group",
+              "color_hint": "f28e2e"
+            },
+            {
+              "value": 991,
+              "name": "Paulownia",
+              "color_hint": "e7dbed"
+            },
+            {
+              "value": 992,
+              "name": "Melaleuca",
+              "color_hint": "5d84e4"
+            },
+            {
+              "value": 993,
+              "name": "Eucalyptus",
+              "color_hint": "bb68f3"
+            },
+            {
+              "value": 995,
+              "name": "Other exotic hardwoods",
+              "color_hint": "d96f9b"
+            },
+            {
+              "value": 999,
+              "name": "Nonstocked",
+              "color_hint": "efcddd"
+            }
+          ],
+          "data_type": "uint16",
+          "nodata": 65535.0,
+          "statistics": {
+            "minimum": 101.0,
+            "maximum": 999.0,
+            "mean": 423.77825379901,
+            "stddev": 244.96007842256
+          },
+          "treemap:source": "From COND.FLDTYPCD (sec. 2.5.16)"
+        }
+      ],
+      "description": "Forest type code, assigned by FIA field crew"
+    },
+    "TreeMap2023_CONUS_FORTYPCD": {
+      "href": "./TreeMap2023_CONUS_FORTYPCD.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "file:size": 2072760559,
+      "file:checksum": "1220d76dd52ef75251ea425978fb2d969c6847a78749b31fa8160b8eb063b8cb0e0a",
+      "render:colormap_name": "viridis",
+      "roles": [
+        "data"
+      ],
+      "title": "Algorithm forest-type code",
+      "bands": [
+        {
+          "name": "FORTYPCD",
+          "description": "This is the forest type used for reporting purposes. It is primarily derived using a computer algorithm, except when less than 25 percent of the plot samples a particular forest condition or in a few other cases. See Appendix D of the FIA database documentation for a table of values.",
+          "classification:classes": [
+            {
+              "value": 100,
+              "name": "White / red / jack pine group",
+              "color_hint": "94d0aa"
+            },
+            {
+              "value": 101,
+              "name": "Jack pine",
+              "color_hint": "81b0b6"
+            },
+            {
+              "value": 102,
+              "name": "Red pine",
+              "color_hint": "7f6a37"
+            },
+            {
+              "value": 103,
+              "name": "Eastern white pine",
+              "color_hint": "c57f69"
+            },
+            {
+              "value": 104,
+              "name": "Eastern white pine / eastern hemlock",
+              "color_hint": "eec289"
+            },
+            {
+              "value": 105,
+              "name": "Eastern hemlock",
+              "color_hint": "f08bf0"
+            },
+            {
+              "value": 120,
+              "name": "Spruce / fir group",
+              "color_hint": "51a0b1"
+            },
+            {
+              "value": 121,
+              "name": "Balsam fir",
+              "color_hint": "f3b035"
+            },
+            {
+              "value": 122,
+              "name": "White spruce",
+              "color_hint": "eba9d1"
+            },
+            {
+              "value": 123,
+              "name": "Red spruce",
+              "color_hint": "af8de6"
+            },
+            {
+              "value": 124,
+              "name": "Red spruce / balsam fir",
+              "color_hint": "bbb92d"
+            },
+            {
+              "value": 125,
+              "name": "Black spruce",
+              "color_hint": "e48fc8"
+            },
+            {
+              "value": 126,
+              "name": "Tamarack",
+              "color_hint": "eea97f"
+            },
+            {
+              "value": 127,
+              "name": "Northern white-cedar",
+              "color_hint": "eaf5e0"
+            },
+            {
+              "value": 128,
+              "name": "Fraser fir",
+              "color_hint": "d2d59b"
+            },
+            {
+              "value": 129,
+              "name": "Red spruce / Fraser fir",
+              "color_hint": "dcc2c0"
+            },
+            {
+              "value": 140,
+              "name": "Longleaf / slash pine group",
+              "color_hint": "c7f0aa"
+            },
+            {
+              "value": 141,
+              "name": "Longleaf pine",
+              "color_hint": "e51eeb"
+            },
+            {
+              "value": 142,
+              "name": "Slash pine",
+              "color_hint": "3a1591"
+            },
+            {
+              "value": 150,
+              "name": "Tropical softwoods group",
+              "color_hint": "c26da6"
+            },
+            {
+              "value": 151,
+              "name": "Tropical pines",
+              "color_hint": "67c6ca"
+            },
+            {
+              "value": 160,
+              "name": "Loblolly / shortleaf pine group",
+              "color_hint": "95ef79"
+            },
+            {
+              "value": 161,
+              "name": "Loblolly pine",
+              "color_hint": "d5c7e9"
+            },
+            {
+              "value": 162,
+              "name": "Shortleaf pine",
+              "color_hint": "bc916f"
+            },
+            {
+              "value": 163,
+              "name": "Virginia pine",
+              "color_hint": "d1dfd6"
+            },
+            {
+              "value": 164,
+              "name": "Sand pine",
+              "color_hint": "49f6ae"
+            },
+            {
+              "value": 165,
+              "name": "Table Mountain pine",
+              "color_hint": "7b677b"
+            },
+            {
+              "value": 166,
+              "name": "Pond pine",
+              "color_hint": "f16791"
+            },
+            {
+              "value": 167,
+              "name": "Pitch pine",
+              "color_hint": "dbf39c"
+            },
+            {
+              "value": 168,
+              "name": "Spruce pine",
+              "color_hint": "dad9bd"
+            },
+            {
+              "value": 170,
+              "name": "Other eastern softwoods group",
+              "color_hint": "7d2f2e"
+            },
+            {
+              "value": 171,
+              "name": "Eastern redcedar",
+              "color_hint": "45e8d5"
+            },
+            {
+              "value": 172,
+              "name": "Florida softwoods",
+              "color_hint": "9bc5e5"
+            },
+            {
+              "value": 180,
+              "name": "Pinyon / juniper group",
+              "color_hint": "4debbe"
+            },
+            {
+              "value": 182,
+              "name": "Rocky Mountain juniper",
+              "color_hint": "3a6a8b"
+            },
+            {
+              "value": 184,
+              "name": "Juniper woodland",
+              "color_hint": "68f0ec"
+            },
+            {
+              "value": 185,
+              "name": "Pinyon / juniper woodland",
+              "color_hint": "aaa7e7"
+            },
+            {
+              "value": 200,
+              "name": "Douglas-fir group",
+              "color_hint": "4589d2"
+            },
+            {
+              "value": 201,
+              "name": "Douglas-fir",
+              "color_hint": "f4df8e"
+            },
+            {
+              "value": 202,
+              "name": "Port-Orford-cedar",
+              "color_hint": "f7d969"
+            },
+            {
+              "value": 203,
+              "name": "Bigcone Douglas-fir",
+              "color_hint": "dfa098"
+            },
+            {
+              "value": 220,
+              "name": "Ponderosa pine group",
+              "color_hint": "d8ecf0"
+            },
+            {
+              "value": 221,
+              "name": "Ponderosa pine",
+              "color_hint": "caf466"
+            },
+            {
+              "value": 222,
+              "name": "Incense-cedar",
+              "color_hint": "e64393"
+            },
+            {
+              "value": 224,
+              "name": "Sugar pine",
+              "color_hint": "8ce7ef"
+            },
+            {
+              "value": 225,
+              "name": "Jeffrey pine",
+              "color_hint": "eec7ea"
+            },
+            {
+              "value": 226,
+              "name": "Coulter pine",
+              "color_hint": "dfa9ef"
+            },
+            {
+              "value": 240,
+              "name": "Western white pine group",
+              "color_hint": "b7f2e0"
+            },
+            {
+              "value": 241,
+              "name": "Western white pine",
+              "color_hint": "bbbcc4"
+            },
+            {
+              "value": 260,
+              "name": "Fir / spruce / mountain hemlock group",
+              "color_hint": "b2b1c8"
+            },
+            {
+              "value": 261,
+              "name": "White fir",
+              "color_hint": "adf6d0"
+            },
+            {
+              "value": 262,
+              "name": "Red fir",
+              "color_hint": "e2c8f9"
+            },
+            {
+              "value": 263,
+              "name": "Noble fir",
+              "color_hint": "bae3f5"
+            },
+            {
+              "value": 264,
+              "name": "Pacific silver fir",
+              "color_hint": "8391a7"
+            },
+            {
+              "value": 265,
+              "name": "Engelmann spruce",
+              "color_hint": "9a2d79"
+            },
+            {
+              "value": 266,
+              "name": "Engelmann spruce / subalpine fir",
+              "color_hint": "b4cfa7"
+            },
+            {
+              "value": 267,
+              "name": "Grand fir",
+              "color_hint": "93dbf2"
+            },
+            {
+              "value": 268,
+              "name": "Subalpine fir",
+              "color_hint": "baaea2"
+            },
+            {
+              "value": 269,
+              "name": "Blue spruce",
+              "color_hint": "8ff390"
+            },
+            {
+              "value": 270,
+              "name": "Mountain hemlock",
+              "color_hint": "b2fa73"
+            },
+            {
+              "value": 271,
+              "name": "Alaska-yellow-cedar",
+              "color_hint": "c6295f"
+            },
+            {
+              "value": 280,
+              "name": "Lodgepole pine group",
+              "color_hint": "ea6375"
+            },
+            {
+              "value": 281,
+              "name": "Lodgepole pine",
+              "color_hint": "a1e073"
+            },
+            {
+              "value": 300,
+              "name": "Hemlock / Sitka spruce group",
+              "color_hint": "2db8ab"
+            },
+            {
+              "value": 301,
+              "name": "Western hemlock",
+              "color_hint": "ae73b2"
+            },
+            {
+              "value": 304,
+              "name": "Western redcedar",
+              "color_hint": "e38bae"
+            },
+            {
+              "value": 305,
+              "name": "Sitka spruce",
+              "color_hint": "cfb0fa"
+            },
+            {
+              "value": 320,
+              "name": "Western larch group",
+              "color_hint": "d3a9b3"
+            },
+            {
+              "value": 321,
+              "name": "Western larch",
+              "color_hint": "90e5d5"
+            },
+            {
+              "value": 340,
+              "name": "Redwood group",
+              "color_hint": "f12c43"
+            },
+            {
+              "value": 341,
+              "name": "Redwood",
+              "color_hint": "b2c387"
+            },
+            {
+              "value": 342,
+              "name": "Giant sequoia",
+              "color_hint": "8fa42c"
+            },
+            {
+              "value": 360,
+              "name": "Other western softwoods group",
+              "color_hint": "cde353"
+            },
+            {
+              "value": 361,
+              "name": "Knobcone pine",
+              "color_hint": "7680ac"
+            },
+            {
+              "value": 362,
+              "name": "Southwestern white pine",
+              "color_hint": "46d7ed"
+            },
+            {
+              "value": 363,
+              "name": "Bishop pine",
+              "color_hint": "eecc39"
+            },
+            {
+              "value": 364,
+              "name": "Monterey pine",
+              "color_hint": "d7baf5"
+            },
+            {
+              "value": 365,
+              "name": "Foxtail pine / bristlecone pine",
+              "color_hint": "9a29f0"
+            },
+            {
+              "value": 366,
+              "name": "Limber pine",
+              "color_hint": "a7c6d7"
+            },
+            {
+              "value": 367,
+              "name": "Whitebark pine",
+              "color_hint": "f28a8d"
+            },
+            {
+              "value": 368,
+              "name": "Miscellaneous western softwoods",
+              "color_hint": "ebf385"
+            },
+            {
+              "value": 369,
+              "name": "Western juniper",
+              "color_hint": "a0cd4f"
+            },
+            {
+              "value": 370,
+              "name": "California mixed conifer group",
+              "color_hint": "81b180"
+            },
+            {
+              "value": 371,
+              "name": "California mixed conifer",
+              "color_hint": "cba1fb"
+            },
+            {
+              "value": 380,
+              "name": "Exotic softwoods group",
+              "color_hint": "6bc35e"
+            },
+            {
+              "value": 381,
+              "name": "Scotch pine",
+              "color_hint": "f5a3ad"
+            },
+            {
+              "value": 383,
+              "name": "Other exotic softwoods",
+              "color_hint": "d4ddef"
+            },
+            {
+              "value": 384,
+              "name": "Norway spruce",
+              "color_hint": "a049b7"
+            },
+            {
+              "value": 385,
+              "name": "Introduced larch",
+              "color_hint": "e1a0b6"
+            },
+            {
+              "value": 390,
+              "name": "Other softwoods group",
+              "color_hint": "f06748"
+            },
+            {
+              "value": 391,
+              "name": "Other softwoods",
+              "color_hint": "7a9252"
+            },
+            {
+              "value": 400,
+              "name": "Oak / pine group",
+              "color_hint": "66d727"
+            },
+            {
+              "value": 401,
+              "name": "Eastern white pine / northern red oak / white ash",
+              "color_hint": "e645dc"
+            },
+            {
+              "value": 402,
+              "name": "Eastern redcedar / hardwood",
+              "color_hint": "aa8d8b"
+            },
+            {
+              "value": 403,
+              "name": "Longleaf pine / oak",
+              "color_hint": "ee405d"
+            },
+            {
+              "value": 404,
+              "name": "Shortleaf pine / oak",
+              "color_hint": "cfadd4"
+            },
+            {
+              "value": 405,
+              "name": "Virginia pine / southern red oak",
+              "color_hint": "9190e6"
+            },
+            {
+              "value": 406,
+              "name": "Loblolly pine / hardwood",
+              "color_hint": "4e655f"
+            },
+            {
+              "value": 407,
+              "name": "Slash pine / hardwood",
+              "color_hint": "57adf1"
+            },
+            {
+              "value": 409,
+              "name": "Other pine / hardwood",
+              "color_hint": "b2eb31"
+            },
+            {
+              "value": 500,
+              "name": "Oak / hickory group",
+              "color_hint": "c6e377"
+            },
+            {
+              "value": 501,
+              "name": "Post oak / blackjack oak",
+              "color_hint": "bea664"
+            },
+            {
+              "value": 502,
+              "name": "Chestnut oak",
+              "color_hint": "c26262"
+            },
+            {
+              "value": 503,
+              "name": "White oak / red oak / hickory",
+              "color_hint": "4b9a91"
+            },
+            {
+              "value": 504,
+              "name": "White oak",
+              "color_hint": "72f4b9"
+            },
+            {
+              "value": 505,
+              "name": "Northern red oak",
+              "color_hint": "da90e3"
+            },
+            {
+              "value": 506,
+              "name": "Yellow-poplar / white oak / northern red oak",
+              "color_hint": "3ebf45"
+            },
+            {
+              "value": 507,
+              "name": "Sassafras / persimmon",
+              "color_hint": "e973bf"
+            },
+            {
+              "value": 508,
+              "name": "Sweetgum / yellow-poplar",
+              "color_hint": "afe7b3"
+            },
+            {
+              "value": 509,
+              "name": "Bur oak",
+              "color_hint": "81629f"
+            },
+            {
+              "value": 510,
+              "name": "Scarlet oak",
+              "color_hint": "9144dd"
+            },
+            {
+              "value": 511,
+              "name": "Yellow-poplar",
+              "color_hint": "e4c0a1"
+            },
+            {
+              "value": 512,
+              "name": "Black walnut",
+              "color_hint": "ac82a2"
+            },
+            {
+              "value": 513,
+              "name": "Black locust",
+              "color_hint": "f5a8e1"
+            },
+            {
+              "value": 514,
+              "name": "Southern scrub oak",
+              "color_hint": "b486f5"
+            },
+            {
+              "value": 515,
+              "name": "Chestnut oak / black oak / scarlet oak",
+              "color_hint": "ecbf68"
+            },
+            {
+              "value": 516,
+              "name": "Cherry / white ash / yellow-poplar",
+              "color_hint": "f340af"
+            },
+            {
+              "value": 517,
+              "name": "Elm / ash / black locust",
+              "color_hint": "c0caf5"
+            },
+            {
+              "value": 519,
+              "name": "Red maple / oak",
+              "color_hint": "c1f89a"
+            },
+            {
+              "value": 520,
+              "name": "Mixed upland hardwoods",
+              "color_hint": "d3f3d2"
+            },
+            {
+              "value": 600,
+              "name": "Oak / gum / cypress group",
+              "color_hint": "ebebc0"
+            },
+            {
+              "value": 601,
+              "name": "Swamp chestnut oak / cherrybark oak",
+              "color_hint": "d350f4"
+            },
+            {
+              "value": 602,
+              "name": "Sweetgum / numeric oak / willow oak",
+              "color_hint": "d1cf7c"
+            },
+            {
+              "value": 605,
+              "name": "Overcup oak / water hickory",
+              "color_hint": "71f943"
+            },
+            {
+              "value": 606,
+              "name": "Atlantic white-cedar",
+              "color_hint": "9e87c0"
+            },
+            {
+              "value": 607,
+              "name": "Baldcypress / water tupelo",
+              "color_hint": "b6707a"
+            },
+            {
+              "value": 608,
+              "name": "Sweetbay / swamp tupelo / red maple",
+              "color_hint": "f7e6d7"
+            },
+            {
+              "value": 609,
+              "name": "Baldcypress / pondcypress",
+              "color_hint": "8caaf2"
+            },
+            {
+              "value": 700,
+              "name": "Elm / ash / cottonwood group",
+              "color_hint": "f1f2f3"
+            },
+            {
+              "value": 701,
+              "name": "Black ash / American elm / red maple",
+              "color_hint": "a3d382"
+            },
+            {
+              "value": 702,
+              "name": "River birch / sycamore",
+              "color_hint": "4ebf86"
+            },
+            {
+              "value": 703,
+              "name": "Cottonwood",
+              "color_hint": "8cf45a"
+            },
+            {
+              "value": 704,
+              "name": "Willow",
+              "color_hint": "f4f3b7"
+            },
+            {
+              "value": 705,
+              "name": "Sycamore / pecan / American elm",
+              "color_hint": "a1cfc9"
+            },
+            {
+              "value": 706,
+              "name": "Sugarberry / hackberry / elm / green ash",
+              "color_hint": "f0dc9f"
+            },
+            {
+              "value": 707,
+              "name": "Silver maple / American elm",
+              "color_hint": "5971ef"
+            },
+            {
+              "value": 708,
+              "name": "Red maple / lowland",
+              "color_hint": "699fcb"
+            },
+            {
+              "value": 709,
+              "name": "Cottonwood / willow",
+              "color_hint": "f7a1f0"
+            },
+            {
+              "value": 722,
+              "name": "Oregon ash",
+              "color_hint": "5e62f8"
+            },
+            {
+              "value": 800,
+              "name": "Maple / beech / birch group",
+              "color_hint": "f0cdbd"
+            },
+            {
+              "value": 801,
+              "name": "Sugar maple / beech / yellow birch",
+              "color_hint": "a7902b"
+            },
+            {
+              "value": 802,
+              "name": "Black cherry",
+              "color_hint": "f2f875"
+            },
+            {
+              "value": 805,
+              "name": "Hard maple / basswood",
+              "color_hint": "e6a55a"
+            },
+            {
+              "value": 809,
+              "name": "Red maple / upland",
+              "color_hint": "f068e4"
+            },
+            {
+              "value": 900,
+              "name": "Aspen / birch group",
+              "color_hint": "de55bf"
+            },
+            {
+              "value": 901,
+              "name": "Aspen",
+              "color_hint": "cff3c0"
+            },
+            {
+              "value": 902,
+              "name": "Paper birch",
+              "color_hint": "f7c1f3"
+            },
+            {
+              "value": 903,
+              "name": "Gray birch",
+              "color_hint": "90896c"
+            },
+            {
+              "value": 904,
+              "name": "Balsam poplar",
+              "color_hint": "f5beb3"
+            },
+            {
+              "value": 905,
+              "name": "Pin cherry",
+              "color_hint": "b49ec7"
+            },
+            {
+              "value": 910,
+              "name": "Alder / maple group",
+              "color_hint": "6bc3f5"
+            },
+            {
+              "value": 911,
+              "name": "Red alder",
+              "color_hint": "6226e8"
+            },
+            {
+              "value": 912,
+              "name": "Bigleaf maple",
+              "color_hint": "7aebcd"
+            },
+            {
+              "value": 920,
+              "name": "Western oak group",
+              "color_hint": "d2ab20"
+            },
+            {
+              "value": 921,
+              "name": "Gray pine",
+              "color_hint": "515891"
+            },
+            {
+              "value": 922,
+              "name": "California black oak",
+              "color_hint": "e47a65"
+            },
+            {
+              "value": 923,
+              "name": "Oregon white oak",
+              "color_hint": "97b45a"
+            },
+            {
+              "value": 924,
+              "name": "Blue oak",
+              "color_hint": "cbd14d"
+            },
+            {
+              "value": 931,
+              "name": "Coast live oak",
+              "color_hint": "64c2a2"
+            },
+            {
+              "value": 933,
+              "name": "Canyon live oak",
+              "color_hint": "adf2ad"
+            },
+            {
+              "value": 934,
+              "name": "Interior live oak",
+              "color_hint": "deefb4"
+            },
+            {
+              "value": 935,
+              "name": "California white oak (valley oak)",
+              "color_hint": "52b8dc"
+            },
+            {
+              "value": 940,
+              "name": "Tanoak / laurel group",
+              "color_hint": "e1f855"
+            },
+            {
+              "value": 941,
+              "name": "Tanoak",
+              "color_hint": "8fa792"
+            },
+            {
+              "value": 942,
+              "name": "California laurel",
+              "color_hint": "ebe545"
+            },
+            {
+              "value": 943,
+              "name": "Giant chinkapin",
+              "color_hint": "c676df"
+            },
+            {
+              "value": 960,
+              "name": "Other hardwoods group",
+              "color_hint": "489744"
+            },
+            {
+              "value": 961,
+              "name": "Pacific madrone",
+              "color_hint": "e2f231"
+            },
+            {
+              "value": 962,
+              "name": "Other hardwoods",
+              "color_hint": "cfbc8f"
+            },
+            {
+              "value": 970,
+              "name": "Woodland hardwoods group",
+              "color_hint": "51dc89"
+            },
+            {
+              "value": 971,
+              "name": "Deciduous oak woodland",
+              "color_hint": "aa511d"
+            },
+            {
+              "value": 972,
+              "name": "Evergreen oak woodland",
+              "color_hint": "846ac6"
+            },
+            {
+              "value": 973,
+              "name": "Mesquite woodland",
+              "color_hint": "bb8fd3"
+            },
+            {
+              "value": 974,
+              "name": "Cercocarpus (mountain brush) woodland",
+              "color_hint": "f1bcd8"
+            },
+            {
+              "value": 975,
+              "name": "Intermountain maple woodland",
+              "color_hint": "4f45a6"
+            },
+            {
+              "value": 976,
+              "name": "Miscellaneous woodland hardwoods",
+              "color_hint": "c6f5f4"
+            },
+            {
+              "value": 980,
+              "name": "Tropical hardwoods group",
+              "color_hint": "e5dd69"
+            },
+            {
+              "value": 982,
+              "name": "Mangrove",
+              "color_hint": "c0a8e1"
+            },
+            {
+              "value": 983,
+              "name": "Palms",
+              "color_hint": "7f5dd7"
+            },
+            {
+              "value": 984,
+              "name": "Dry forest",
+              "color_hint": "dfd3d7"
+            },
+            {
+              "value": 985,
+              "name": "Moist forest",
+              "color_hint": "56f277"
+            },
+            {
+              "value": 986,
+              "name": "Wet and rain forest",
+              "color_hint": "28703c"
+            },
+            {
+              "value": 987,
+              "name": "Lower montane wet and rain forest",
+              "color_hint": "86e799"
+            },
+            {
+              "value": 988,
+              "name": "Cloud forest",
+              "color_hint": "b9d1bf"
+            },
+            {
+              "value": 989,
+              "name": "Other tropical hardwoods",
+              "color_hint": "a5baee"
+            },
+            {
+              "value": 990,
+              "name": "Exotic hardwoods group",
+              "color_hint": "f28e2e"
+            },
+            {
+              "value": 991,
+              "name": "Paulownia",
+              "color_hint": "e7dbed"
+            },
+            {
+              "value": 992,
+              "name": "Melaleuca",
+              "color_hint": "5d84e4"
+            },
+            {
+              "value": 993,
+              "name": "Eucalyptus",
+              "color_hint": "bb68f3"
+            },
+            {
+              "value": 995,
+              "name": "Other exotic hardwoods",
+              "color_hint": "d96f9b"
+            },
+            {
+              "value": 999,
+              "name": "Nonstocked",
+              "color_hint": "efcddd"
+            }
+          ],
+          "data_type": "uint16",
+          "nodata": 65535.0,
+          "statistics": {
+            "minimum": 101.0,
+            "maximum": 999.0,
+            "mean": 441.11160202981,
+            "stddev": 248.76957220165
+          },
+          "treemap:source": "From COND.FORTYPCD (Sec. 2.5.15)"
+        }
+      ],
+      "description": "Forest type code, assigned by FIA algorithm"
+    },
+    "TreeMap2023_CONUS_GSSTK": {
+      "href": "./TreeMap2023_CONUS_GSSTK.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "file:size": 3871056641,
+      "file:checksum": "1220ad146f6a84a429c9025616e2d2f662c2b321380f629ba9db2a61884efd47c75d",
+      "render:colormap_name": "viridis",
+      "roles": [
+        "data"
+      ],
+      "title": "Growing-stock stocking",
+      "bands": [
+        {
+          "name": "GSSTK",
+          "description": "The sum of stocking percent values of all growing-stock trees on the condition.",
+          "unit": "percent",
+          "data_type": "float32",
+          "nodata": 3.4028234663852886e+38,
+          "statistics": {
+            "minimum": 0.0,
+            "maximum": 120.00240325928,
+            "mean": 43.980493597034,
+            "stddev": 25.319111541711
+          },
+          "treemap:source": "From COND.GSSTK (Sec. 2.5.53)"
+        }
+      ],
+      "description": "Growing-stock stocking (percent)"
+    },
+    "TreeMap2023_CONUS_QMD": {
+      "href": "./TreeMap2023_CONUS_QMD.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "file:size": 4066643883,
+      "file:checksum": "12202bb4c6ae58edd6028ae171c40375f846cbc77abc27ccc362ed50600ea4f75df8",
+      "render:colormap_name": "viridis",
+      "roles": [
+        "data"
+      ],
+      "title": "Stand quadratic mean diameter",
+      "bands": [
+        {
+          "name": "QMD",
+          "description": "The quadratic mean diameter (QMD), or the diameter of the tree of average basal area, on the condition. Based on live trees greater than or equal to 1.0 inch d.b.h./d.r.c.",
+          "unit": "inch",
+          "data_type": "float32",
+          "nodata": 3.4028234663852886e+38,
+          "statistics": {
+            "minimum": 1.0700000524521,
+            "maximum": 66.419998168945,
+            "mean": 6.867178917337,
+            "stddev": 3.272513393401
+          },
+          "treemap:source": "Query; SQRT ((COND.BALIVE/∑(TREE.TPA_UNADJ))/0.005454), where TREE.STATUSCD=1"
+        }
+      ],
+      "description": "Stand quadratic mean diameter (in)"
+    },
+    "TreeMap2023_CONUS_SDIsum": {
+      "href": "./TreeMap2023_CONUS_SDIsum.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "file:size": 4150420975,
+      "file:checksum": "1220eabdfe0e9d74b1b5da10071a669c0f03220432a61956bb491c2380dfacd14ffe",
+      "render:colormap_name": "viridis",
+      "roles": [
+        "data"
+      ],
+      "title": "Sum of stand density index",
+      "bands": [
+        {
+          "name": "SDIsum",
+          "description": "Stand density index (SDI). A relative measure of stand density for live trees (greater than or equal to 1.0 inch d.b.h./d.r.c.) on the condition. Unitless.",
+          "data_type": "float32",
+          "nodata": 3.4028234663852886e+38,
+          "statistics": {
+            "minimum": 6.5,
+            "maximum": 844.89001464844,
+            "mean": 186.46611265074,
+            "stddev": 86.888739587553
+          },
+          "treemap:source": "Query; SDIsum =  ∑(TREE.TPA_UNADJi * (TREE.DIAi/10)1.605), where TPA_UNADJi is the number of trees per acre represented by the ith tree on the plot and DIA is the diameter of the ith tree on the plot and TREE.STATUSCD=1"
+        }
+      ],
+      "description": "Sum of stand Density Index"
+    },
+    "TreeMap2023_CONUS_STANDHT": {
+      "href": "./TreeMap2023_CONUS_STANDHT.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "file:size": 2949021522,
+      "file:checksum": "122003cb4ee780072ff46be8c194fd52a8857b04d2fe0fd98bae437352d9f3c9fee5",
+      "render:colormap_name": "viridis",
+      "roles": [
+        "data"
+      ],
+      "title": "Height of dominant trees",
+      "bands": [
+        {
+          "name": "STANDHT",
+          "description": "Height of dominant trees, in feet, derived from the Forest Vegetation Simulator.",
+          "unit": "foot",
+          "data_type": "uint16",
+          "nodata": 65535.0,
+          "statistics": {
+            "minimum": 0.0,
+            "maximum": 267.0,
+            "mean": 57.206507614554,
+            "stddev": 22.754245303848
+          },
+          "treemap:source": "From Forest Vegetation Simulator"
+        }
+      ],
+      "description": "Height of dominant trees (ft)"
+    },
+    "TreeMap2023_CONUS_STDSZCD": {
+      "href": "./TreeMap2023_CONUS_STDSZCD.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "file:size": 1107112512,
+      "file:checksum": "12202c622ccbad22aaf623b94d074a01fcdd497c59c66a031cd513fe9272fac45e31",
+      "render:colormap_name": "viridis",
+      "roles": [
+        "data"
+      ],
+      "title": "Algorithm stand-size class code",
+      "bands": [
+        {
+          "name": "STDSZCD",
+          "description": "A classification of the predominant (based on stocking) diameter class of live trees within the condition assigned using an algorithm.",
+          "classification:classes": [
+            {
+              "value": 1,
+              "name": "Large diameter",
+              "color_hint": "38A800"
+            },
+            {
+              "value": 2,
+              "name": "Medium diameter",
+              "color_hint": "FFFF00"
+            },
+            {
+              "value": 3,
+              "name": "Small diameter",
+              "color_hint": "FEBA12"
+            },
+            {
+              "value": 5,
+              "name": "Nonstocked",
+              "color_hint": "C62363"
+            }
+          ],
+          "data_type": "uint8",
+          "nodata": 255.0,
+          "statistics": {
+            "minimum": 1.0,
+            "maximum": 5.0,
+            "mean": 1.4720539309691,
+            "stddev": 0.68449532005664
+          },
+          "treemap:source": "From COND.STDSZCD (Sec. 2.5.19)"
+        }
+      ],
+      "description": "Stand size code, assigned by FIA algorithm"
+    },
+    "TreeMap2023_CONUS_TM_ID": {
+      "href": "./TreeMap2023_CONUS_TM_ID.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "file:size": 3500500087,
+      "file:checksum": "12204cf04ef4a0b0636663aa727f965239589f035f29e5fb89fbb51f380cac8ae6b6",
+      "render:colormap_name": "viridis",
+      "roles": [
+        "data"
+      ],
+      "title": "TreeMap identifier",
+      "bands": [
+        {
+          "name": "TM_ID",
+          "description": "TreeMap record number; corresponds to “tm_id” field in the tree table (“TreeMap2020_tree_table.csv”)",
+          "data_type": "uint16",
+          "nodata": 65535.0,
+          "statistics": {
+            "minimum": 0.0,
+            "maximum": 65534.0,
+            "mean": 31278.572388327,
+            "stddev": 19575.883854385
+          },
+          "treemap:source": "Native to TreeMap"
+        }
+      ],
+      "description": "TreeMap record number; corresponds to “tm_id” field in the tree table (“TreeMap2020_tree_table.csv”)"
+    },
+    "TreeMap2023_CONUS_TPA_DEAD": {
+      "href": "./TreeMap2023_CONUS_TPA_DEAD.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "file:size": 2706233853,
+      "file:checksum": "12208bc540d557f7fc466f115a54002afad5cec8e8ab5a379e930205c16faff3ebe3",
+      "render:colormap_name": "viridis",
+      "roles": [
+        "data"
+      ],
+      "title": "Standing dead trees per acre",
+      "bands": [
+        {
+          "name": "TPA_DEAD",
+          "description": "Number of standing dead trees per acre (DIA >5”)",
+          "unit": "count per acre",
+          "data_type": "float32",
+          "nodata": 3.4028234663852886e+38,
+          "statistics": {
+            "minimum": 0.0,
+            "maximum": 631.89001464844,
+            "mean": 17.284069579166,
+            "stddev": 29.909761713005
+          },
+          "treemap:source": "Query; Sum TREE.TPA_UNADJ WHERE (((COND.COND_STATUS_CD)=1) AND ((TREE.STATUSCD)=2) AND ((TREE.DIA)>=5) AND ((TREE.STANDING_DEAD_CD)=1))"
+        }
+      ],
+      "description": "Number of standing dead trees per acre (DIA >5”)"
+    },
+    "TreeMap2023_CONUS_TPA_LIVE": {
+      "href": "./TreeMap2023_CONUS_TPA_LIVE.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "file:size": 4088723439,
+      "file:checksum": "1220a467a493703e7022be2c6ed0095b5e9bdbcd9f22646461cae608ccdff2954e33",
+      "render:colormap_name": "viridis",
+      "roles": [
+        "data"
+      ],
+      "title": "Live trees per acre",
+      "bands": [
+        {
+          "name": "TPA_LIVE",
+          "description": "Number of live trees per acre",
+          "unit": "count per acre",
+          "data_type": "float32",
+          "nodata": 3.4028234663852886e+38,
+          "statistics": {
+            "minimum": 1.9900000095367,
+            "maximum": 10120.309570312,
+            "mean": 575.84782463767,
+            "stddev": 512.24482079712
+          },
+          "treemap:source": "Query; Sum TREE.TPA_UNADJ WHERE (((COND.COND_STATUS_CD)=1) AND ((TREE.STATUSCD)=1) AND ((TREE.DIA)>=1))"
+        }
+      ],
+      "description": "Number of live trees per acre"
+    },
+    "TreeMap2023_CONUS_VOLBFNET_L": {
+      "href": "./TreeMap2023_CONUS_VOLBFNET_L.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "file:size": 3789040998,
+      "file:checksum": "1220164c104432f365c4664016a1435bbd44f454b85f24ce1c9faf6cf428556e56c4",
+      "render:colormap_name": "viridis",
+      "roles": [
+        "data"
+      ],
+      "title": "Live sawlog volume",
+      "bands": [
+        {
+          "name": "VOLBFNET_L",
+          "description": "Volume, live, sawlog board feet per acre (log rule: Int’l ¼ inch)",
+          "unit": "sawlog board foot per acre",
+          "data_type": "float32",
+          "nodata": 3.4028234663852886e+38,
+          "statistics": {
+            "minimum": 0.0,
+            "maximum": 217888.65625,
+            "mean": 6204.0498310321,
+            "stddev": 10412.785893759
+          },
+          "treemap:source": "Query; Sum VOLBFNET * TPA_UNADJ WHERE (((TREE.TREECLCD)=2) AND ((COND.COND_STATUS_CD)=1) AND ((TREE.STATUSCD)=1))"
+        }
+      ],
+      "description": "Volume, live, sawlog board feet per acre (log rule: Int’l ¼ inch)"
+    },
+    "TreeMap2023_CONUS_VOLCFNET_D": {
+      "href": "./TreeMap2023_CONUS_VOLCFNET_D.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "file:size": 3477166892,
+      "file:checksum": "1220426d991bc04d67b5062f68954906be9ad1b19b041a3137cc485e370893cc1c52",
+      "render:colormap_name": "viridis",
+      "roles": [
+        "data"
+      ],
+      "title": "Standing dead volume",
+      "bands": [
+        {
+          "name": "VOLCFNET_D",
+          "description": "Volume, standing dead, cubic feet per acre",
+          "unit": "cubic foot per acre",
+          "data_type": "float32",
+          "nodata": 3.4028234663852886e+38,
+          "statistics": {
+            "minimum": 0.0,
+            "maximum": 12205.209960938,
+            "mean": 146.63780289406,
+            "stddev": 403.11947113445
+          },
+          "treemap:source": "Query; Sum VOLCFNET*TPA_UNADJ WHERE (((COND.COND_STATUS_CD)=1) AND ((TREE.STATUSCD)=2) AND ((TREE.DIA)>=5) AND ((TREE.STANDING_DEAD_CD)=1))"
+        }
+      ],
+      "description": "Volume, standing dead, cubic feet per acre"
+    },
+    "TreeMap2023_CONUS_VOLCFNET_L": {
+      "href": "./TreeMap2023_CONUS_VOLCFNET_L.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "file:size": 4032288817,
+      "file:checksum": "122021f72ae153e9c6a7ccce64fe751c0e110f7bf191e42ea49cf7a3e149dfd5e9bd",
+      "render:colormap_name": "viridis",
+      "roles": [
+        "data"
+      ],
+      "title": "Live volume",
+      "bands": [
+        {
+          "name": "VOLCFNET_L",
+          "description": "Volume, live, cubic feet per acre",
+          "unit": "cubic foot per acre",
+          "data_type": "float32",
+          "nodata": 3.4028234663852886e+38,
+          "statistics": {
+            "minimum": 0.0,
+            "maximum": 30763.908203125,
+            "mean": 1806.99480489,
+            "stddev": 1701.6920180905
+          },
+          "treemap:source": "Query; Sum VOLCFNET*TPA_UNADJ WHERE (((COND.COND_STATUS_CD)=1) AND ((TREE.STATUSCD)=1))"
+        }
+      ],
+      "description": "Volume, live, cubic feet per acre"
+    },
+    "raster-attribute-table-csv": {
+      "href": "./TreeMap2023_RAT_tmid_contValues.csv",
+      "type": "text/csv",
+      "title": "TreeMap 2023 Raster Attribute Table source CSV",
+      "description": "Original TreeMap 2023 Raster Attribute Table. Join TM_ID to FIA PLT_CN.",
+      "roles": [
+        "metadata",
+        "source"
+      ],
+      "file:size": 13435850,
+      "file:checksum": "122093e5e752d32c128892ae3b9b80d5d1dd5f59ba51a77f494d5bdee86ddbffc1dc",
+      "table:row_count": 69800,
+      "table:columns": [
+        {
+          "name": "PLT_CN",
+          "type": "int64",
+          "description": "FIA plot condition identifier used to join to FIA database tables."
+        },
+        {
+          "name": "TM_ID",
+          "type": "int64",
+          "description": "TreeMap 2023 identifier stored in the TM_ID raster."
+        },
+        {
+          "name": "FORTYPCD",
+          "type": "int64",
+          "description": "Algorithm forest-type code."
+        },
+        {
+          "name": "ForTypName",
+          "type": "string",
+          "description": "Algorithm forest-type name for FORTYPCD."
+        },
+        {
+          "name": "FLDTYPCD",
+          "type": "int64",
+          "description": "Field forest-type code."
+        },
+        {
+          "name": "FldTypName",
+          "type": "string",
+          "description": "Field forest-type name for FLDTYPCD."
+        },
+        {
+          "name": "STDSZCD",
+          "type": "int64",
+          "description": "Algorithm stand-size class code."
+        },
+        {
+          "name": "FLDSZCD",
+          "type": "int64",
+          "description": "Field stand-size class code."
+        },
+        {
+          "name": "BALIVE",
+          "type": "float64",
+          "description": "Live-tree basal area.",
+          "unit": "square foot per acre"
+        },
+        {
+          "name": "ALSTK",
+          "type": "float64",
+          "description": "All-live-tree stocking.",
+          "unit": "percent"
+        },
+        {
+          "name": "GSSTK",
+          "type": "float64",
+          "description": "Growing-stock stocking.",
+          "unit": "percent"
+        },
+        {
+          "name": "QMD",
+          "type": "float64",
+          "description": "Stand quadratic mean diameter.",
+          "unit": "inch"
+        },
+        {
+          "name": "SDIsum",
+          "type": "float64",
+          "description": "Sum of stand density index."
+        },
+        {
+          "name": "TPA_LIVE",
+          "type": "float64",
+          "description": "Live trees per acre.",
+          "unit": "count per acre"
+        },
+        {
+          "name": "TPA_DEAD",
+          "type": "float64",
+          "description": "Standing dead trees per acre.",
+          "unit": "count per acre"
+        },
+        {
+          "name": "VOLCFNET_L",
+          "type": "float64",
+          "description": "Live volume.",
+          "unit": "cubic foot per acre"
+        },
+        {
+          "name": "VOLCFNET_D",
+          "type": "float64",
+          "description": "Standing dead volume.",
+          "unit": "cubic foot per acre"
+        },
+        {
+          "name": "VOLBFNET_L",
+          "type": "float64",
+          "description": "Live sawlog volume.",
+          "unit": "sawlog board foot per acre"
+        },
+        {
+          "name": "DRYBIO_L",
+          "type": "float64",
+          "description": "Above-ground dry live-tree biomass.",
+          "unit": "ton per acre"
+        },
+        {
+          "name": "DRYBIO_D",
+          "type": "float64",
+          "description": "Above-ground dry standing dead-tree biomass.",
+          "unit": "ton per acre"
+        },
+        {
+          "name": "CARBON_L",
+          "type": "float64",
+          "description": "Live above-ground carbon.",
+          "unit": "ton per acre"
+        },
+        {
+          "name": "CARBON_D",
+          "type": "float64",
+          "description": "Standing dead carbon.",
+          "unit": "ton per acre"
+        },
+        {
+          "name": "CARBON_DOWN_DEAD",
+          "type": "float64",
+          "description": "Down dead carbon; corresponds to the CARBON_DWN raster.",
+          "unit": "ton per acre"
+        },
+        {
+          "name": "STANDHT",
+          "type": "int64",
+          "description": "Height of dominant trees.",
+          "unit": "foot"
+        },
+        {
+          "name": "CANOPYPCT",
+          "type": "int64",
+          "description": "Live canopy cover.",
+          "unit": "percent"
+        }
+      ]
+    },
+    "raster-attribute-table-parquet": {
+      "href": "./TreeMap2023_RAT_tmid_contValues.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "TreeMap 2023 Raster Attribute Table",
+      "description": "Query-optimized copy of the TreeMap 2023 Raster Attribute Table. Join TM_ID to FIA PLT_CN.",
+      "roles": [
+        "metadata"
+      ],
+      "file:size": 5814683,
+      "file:checksum": "122026a57f2f632aeab365a1ffd70e1172a0a64e845c33e534b793b159bdd22858a9",
+      "table:row_count": 69800,
+      "table:columns": [
+        {
+          "name": "PLT_CN",
+          "type": "int64",
+          "description": "FIA plot condition identifier used to join to FIA database tables."
+        },
+        {
+          "name": "TM_ID",
+          "type": "int64",
+          "description": "TreeMap 2023 identifier stored in the TM_ID raster."
+        },
+        {
+          "name": "FORTYPCD",
+          "type": "int64",
+          "description": "Algorithm forest-type code."
+        },
+        {
+          "name": "ForTypName",
+          "type": "string",
+          "description": "Algorithm forest-type name for FORTYPCD."
+        },
+        {
+          "name": "FLDTYPCD",
+          "type": "int64",
+          "description": "Field forest-type code."
+        },
+        {
+          "name": "FldTypName",
+          "type": "string",
+          "description": "Field forest-type name for FLDTYPCD."
+        },
+        {
+          "name": "STDSZCD",
+          "type": "int64",
+          "description": "Algorithm stand-size class code."
+        },
+        {
+          "name": "FLDSZCD",
+          "type": "int64",
+          "description": "Field stand-size class code."
+        },
+        {
+          "name": "BALIVE",
+          "type": "float64",
+          "description": "Live-tree basal area.",
+          "unit": "square foot per acre"
+        },
+        {
+          "name": "ALSTK",
+          "type": "float64",
+          "description": "All-live-tree stocking.",
+          "unit": "percent"
+        },
+        {
+          "name": "GSSTK",
+          "type": "float64",
+          "description": "Growing-stock stocking.",
+          "unit": "percent"
+        },
+        {
+          "name": "QMD",
+          "type": "float64",
+          "description": "Stand quadratic mean diameter.",
+          "unit": "inch"
+        },
+        {
+          "name": "SDIsum",
+          "type": "float64",
+          "description": "Sum of stand density index."
+        },
+        {
+          "name": "TPA_LIVE",
+          "type": "float64",
+          "description": "Live trees per acre.",
+          "unit": "count per acre"
+        },
+        {
+          "name": "TPA_DEAD",
+          "type": "float64",
+          "description": "Standing dead trees per acre.",
+          "unit": "count per acre"
+        },
+        {
+          "name": "VOLCFNET_L",
+          "type": "float64",
+          "description": "Live volume.",
+          "unit": "cubic foot per acre"
+        },
+        {
+          "name": "VOLCFNET_D",
+          "type": "float64",
+          "description": "Standing dead volume.",
+          "unit": "cubic foot per acre"
+        },
+        {
+          "name": "VOLBFNET_L",
+          "type": "float64",
+          "description": "Live sawlog volume.",
+          "unit": "sawlog board foot per acre"
+        },
+        {
+          "name": "DRYBIO_L",
+          "type": "float64",
+          "description": "Above-ground dry live-tree biomass.",
+          "unit": "ton per acre"
+        },
+        {
+          "name": "DRYBIO_D",
+          "type": "float64",
+          "description": "Above-ground dry standing dead-tree biomass.",
+          "unit": "ton per acre"
+        },
+        {
+          "name": "CARBON_L",
+          "type": "float64",
+          "description": "Live above-ground carbon.",
+          "unit": "ton per acre"
+        },
+        {
+          "name": "CARBON_D",
+          "type": "float64",
+          "description": "Standing dead carbon.",
+          "unit": "ton per acre"
+        },
+        {
+          "name": "CARBON_DOWN_DEAD",
+          "type": "float64",
+          "description": "Down dead carbon; corresponds to the CARBON_DWN raster.",
+          "unit": "ton per acre"
+        },
+        {
+          "name": "STANDHT",
+          "type": "int64",
+          "description": "Height of dominant trees.",
+          "unit": "foot"
+        },
+        {
+          "name": "CANOPYPCT",
+          "type": "int64",
+          "description": "Live canopy cover.",
+          "unit": "percent"
+        }
+      ]
+    }
+  },
+  "collection": "treemap",
+  "title": "TreeMap 2023"
+}

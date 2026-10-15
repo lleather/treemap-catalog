@@ -1,0 +1,152 @@
+{
+  "type": "Collection",
+  "id": "treemap",
+  "stac_version": "1.1.0",
+  "description": "TreeMap 30-meter forest attribute rasters for the conterminous United States. This publication contains the 2023 vintage. The 2023 item includes a Raster Attribute Table in CSV and Parquet. A collection-level CSV provides the attribute data dictionary.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "license",
+      "href": "https://www.fs.usda.gov/rds/archive/catalog/RDS-2025-0032",
+      "title": "License"
+    },
+    {
+      "rel": "via",
+      "href": "https://data.fs.usda.gov/geodata/rastergateway/treemap/",
+      "type": "text/html",
+      "title": "Original source"
+    },
+    {
+      "rel": "item",
+      "href": "./2023/2023.json",
+      "type": "application/geo+json",
+      "title": "2023"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "agents",
+      "href": "./AGENTS.md",
+      "type": "text/markdown",
+      "title": "Agent/LLM usage guide"
+    },
+    {
+      "rel": "describedby",
+      "href": "./README.md",
+      "type": "text/markdown",
+      "title": "Human-readable documentation"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/file/v2.1.0/schema.json",
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/raster/v2.0.0/schema.json",
+    "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
+  ],
+  "updated": "2026-10-15T15:48:28.678968+00:00",
+  "title": "TreeMap",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -128.97722,
+          22.76862,
+          -65.25445,
+          51.64968
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2023-01-01T00:00:00Z",
+          "2023-12-31T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "providers": [
+    {
+      "name": "USDA Forest Service",
+      "roles": [
+        "producer",
+        "licensor"
+      ],
+      "url": "https://data.fs.usda.gov/geodata/rastergateway/treemap/"
+    },
+    {
+      "name": "RedCastle Resources",
+      "roles": [
+        "processor",
+        "host"
+      ],
+      "url": "https://source.coop/redcastle-resources"
+    }
+  ],
+  "summaries": {
+    "raster:spatial_resolution": [
+      30.0
+    ],
+    "proj:code": [
+      "EPSG:5070"
+    ],
+    "proj:bbox": [
+      -2361585.0,
+      259065.00000000373,
+      2263785.0,
+      3177435.0000000037
+    ],
+    "proj:shape": [
+      97279,
+      154179
+    ],
+    "proj:transform": [
+      -2361585.0,
+      30.0,
+      0.0,
+      3177435.0000000037,
+      -30.0
+    ]
+  },
+  "assets": {
+    "geoparquet-items": {
+      "href": "./items.parquet",
+      "type": "application/vnd.apache.parquet",
+      "title": "STAC items as GeoParquet",
+      "roles": [
+        "collection-mirror"
+      ],
+      "file:size": 231556,
+      "file:checksum": "122049a4ef2f35bf069d82bf59351bd4ac9dc0f285632699c68f5503fb34a89869de"
+    },
+    "thumbnail": {
+      "href": "./thumbnail.jpg",
+      "type": "image/jpeg",
+      "title": "TreeMap 2023 preview",
+      "roles": [
+        "thumbnail"
+      ],
+      "file:size": 46189,
+      "file:checksum": "122045acc2edf62c40b87e256ef92302065765f68a8705655ea5c2607475b423e41d"
+    },
+    "attribute-data-dictionary": {
+      "href": "./TreeMap2020_CONUS_DataDictionary.csv",
+      "type": "text/csv",
+      "title": "TreeMap attribute data dictionary",
+      "description": "TreeMap 2020 attribute data dictionary supplied with the 2023 delivery. It defines raster attributes, units, descriptions, and FIADB sources.",
+      "roles": [
+        "metadata"
+      ],
+      "file:size": 7128,
+      "file:checksum": "12204851b8d95fa8f32374a325b5c42abf9f92e360da487369ee9ce5b43aeab269dd"
+    }
+  }
+}

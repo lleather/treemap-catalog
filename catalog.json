@@ -2,7 +2,7 @@
   "type": "Catalog",
   "id": "treemap",
   "stac_version": "1.1.0",
-  "description": "TreeMap annual forest attribute rasters for the conterminous United States.",
+  "description": "TreeMap 30-meter forest attribute rasters for the conterminous United States. This publication contains the 2023 vintage. The 2023 item includes a Raster Attribute Table in CSV and Parquet. A collection-level CSV provides the attribute data dictionary.",
   "links": [
     {
       "rel": "root",
@@ -21,10 +21,17 @@
       "href": "./README.md",
       "type": "text/markdown",
       "title": "Human-readable documentation"
+    },
+    {
+      "rel": "child",
+      "href": "./treemap/collection.json",
+      "type": "application/json",
+      "title": "Treemap"
     }
   ],
   "title": "TreeMap",
   "stac_extensions": [
     "https://schemas.portolan-sdi.org/portolan/v0.2.0/schema.json"
-  ]
+  ],
+  "updated": "2026-10-15T15:48:28.678968+00:00"
 }

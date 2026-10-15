@@ -103,6 +103,60 @@
     "VOLCFNET_D": {"title": "Standing dead volume", "unit": "cubic foot per acre", "kind": "continuous"},
     "VOLCFNET_L": {"title": "Live volume", "unit": "cubic foot per acre", "kind": "continuous"}
   },
+  "attribute_dictionary": {
+    "source": "\\\\afssxgtacnas104\\TreeMap\\08_Data_Delivery\\02_Metadata\\2023\\Data Dictionary\\TreeMap2020_CONUS_DataDictionary.xlsx",
+    "expected_size": 13556,
+    "expected_sha256": "424ff2f4b976cd53df1be2077ef25a24a4c4c2a9fa0265182b23b7ded2717473",
+    "worksheet": "Sheet1",
+    "csv_name": "TreeMap2020_CONUS_DataDictionary.csv",
+    "title": "TreeMap attribute data dictionary",
+    "description": "TreeMap 2020 attribute data dictionary supplied with the 2023 delivery. It defines raster attributes, units, descriptions, and FIADB sources.",
+    "column_aliases": {
+      "TREEMAP_ID": "TM_ID",
+      "SDISum": "SDIsum"
+    }
+  },
+  "raster_attribute_tables": {
+    "2023": {
+      "source": "\\\\afssxgtacnas104\\TreeMap\\03_outputs\\06_Reference_Data\\v2023\\03_Raster_attributes\\TM2023_RAT_tmid_contValues.csv",
+      "expected_size": 13435850,
+      "expected_sha256": "93e5e752d32c128892ae3b9b80d5d1dd5f59ba51a77f494d5bdee86ddbffc1dc",
+      "expected_rows": 69800,
+      "csv_name": "TreeMap2023_RAT_tmid_contValues.csv",
+      "parquet_name": "TreeMap2023_RAT_tmid_contValues.parquet",
+      "join": {
+        "raster_key": "TM_ID",
+        "fia_key": "PLT_CN"
+      },
+      "columns": [
+        {"name": "PLT_CN", "type": "int64", "description": "FIA plot condition identifier used to join to FIA database tables."},
+        {"name": "TM_ID", "type": "int64", "description": "TreeMap 2023 identifier stored in the TM_ID raster."},
+        {"name": "FORTYPCD", "type": "int64", "description": "Algorithm forest-type code."},
+        {"name": "ForTypName", "type": "string", "description": "Algorithm forest-type name for FORTYPCD."},
+        {"name": "FLDTYPCD", "type": "int64", "description": "Field forest-type code."},
+        {"name": "FldTypName", "type": "string", "description": "Field forest-type name for FLDTYPCD."},
+        {"name": "STDSZCD", "type": "int64", "description": "Algorithm stand-size class code."},
+        {"name": "FLDSZCD", "type": "int64", "description": "Field stand-size class code."},
+        {"name": "BALIVE", "type": "float64", "description": "Live-tree basal area.", "unit": "square foot per acre"},
+        {"name": "ALSTK", "type": "float64", "description": "All-live-tree stocking.", "unit": "percent"},
+        {"name": "GSSTK", "type": "float64", "description": "Growing-stock stocking.", "unit": "percent"},
+        {"name": "QMD", "type": "float64", "description": "Stand quadratic mean diameter.", "unit": "inch"},
+        {"name": "SDIsum", "type": "float64", "description": "Sum of stand density index."},
+        {"name": "TPA_LIVE", "type": "float64", "description": "Live trees per acre.", "unit": "count per acre"},
+        {"name": "TPA_DEAD", "type": "float64", "description": "Standing dead trees per acre.", "unit": "count per acre"},
+        {"name": "VOLCFNET_L", "type": "float64", "description": "Live volume.", "unit": "cubic foot per acre"},
+        {"name": "VOLCFNET_D", "type": "float64", "description": "Standing dead volume.", "unit": "cubic foot per acre"},
+        {"name": "VOLBFNET_L", "type": "float64", "description": "Live sawlog volume.", "unit": "sawlog board foot per acre"},
+        {"name": "DRYBIO_L", "type": "float64", "description": "Above-ground dry live-tree biomass.", "unit": "ton per acre"},
+        {"name": "DRYBIO_D", "type": "float64", "description": "Above-ground dry standing dead-tree biomass.", "unit": "ton per acre"},
+        {"name": "CARBON_L", "type": "float64", "description": "Live above-ground carbon.", "unit": "ton per acre"},
+        {"name": "CARBON_D", "type": "float64", "description": "Standing dead carbon.", "unit": "ton per acre"},
+        {"name": "CARBON_DOWN_DEAD", "type": "float64", "description": "Down dead carbon; corresponds to the CARBON_DWN raster.", "unit": "ton per acre", "raster_name": "CARBON_DWN"},
+        {"name": "STANDHT", "type": "int64", "description": "Height of dominant trees.", "unit": "foot"},
+        {"name": "CANOPYPCT", "type": "int64", "description": "Live canopy cover.", "unit": "percent"}
+      ]
+    }
+  },
   "provenance": {
     "earth_engine_template": "../earthengine-catalog/catalog/gtac-data-publish/projects_gtac-data-publish_assets_TreeMap_Product_Version_2023-1.jsonnet",
     "versions": "../gtac-treemap/data_delivery/supp_files/treemap_versions.csv",

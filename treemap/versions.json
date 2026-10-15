@@ -1,0 +1,1454 @@
+{
+  "spec_version": "1.0.0",
+  "current_version": "1.0.4",
+  "versions": [
+    {
+      "version": "1.0.0",
+      "created": "2026-10-13T21:35:34.020814Z",
+      "breaking": false,
+      "assets": {
+        "2023/TreeMap2023_CONUS_ALSTK.thumb.jpg": {
+          "sha256": "45acc2edf62c40b87e256ef92302065765f68a8705655ea5c2607475b423e41d",
+          "size_bytes": 46189,
+          "href": "treemap/2023/TreeMap2023_CONUS_ALSTK.thumb.jpg",
+          "mtime": 1791924623.2340693
+        },
+        "2023/TreeMap2023_CONUS_ALSTK.tif": {
+          "sha256": "b7c596eb644e17b4f5062ebe56b2399764d0fca577d8f31c3d3527f049f9e6a2",
+          "size_bytes": 4015525744,
+          "href": "treemap/2023/TreeMap2023_CONUS_ALSTK.tif",
+          "mtime": 1791918375.6101377
+        },
+        "2023/TreeMap2023_CONUS_BALIVE.tif": {
+          "sha256": "ae8414920be187dbd3c884a2a2d1607cf78309829bc1fd0cfbb663e5ecb93063",
+          "size_bytes": 4032411416,
+          "href": "treemap/2023/TreeMap2023_CONUS_BALIVE.tif",
+          "mtime": 1791918734.9406927
+        },
+        "2023/TreeMap2023_CONUS_CANOPYPCT.thumb.jpg": {
+          "sha256": "0a44422f4aa852b31be488bb66a553766b63fc0d2c793815d225a9dc9fbd22c1",
+          "size_bytes": 38719,
+          "href": "treemap/2023/TreeMap2023_CONUS_CANOPYPCT.thumb.jpg",
+          "mtime": 1791924623.1707866
+        },
+        "2023/TreeMap2023_CONUS_CANOPYPCT.tif": {
+          "sha256": "8ec9aa00456f7d91beb10a85c7a4503ac5ca94a24f2109ef922ef2756f969b10",
+          "size_bytes": 2886970944,
+          "href": "treemap/2023/TreeMap2023_CONUS_CANOPYPCT.tif",
+          "mtime": 1791918981.7989845
+        },
+        "2023/TreeMap2023_CONUS_CARBON_D.thumb.jpg": {
+          "sha256": "f260f30f17c8d910b7adf79a2afbd1cad55ee649bf8ff3aed77859b37f549a01",
+          "size_bytes": 29299,
+          "href": "treemap/2023/TreeMap2023_CONUS_CARBON_D.thumb.jpg",
+          "mtime": 1791924623.2497714
+        },
+        "2023/TreeMap2023_CONUS_CARBON_D.tif": {
+          "sha256": "276030800d233b00cafd20d3f848c944682b743401cebda7a505090a43ec1cd1",
+          "size_bytes": 3400446541,
+          "href": "treemap/2023/TreeMap2023_CONUS_CARBON_D.tif",
+          "mtime": 1791919272.4960954
+        },
+        "2023/TreeMap2023_CONUS_CARBON_DWN.tif": {
+          "sha256": "a635be72c3fb80b616b682f746c12a01f5b1b3287e3f0a6f42019ad5dfd1382a",
+          "size_bytes": 4031827759,
+          "href": "treemap/2023/TreeMap2023_CONUS_CARBON_DWN.tif",
+          "mtime": 1791919616.457118
+        },
+        "2023/TreeMap2023_CONUS_CARBON_L.tif": {
+          "sha256": "221165a3da904a613e9bb61b4d2484e30707d25369c001d41b5f818789f5e66a",
+          "size_bytes": 4103089995,
+          "href": "treemap/2023/TreeMap2023_CONUS_CARBON_L.tif",
+          "mtime": 1791919966.2787204
+        },
+        "2023/TreeMap2023_CONUS_DRYBIO_D.tif": {
+          "sha256": "81a80497aeea4994c5d16ffbc202dcac019ba8c457fbc1e596a763f2f9177fd6",
+          "size_bytes": 3439606012,
+          "href": "treemap/2023/TreeMap2023_CONUS_DRYBIO_D.tif",
+          "mtime": 1791920259.5716498
+        },
+        "2023/TreeMap2023_CONUS_DRYBIO_L.tif": {
+          "sha256": "e11bdc4f9f20da864c7a19411a7d67222e90f1c6b93f8df1de67ce8dc46ec263",
+          "size_bytes": 4119059958,
+          "href": "treemap/2023/TreeMap2023_CONUS_DRYBIO_L.tif",
+          "mtime": 1791920610.8334026
+        },
+        "2023/TreeMap2023_CONUS_FLDSZCD.tif": {
+          "sha256": "c83915cc185fa67eb5738eb9a25067b098383b8858fd21ccc67a83e747043eed",
+          "size_bytes": 1160329662,
+          "href": "treemap/2023/TreeMap2023_CONUS_FLDSZCD.tif",
+          "mtime": 1791920709.856642
+        },
+        "2023/TreeMap2023_CONUS_FLDTYPCD.tif": {
+          "sha256": "208da7cbabc4b17084b07ef21ce84fde6bfab6688e663e5b470d4edd7eaade64",
+          "size_bytes": 2029078192,
+          "href": "treemap/2023/TreeMap2023_CONUS_FLDTYPCD.tif",
+          "mtime": 1791920883.0515532
+        },
+        "2023/TreeMap2023_CONUS_FORTYPCD.tif": {
+          "sha256": "d76dd52ef75251ea425978fb2d969c6847a78749b31fa8160b8eb063b8cb0e0a",
+          "size_bytes": 2072760559,
+          "href": "treemap/2023/TreeMap2023_CONUS_FORTYPCD.tif",
+          "mtime": 1791921059.7585595
+        },
+        "2023/TreeMap2023_CONUS_GSSTK.tif": {
+          "sha256": "ad146f6a84a429c9025616e2d2f662c2b321380f629ba9db2a61884efd47c75d",
+          "size_bytes": 3871056641,
+          "href": "treemap/2023/TreeMap2023_CONUS_GSSTK.tif",
+          "mtime": 1791921389.702897
+        },
+        "2023/TreeMap2023_CONUS_QMD.tif": {
+          "sha256": "2bb4c6ae58edd6028ae171c40375f846cbc77abc27ccc362ed50600ea4f75df8",
+          "size_bytes": 4066643883,
+          "href": "treemap/2023/TreeMap2023_CONUS_QMD.tif",
+          "mtime": 1791921737.2152917
+        },
+        "2023/TreeMap2023_CONUS_SDIsum.tif": {
+          "sha256": "eabdfe0e9d74b1b5da10071a669c0f03220432a61956bb491c2380dfacd14ffe",
+          "size_bytes": 4150420975,
+          "href": "treemap/2023/TreeMap2023_CONUS_SDIsum.tif",
+          "mtime": 1791922091.32647
+        },
+        "2023/TreeMap2023_CONUS_STANDHT.tif": {
+          "sha256": "03cb4ee780072ff46be8c194fd52a8857b04d2fe0fd98bae437352d9f3c9fee5",
+          "size_bytes": 2949021522,
+          "href": "treemap/2023/TreeMap2023_CONUS_STANDHT.tif",
+          "mtime": 1791922342.9653747
+        },
+        "2023/TreeMap2023_CONUS_STDSZCD.tif": {
+          "sha256": "2c622ccbad22aaf623b94d074a01fcdd497c59c66a031cd513fe9272fac45e31",
+          "size_bytes": 1107112512,
+          "href": "treemap/2023/TreeMap2023_CONUS_STDSZCD.tif",
+          "mtime": 1791922437.4090788
+        },
+        "2023/TreeMap2023_CONUS_TM_ID.tif": {
+          "sha256": "4cf04ef4a0b0636663aa727f965239589f035f29e5fb89fbb51f380cac8ae6b6",
+          "size_bytes": 3500500087,
+          "href": "treemap/2023/TreeMap2023_CONUS_TM_ID.tif",
+          "mtime": 1791922736.0600688
+        },
+        "2023/TreeMap2023_CONUS_TPA_DEAD.tif": {
+          "sha256": "8bc540d557f7fc466f115a54002afad5cec8e8ab5a379e930205c16faff3ebe3",
+          "size_bytes": 2706233853,
+          "href": "treemap/2023/TreeMap2023_CONUS_TPA_DEAD.tif",
+          "mtime": 1791922966.9509404
+        },
+        "2023/TreeMap2023_CONUS_TPA_LIVE.tif": {
+          "sha256": "a467a493703e7022be2c6ed0095b5e9bdbcd9f22646461cae608ccdff2954e33",
+          "size_bytes": 4088723439,
+          "href": "treemap/2023/TreeMap2023_CONUS_TPA_LIVE.tif",
+          "mtime": 1791923315.687748
+        },
+        "2023/TreeMap2023_CONUS_VOLBFNET_L.tif": {
+          "sha256": "164c104432f365c4664016a1435bbd44f454b85f24ce1c9faf6cf428556e56c4",
+          "size_bytes": 3789040998,
+          "href": "treemap/2023/TreeMap2023_CONUS_VOLBFNET_L.tif",
+          "mtime": 1791923638.6828737
+        },
+        "2023/TreeMap2023_CONUS_VOLCFNET_D.tif": {
+          "sha256": "426d991bc04d67b5062f68954906be9ad1b19b041a3137cc485e370893cc1c52",
+          "size_bytes": 3477166892,
+          "href": "treemap/2023/TreeMap2023_CONUS_VOLCFNET_D.tif",
+          "mtime": 1791923935.0976996
+        },
+        "2023/TreeMap2023_CONUS_VOLCFNET_L.tif": {
+          "sha256": "21f72ae153e9c6a7ccce64fe751c0e110f7bf191e42ea49cf7a3e149dfd5e9bd",
+          "size_bytes": 4032288817,
+          "href": "treemap/2023/TreeMap2023_CONUS_VOLCFNET_L.tif",
+          "mtime": 1791924279.488803
+        },
+        "2023/TreeMap2023_CONUS_BALIVE.thumb.jpg": {
+          "sha256": "56061bac0ca884f3140f6ab6b33318e1107420e96a3fe605265aeed555c2b911",
+          "size_bytes": 39380,
+          "href": "treemap/2023/TreeMap2023_CONUS_BALIVE.thumb.jpg",
+          "mtime": 1791924623.2954462
+        },
+        "2023/TreeMap2023_CONUS_CARBON_DWN.thumb.jpg": {
+          "sha256": "963b62bfe00e5374b67fac8164afc2bd616dfeb8b41e31efd7c7ca3142e4b522",
+          "size_bytes": 28542,
+          "href": "treemap/2023/TreeMap2023_CONUS_CARBON_DWN.thumb.jpg",
+          "mtime": 1791925081.639835
+        },
+        "2023/TreeMap2023_CONUS_DRYBIO_D.thumb.jpg": {
+          "sha256": "25f0cfa6819c59cdeb35a1d25ed33969946de8583d27d9ed28291a21348e3a64",
+          "size_bytes": 29290,
+          "href": "treemap/2023/TreeMap2023_CONUS_DRYBIO_D.thumb.jpg",
+          "mtime": 1791925081.6064546
+        },
+        "2023/TreeMap2023_CONUS_CARBON_L.thumb.jpg": {
+          "sha256": "32a38fc1963728d75c6f2e6fd31a89d3eb8c8ce359ed5f5119e998ac621800da",
+          "size_bytes": 32886,
+          "href": "treemap/2023/TreeMap2023_CONUS_CARBON_L.thumb.jpg",
+          "mtime": 1791925081.6683006
+        },
+        "2023/TreeMap2023_CONUS_DRYBIO_L.thumb.jpg": {
+          "sha256": "317178a57bd11dbceb1d3d313fea4b0f9fc1eed14e4c7c2205f7568b9efb643e",
+          "size_bytes": 32889,
+          "href": "treemap/2023/TreeMap2023_CONUS_DRYBIO_L.thumb.jpg",
+          "mtime": 1791925086.5141206
+        },
+        "2023/TreeMap2023_CONUS_FLDSZCD.thumb.jpg": {
+          "sha256": "c293175595f1f73eef92b5589992d449a633eb9af94b35c933e67a18335fb42a",
+          "size_bytes": 1504,
+          "href": "treemap/2023/TreeMap2023_CONUS_FLDSZCD.thumb.jpg",
+          "mtime": 1791925535.1724741
+        },
+        "2023/TreeMap2023_CONUS_FLDTYPCD.thumb.jpg": {
+          "sha256": "d1d877f5d0549150d6b33a9f36f2a95b245d5166785c9d3a52740303a78e76db",
+          "size_bytes": 39920,
+          "href": "treemap/2023/TreeMap2023_CONUS_FLDTYPCD.thumb.jpg",
+          "mtime": 1791925535.2195709
+        },
+        "2023/TreeMap2023_CONUS_FORTYPCD.thumb.jpg": {
+          "sha256": "87596eeaff413c3026280de1dc79fbd3e4f238b81d5007647abb9f58bd89ee6c",
+          "size_bytes": 41151,
+          "href": "treemap/2023/TreeMap2023_CONUS_FORTYPCD.thumb.jpg",
+          "mtime": 1791925535.2576823
+        },
+        "2023/TreeMap2023_CONUS_GSSTK.thumb.jpg": {
+          "sha256": "a8786579f017238778d3e1045e3e4294baaa0162014075d30fac09bf9145707c",
+          "size_bytes": 39365,
+          "href": "treemap/2023/TreeMap2023_CONUS_GSSTK.thumb.jpg",
+          "mtime": 1791925543.205675
+        },
+        "2023/TreeMap2023_CONUS_STANDHT.thumb.jpg": {
+          "sha256": "6686b3660ad10cce20ae31e9e40630e927b5e3af9b436a894528a6e0f50d88dc",
+          "size_bytes": 38440,
+          "href": "treemap/2023/TreeMap2023_CONUS_STANDHT.thumb.jpg",
+          "mtime": 1791925993.5057416
+        },
+        "2023/TreeMap2023_CONUS_QMD.thumb.jpg": {
+          "sha256": "fd399e886348873b9cc64df36e0153d90f9640627af8258ab6425015f8096086",
+          "size_bytes": 42872,
+          "href": "treemap/2023/TreeMap2023_CONUS_QMD.thumb.jpg",
+          "mtime": 1791925993.5843263
+        },
+        "2023/TreeMap2023_CONUS_SDIsum.thumb.jpg": {
+          "sha256": "7386f0f41363d7d920921a59389920ac748d4b1b76daf7805fcd3cc598a7c44e",
+          "size_bytes": 40286,
+          "href": "treemap/2023/TreeMap2023_CONUS_SDIsum.thumb.jpg",
+          "mtime": 1791925993.5531216
+        },
+        "2023/TreeMap2023_CONUS_STDSZCD.thumb.jpg": {
+          "sha256": "f5cbc0d2d7ce6e9ca14d06c5f3946332fa357940b125f398eca17069a84887a4",
+          "size_bytes": 1112,
+          "href": "treemap/2023/TreeMap2023_CONUS_STDSZCD.thumb.jpg",
+          "mtime": 1791926002.9866216
+        },
+        "2023/TreeMap2023_CONUS_TM_ID.thumb.jpg": {
+          "sha256": "75dd01d96bf49c6bf1009598fcca1f618954836dbdf292fa7cb36c3b78ba9d06",
+          "size_bytes": 46527,
+          "href": "treemap/2023/TreeMap2023_CONUS_TM_ID.thumb.jpg",
+          "mtime": 1791926451.715318
+        },
+        "2023/TreeMap2023_CONUS_TPA_DEAD.thumb.jpg": {
+          "sha256": "c0d0da512cc00f19be7f20b41f20e39f9d1e4b7b9fa414189460dfdc2a4fc404",
+          "size_bytes": 34501,
+          "href": "treemap/2023/TreeMap2023_CONUS_TPA_DEAD.thumb.jpg",
+          "mtime": 1791926451.8297882
+        },
+        "2023/TreeMap2023_CONUS_TPA_LIVE.thumb.jpg": {
+          "sha256": "1445b2ed963d0bfec90e09cc6c5096470e532231454b4a8eae506a8a1f537fdd",
+          "size_bytes": 37352,
+          "href": "treemap/2023/TreeMap2023_CONUS_TPA_LIVE.thumb.jpg",
+          "mtime": 1791926451.8078847
+        },
+        "2023/TreeMap2023_CONUS_VOLBFNET_L.thumb.jpg": {
+          "sha256": "ed46bd02c6cbe6bcbefa73a39070dc0bab1abfca9d7a30fea5d7b8a441588813",
+          "size_bytes": 23627,
+          "href": "treemap/2023/TreeMap2023_CONUS_VOLBFNET_L.thumb.jpg",
+          "mtime": 1791926462.1420636
+        },
+        "2023/TreeMap2023_CONUS_VOLCFNET_D.thumb.jpg": {
+          "sha256": "31a1a3695d32976c51e84a845df43f4a4eb4966b2b6298db8ebae87ce3bbffaa",
+          "size_bytes": 27078,
+          "href": "treemap/2023/TreeMap2023_CONUS_VOLCFNET_D.thumb.jpg",
+          "mtime": 1791926915.5953677
+        },
+        "2023/TreeMap2023_CONUS_VOLCFNET_L.thumb.jpg": {
+          "sha256": "f7285242c0777d783a5b20282a35c1888086ff06183d41aa797856f1b87198f7",
+          "size_bytes": 31132,
+          "href": "treemap/2023/TreeMap2023_CONUS_VOLCFNET_L.thumb.jpg",
+          "mtime": 1791926916.0011873
+        },
+        "items.parquet": {
+          "sha256": "9de4603207ae0db694973f3a4d435aab653628d77c7a0d35e87f5b7742d837d1",
+          "size_bytes": 82807,
+          "href": "treemap/items.parquet",
+          "mtime": 1791927342.1132705
+        }
+      },
+      "changes": [
+        "2023/TreeMap2023_CONUS_ALSTK.thumb.jpg",
+        "2023/TreeMap2023_CONUS_ALSTK.tif",
+        "2023/TreeMap2023_CONUS_BALIVE.tif",
+        "2023/TreeMap2023_CONUS_CANOPYPCT.thumb.jpg",
+        "2023/TreeMap2023_CONUS_CANOPYPCT.tif",
+        "2023/TreeMap2023_CONUS_CARBON_D.thumb.jpg",
+        "2023/TreeMap2023_CONUS_CARBON_D.tif",
+        "2023/TreeMap2023_CONUS_CARBON_DWN.tif",
+        "2023/TreeMap2023_CONUS_CARBON_L.tif",
+        "2023/TreeMap2023_CONUS_DRYBIO_D.tif",
+        "2023/TreeMap2023_CONUS_DRYBIO_L.tif",
+        "2023/TreeMap2023_CONUS_FLDSZCD.tif",
+        "2023/TreeMap2023_CONUS_FLDTYPCD.tif",
+        "2023/TreeMap2023_CONUS_FORTYPCD.tif",
+        "2023/TreeMap2023_CONUS_GSSTK.tif",
+        "2023/TreeMap2023_CONUS_QMD.tif",
+        "2023/TreeMap2023_CONUS_SDIsum.tif",
+        "2023/TreeMap2023_CONUS_STANDHT.tif",
+        "2023/TreeMap2023_CONUS_STDSZCD.tif",
+        "2023/TreeMap2023_CONUS_TM_ID.tif",
+        "2023/TreeMap2023_CONUS_TPA_DEAD.tif",
+        "2023/TreeMap2023_CONUS_TPA_LIVE.tif",
+        "2023/TreeMap2023_CONUS_VOLBFNET_L.tif",
+        "2023/TreeMap2023_CONUS_VOLCFNET_D.tif",
+        "2023/TreeMap2023_CONUS_VOLCFNET_L.tif",
+        "2023/TreeMap2023_CONUS_BALIVE.thumb.jpg",
+        "2023/TreeMap2023_CONUS_CARBON_DWN.thumb.jpg",
+        "2023/TreeMap2023_CONUS_DRYBIO_D.thumb.jpg",
+        "2023/TreeMap2023_CONUS_CARBON_L.thumb.jpg",
+        "2023/TreeMap2023_CONUS_DRYBIO_L.thumb.jpg",
+        "2023/TreeMap2023_CONUS_FLDSZCD.thumb.jpg",
+        "2023/TreeMap2023_CONUS_FLDTYPCD.thumb.jpg",
+        "2023/TreeMap2023_CONUS_FORTYPCD.thumb.jpg",
+        "2023/TreeMap2023_CONUS_GSSTK.thumb.jpg",
+        "2023/TreeMap2023_CONUS_STANDHT.thumb.jpg",
+        "2023/TreeMap2023_CONUS_QMD.thumb.jpg",
+        "2023/TreeMap2023_CONUS_SDIsum.thumb.jpg",
+        "2023/TreeMap2023_CONUS_STDSZCD.thumb.jpg",
+        "2023/TreeMap2023_CONUS_TM_ID.thumb.jpg",
+        "2023/TreeMap2023_CONUS_TPA_DEAD.thumb.jpg",
+        "2023/TreeMap2023_CONUS_TPA_LIVE.thumb.jpg",
+        "2023/TreeMap2023_CONUS_VOLBFNET_L.thumb.jpg",
+        "2023/TreeMap2023_CONUS_VOLCFNET_D.thumb.jpg",
+        "2023/TreeMap2023_CONUS_VOLCFNET_L.thumb.jpg",
+        "items.parquet"
+      ]
+    },
+    {
+      "version": "1.0.1",
+      "created": "2026-10-14T10:51:44.337256Z",
+      "breaking": false,
+      "assets": {
+        "2023/TreeMap2023_CONUS_ALSTK.thumb.jpg": {
+          "sha256": "45acc2edf62c40b87e256ef92302065765f68a8705655ea5c2607475b423e41d",
+          "size_bytes": 46189,
+          "href": "treemap/2023/TreeMap2023_CONUS_ALSTK.thumb.jpg",
+          "mtime": 1791924623.2340693
+        },
+        "2023/TreeMap2023_CONUS_ALSTK.tif": {
+          "sha256": "b7c596eb644e17b4f5062ebe56b2399764d0fca577d8f31c3d3527f049f9e6a2",
+          "size_bytes": 4015525744,
+          "href": "treemap/2023/TreeMap2023_CONUS_ALSTK.tif",
+          "mtime": 1791918375.6101377
+        },
+        "2023/TreeMap2023_CONUS_BALIVE.tif": {
+          "sha256": "ae8414920be187dbd3c884a2a2d1607cf78309829bc1fd0cfbb663e5ecb93063",
+          "size_bytes": 4032411416,
+          "href": "treemap/2023/TreeMap2023_CONUS_BALIVE.tif",
+          "mtime": 1791918734.9406927
+        },
+        "2023/TreeMap2023_CONUS_CANOPYPCT.thumb.jpg": {
+          "sha256": "0a44422f4aa852b31be488bb66a553766b63fc0d2c793815d225a9dc9fbd22c1",
+          "size_bytes": 38719,
+          "href": "treemap/2023/TreeMap2023_CONUS_CANOPYPCT.thumb.jpg",
+          "mtime": 1791924623.1707866
+        },
+        "2023/TreeMap2023_CONUS_CANOPYPCT.tif": {
+          "sha256": "8ec9aa00456f7d91beb10a85c7a4503ac5ca94a24f2109ef922ef2756f969b10",
+          "size_bytes": 2886970944,
+          "href": "treemap/2023/TreeMap2023_CONUS_CANOPYPCT.tif",
+          "mtime": 1791918981.7989845
+        },
+        "2023/TreeMap2023_CONUS_CARBON_D.thumb.jpg": {
+          "sha256": "f260f30f17c8d910b7adf79a2afbd1cad55ee649bf8ff3aed77859b37f549a01",
+          "size_bytes": 29299,
+          "href": "treemap/2023/TreeMap2023_CONUS_CARBON_D.thumb.jpg",
+          "mtime": 1791924623.2497714
+        },
+        "2023/TreeMap2023_CONUS_CARBON_D.tif": {
+          "sha256": "276030800d233b00cafd20d3f848c944682b743401cebda7a505090a43ec1cd1",
+          "size_bytes": 3400446541,
+          "href": "treemap/2023/TreeMap2023_CONUS_CARBON_D.tif",
+          "mtime": 1791919272.4960954
+        },
+        "2023/TreeMap2023_CONUS_CARBON_DWN.tif": {
+          "sha256": "a635be72c3fb80b616b682f746c12a01f5b1b3287e3f0a6f42019ad5dfd1382a",
+          "size_bytes": 4031827759,
+          "href": "treemap/2023/TreeMap2023_CONUS_CARBON_DWN.tif",
+          "mtime": 1791919616.457118
+        },
+        "2023/TreeMap2023_CONUS_CARBON_L.tif": {
+          "sha256": "221165a3da904a613e9bb61b4d2484e30707d25369c001d41b5f818789f5e66a",
+          "size_bytes": 4103089995,
+          "href": "treemap/2023/TreeMap2023_CONUS_CARBON_L.tif",
+          "mtime": 1791919966.2787204
+        },
+        "2023/TreeMap2023_CONUS_DRYBIO_D.tif": {
+          "sha256": "81a80497aeea4994c5d16ffbc202dcac019ba8c457fbc1e596a763f2f9177fd6",
+          "size_bytes": 3439606012,
+          "href": "treemap/2023/TreeMap2023_CONUS_DRYBIO_D.tif",
+          "mtime": 1791920259.5716498
+        },
+        "2023/TreeMap2023_CONUS_DRYBIO_L.tif": {
+          "sha256": "e11bdc4f9f20da864c7a19411a7d67222e90f1c6b93f8df1de67ce8dc46ec263",
+          "size_bytes": 4119059958,
+          "href": "treemap/2023/TreeMap2023_CONUS_DRYBIO_L.tif",
+          "mtime": 1791920610.8334026
+        },
+        "2023/TreeMap2023_CONUS_FLDSZCD.tif": {
+          "sha256": "c83915cc185fa67eb5738eb9a25067b098383b8858fd21ccc67a83e747043eed",
+          "size_bytes": 1160329662,
+          "href": "treemap/2023/TreeMap2023_CONUS_FLDSZCD.tif",
+          "mtime": 1791920709.856642
+        },
+        "2023/TreeMap2023_CONUS_FLDTYPCD.tif": {
+          "sha256": "208da7cbabc4b17084b07ef21ce84fde6bfab6688e663e5b470d4edd7eaade64",
+          "size_bytes": 2029078192,
+          "href": "treemap/2023/TreeMap2023_CONUS_FLDTYPCD.tif",
+          "mtime": 1791920883.0515532
+        },
+        "2023/TreeMap2023_CONUS_FORTYPCD.tif": {
+          "sha256": "d76dd52ef75251ea425978fb2d969c6847a78749b31fa8160b8eb063b8cb0e0a",
+          "size_bytes": 2072760559,
+          "href": "treemap/2023/TreeMap2023_CONUS_FORTYPCD.tif",
+          "mtime": 1791921059.7585595
+        },
+        "2023/TreeMap2023_CONUS_GSSTK.tif": {
+          "sha256": "ad146f6a84a429c9025616e2d2f662c2b321380f629ba9db2a61884efd47c75d",
+          "size_bytes": 3871056641,
+          "href": "treemap/2023/TreeMap2023_CONUS_GSSTK.tif",
+          "mtime": 1791921389.702897
+        },
+        "2023/TreeMap2023_CONUS_QMD.tif": {
+          "sha256": "2bb4c6ae58edd6028ae171c40375f846cbc77abc27ccc362ed50600ea4f75df8",
+          "size_bytes": 4066643883,
+          "href": "treemap/2023/TreeMap2023_CONUS_QMD.tif",
+          "mtime": 1791921737.2152917
+        },
+        "2023/TreeMap2023_CONUS_SDIsum.tif": {
+          "sha256": "eabdfe0e9d74b1b5da10071a669c0f03220432a61956bb491c2380dfacd14ffe",
+          "size_bytes": 4150420975,
+          "href": "treemap/2023/TreeMap2023_CONUS_SDIsum.tif",
+          "mtime": 1791922091.32647
+        },
+        "2023/TreeMap2023_CONUS_STANDHT.tif": {
+          "sha256": "03cb4ee780072ff46be8c194fd52a8857b04d2fe0fd98bae437352d9f3c9fee5",
+          "size_bytes": 2949021522,
+          "href": "treemap/2023/TreeMap2023_CONUS_STANDHT.tif",
+          "mtime": 1791922342.9653747
+        },
+        "2023/TreeMap2023_CONUS_STDSZCD.tif": {
+          "sha256": "2c622ccbad22aaf623b94d074a01fcdd497c59c66a031cd513fe9272fac45e31",
+          "size_bytes": 1107112512,
+          "href": "treemap/2023/TreeMap2023_CONUS_STDSZCD.tif",
+          "mtime": 1791922437.4090788
+        },
+        "2023/TreeMap2023_CONUS_TM_ID.tif": {
+          "sha256": "4cf04ef4a0b0636663aa727f965239589f035f29e5fb89fbb51f380cac8ae6b6",
+          "size_bytes": 3500500087,
+          "href": "treemap/2023/TreeMap2023_CONUS_TM_ID.tif",
+          "mtime": 1791922736.0600688
+        },
+        "2023/TreeMap2023_CONUS_TPA_DEAD.tif": {
+          "sha256": "8bc540d557f7fc466f115a54002afad5cec8e8ab5a379e930205c16faff3ebe3",
+          "size_bytes": 2706233853,
+          "href": "treemap/2023/TreeMap2023_CONUS_TPA_DEAD.tif",
+          "mtime": 1791922966.9509404
+        },
+        "2023/TreeMap2023_CONUS_TPA_LIVE.tif": {
+          "sha256": "a467a493703e7022be2c6ed0095b5e9bdbcd9f22646461cae608ccdff2954e33",
+          "size_bytes": 4088723439,
+          "href": "treemap/2023/TreeMap2023_CONUS_TPA_LIVE.tif",
+          "mtime": 1791923315.687748
+        },
+        "2023/TreeMap2023_CONUS_VOLBFNET_L.tif": {
+          "sha256": "164c104432f365c4664016a1435bbd44f454b85f24ce1c9faf6cf428556e56c4",
+          "size_bytes": 3789040998,
+          "href": "treemap/2023/TreeMap2023_CONUS_VOLBFNET_L.tif",
+          "mtime": 1791923638.6828737
+        },
+        "2023/TreeMap2023_CONUS_VOLCFNET_D.tif": {
+          "sha256": "426d991bc04d67b5062f68954906be9ad1b19b041a3137cc485e370893cc1c52",
+          "size_bytes": 3477166892,
+          "href": "treemap/2023/TreeMap2023_CONUS_VOLCFNET_D.tif",
+          "mtime": 1791923935.0976996
+        },
+        "2023/TreeMap2023_CONUS_VOLCFNET_L.tif": {
+          "sha256": "21f72ae153e9c6a7ccce64fe751c0e110f7bf191e42ea49cf7a3e149dfd5e9bd",
+          "size_bytes": 4032288817,
+          "href": "treemap/2023/TreeMap2023_CONUS_VOLCFNET_L.tif",
+          "mtime": 1791924279.488803
+        },
+        "2023/TreeMap2023_CONUS_BALIVE.thumb.jpg": {
+          "sha256": "56061bac0ca884f3140f6ab6b33318e1107420e96a3fe605265aeed555c2b911",
+          "size_bytes": 39380,
+          "href": "treemap/2023/TreeMap2023_CONUS_BALIVE.thumb.jpg",
+          "mtime": 1791924623.2954462
+        },
+        "2023/TreeMap2023_CONUS_CARBON_DWN.thumb.jpg": {
+          "sha256": "963b62bfe00e5374b67fac8164afc2bd616dfeb8b41e31efd7c7ca3142e4b522",
+          "size_bytes": 28542,
+          "href": "treemap/2023/TreeMap2023_CONUS_CARBON_DWN.thumb.jpg",
+          "mtime": 1791925081.639835
+        },
+        "2023/TreeMap2023_CONUS_DRYBIO_D.thumb.jpg": {
+          "sha256": "25f0cfa6819c59cdeb35a1d25ed33969946de8583d27d9ed28291a21348e3a64",
+          "size_bytes": 29290,
+          "href": "treemap/2023/TreeMap2023_CONUS_DRYBIO_D.thumb.jpg",
+          "mtime": 1791925081.6064546
+        },
+        "2023/TreeMap2023_CONUS_CARBON_L.thumb.jpg": {
+          "sha256": "32a38fc1963728d75c6f2e6fd31a89d3eb8c8ce359ed5f5119e998ac621800da",
+          "size_bytes": 32886,
+          "href": "treemap/2023/TreeMap2023_CONUS_CARBON_L.thumb.jpg",
+          "mtime": 1791925081.6683006
+        },
+        "2023/TreeMap2023_CONUS_DRYBIO_L.thumb.jpg": {
+          "sha256": "317178a57bd11dbceb1d3d313fea4b0f9fc1eed14e4c7c2205f7568b9efb643e",
+          "size_bytes": 32889,
+          "href": "treemap/2023/TreeMap2023_CONUS_DRYBIO_L.thumb.jpg",
+          "mtime": 1791925086.5141206
+        },
+        "2023/TreeMap2023_CONUS_FLDSZCD.thumb.jpg": {
+          "sha256": "c293175595f1f73eef92b5589992d449a633eb9af94b35c933e67a18335fb42a",
+          "size_bytes": 1504,
+          "href": "treemap/2023/TreeMap2023_CONUS_FLDSZCD.thumb.jpg",
+          "mtime": 1791925535.1724741
+        },
+        "2023/TreeMap2023_CONUS_FLDTYPCD.thumb.jpg": {
+          "sha256": "d1d877f5d0549150d6b33a9f36f2a95b245d5166785c9d3a52740303a78e76db",
+          "size_bytes": 39920,
+          "href": "treemap/2023/TreeMap2023_CONUS_FLDTYPCD.thumb.jpg",
+          "mtime": 1791925535.2195709
+        },
+        "2023/TreeMap2023_CONUS_FORTYPCD.thumb.jpg": {
+          "sha256": "87596eeaff413c3026280de1dc79fbd3e4f238b81d5007647abb9f58bd89ee6c",
+          "size_bytes": 41151,
+          "href": "treemap/2023/TreeMap2023_CONUS_FORTYPCD.thumb.jpg",
+          "mtime": 1791925535.2576823
+        },
+        "2023/TreeMap2023_CONUS_GSSTK.thumb.jpg": {
+          "sha256": "a8786579f017238778d3e1045e3e4294baaa0162014075d30fac09bf9145707c",
+          "size_bytes": 39365,
+          "href": "treemap/2023/TreeMap2023_CONUS_GSSTK.thumb.jpg",
+          "mtime": 1791925543.205675
+        },
+        "2023/TreeMap2023_CONUS_STANDHT.thumb.jpg": {
+          "sha256": "6686b3660ad10cce20ae31e9e40630e927b5e3af9b436a894528a6e0f50d88dc",
+          "size_bytes": 38440,
+          "href": "treemap/2023/TreeMap2023_CONUS_STANDHT.thumb.jpg",
+          "mtime": 1791925993.5057416
+        },
+        "2023/TreeMap2023_CONUS_QMD.thumb.jpg": {
+          "sha256": "fd399e886348873b9cc64df36e0153d90f9640627af8258ab6425015f8096086",
+          "size_bytes": 42872,
+          "href": "treemap/2023/TreeMap2023_CONUS_QMD.thumb.jpg",
+          "mtime": 1791925993.5843263
+        },
+        "2023/TreeMap2023_CONUS_SDIsum.thumb.jpg": {
+          "sha256": "7386f0f41363d7d920921a59389920ac748d4b1b76daf7805fcd3cc598a7c44e",
+          "size_bytes": 40286,
+          "href": "treemap/2023/TreeMap2023_CONUS_SDIsum.thumb.jpg",
+          "mtime": 1791925993.5531216
+        },
+        "2023/TreeMap2023_CONUS_STDSZCD.thumb.jpg": {
+          "sha256": "f5cbc0d2d7ce6e9ca14d06c5f3946332fa357940b125f398eca17069a84887a4",
+          "size_bytes": 1112,
+          "href": "treemap/2023/TreeMap2023_CONUS_STDSZCD.thumb.jpg",
+          "mtime": 1791926002.9866216
+        },
+        "2023/TreeMap2023_CONUS_TM_ID.thumb.jpg": {
+          "sha256": "75dd01d96bf49c6bf1009598fcca1f618954836dbdf292fa7cb36c3b78ba9d06",
+          "size_bytes": 46527,
+          "href": "treemap/2023/TreeMap2023_CONUS_TM_ID.thumb.jpg",
+          "mtime": 1791926451.715318
+        },
+        "2023/TreeMap2023_CONUS_TPA_DEAD.thumb.jpg": {
+          "sha256": "c0d0da512cc00f19be7f20b41f20e39f9d1e4b7b9fa414189460dfdc2a4fc404",
+          "size_bytes": 34501,
+          "href": "treemap/2023/TreeMap2023_CONUS_TPA_DEAD.thumb.jpg",
+          "mtime": 1791926451.8297882
+        },
+        "2023/TreeMap2023_CONUS_TPA_LIVE.thumb.jpg": {
+          "sha256": "1445b2ed963d0bfec90e09cc6c5096470e532231454b4a8eae506a8a1f537fdd",
+          "size_bytes": 37352,
+          "href": "treemap/2023/TreeMap2023_CONUS_TPA_LIVE.thumb.jpg",
+          "mtime": 1791926451.8078847
+        },
+        "2023/TreeMap2023_CONUS_VOLBFNET_L.thumb.jpg": {
+          "sha256": "ed46bd02c6cbe6bcbefa73a39070dc0bab1abfca9d7a30fea5d7b8a441588813",
+          "size_bytes": 23627,
+          "href": "treemap/2023/TreeMap2023_CONUS_VOLBFNET_L.thumb.jpg",
+          "mtime": 1791926462.1420636
+        },
+        "2023/TreeMap2023_CONUS_VOLCFNET_D.thumb.jpg": {
+          "sha256": "31a1a3695d32976c51e84a845df43f4a4eb4966b2b6298db8ebae87ce3bbffaa",
+          "size_bytes": 27078,
+          "href": "treemap/2023/TreeMap2023_CONUS_VOLCFNET_D.thumb.jpg",
+          "mtime": 1791926915.5953677
+        },
+        "2023/TreeMap2023_CONUS_VOLCFNET_L.thumb.jpg": {
+          "sha256": "f7285242c0777d783a5b20282a35c1888086ff06183d41aa797856f1b87198f7",
+          "size_bytes": 31132,
+          "href": "treemap/2023/TreeMap2023_CONUS_VOLCFNET_L.thumb.jpg",
+          "mtime": 1791926916.0011873
+        },
+        "items.parquet": {
+          "sha256": "284eba0f03375a8cdd843fec9798f15fc0c66fbd994e6d4f0677be9a5ec35fc1",
+          "size_bytes": 182229,
+          "href": "treemap/items.parquet",
+          "mtime": 1791975104.2874067
+        }
+      },
+      "changes": [
+        "items.parquet"
+      ],
+      "message": "Generated items.parquet for STAC GeoParquet queries"
+    },
+    {
+      "version": "1.0.2",
+      "created": "2026-10-14T10:52:24.464772Z",
+      "breaking": false,
+      "assets": {
+        "2023/TreeMap2023_CONUS_ALSTK.thumb.jpg": {
+          "sha256": "45acc2edf62c40b87e256ef92302065765f68a8705655ea5c2607475b423e41d",
+          "size_bytes": 46189,
+          "href": "treemap/2023/TreeMap2023_CONUS_ALSTK.thumb.jpg",
+          "mtime": 1791924623.2340693
+        },
+        "2023/TreeMap2023_CONUS_ALSTK.tif": {
+          "sha256": "b7c596eb644e17b4f5062ebe56b2399764d0fca577d8f31c3d3527f049f9e6a2",
+          "size_bytes": 4015525744,
+          "href": "treemap/2023/TreeMap2023_CONUS_ALSTK.tif",
+          "mtime": 1791918375.6101377
+        },
+        "2023/TreeMap2023_CONUS_BALIVE.tif": {
+          "sha256": "ae8414920be187dbd3c884a2a2d1607cf78309829bc1fd0cfbb663e5ecb93063",
+          "size_bytes": 4032411416,
+          "href": "treemap/2023/TreeMap2023_CONUS_BALIVE.tif",
+          "mtime": 1791918734.9406927
+        },
+        "2023/TreeMap2023_CONUS_CANOPYPCT.thumb.jpg": {
+          "sha256": "0a44422f4aa852b31be488bb66a553766b63fc0d2c793815d225a9dc9fbd22c1",
+          "size_bytes": 38719,
+          "href": "treemap/2023/TreeMap2023_CONUS_CANOPYPCT.thumb.jpg",
+          "mtime": 1791924623.1707866
+        },
+        "2023/TreeMap2023_CONUS_CANOPYPCT.tif": {
+          "sha256": "8ec9aa00456f7d91beb10a85c7a4503ac5ca94a24f2109ef922ef2756f969b10",
+          "size_bytes": 2886970944,
+          "href": "treemap/2023/TreeMap2023_CONUS_CANOPYPCT.tif",
+          "mtime": 1791918981.7989845
+        },
+        "2023/TreeMap2023_CONUS_CARBON_D.thumb.jpg": {
+          "sha256": "f260f30f17c8d910b7adf79a2afbd1cad55ee649bf8ff3aed77859b37f549a01",
+          "size_bytes": 29299,
+          "href": "treemap/2023/TreeMap2023_CONUS_CARBON_D.thumb.jpg",
+          "mtime": 1791924623.2497714
+        },
+        "2023/TreeMap2023_CONUS_CARBON_D.tif": {
+          "sha256": "276030800d233b00cafd20d3f848c944682b743401cebda7a505090a43ec1cd1",
+          "size_bytes": 3400446541,
+          "href": "treemap/2023/TreeMap2023_CONUS_CARBON_D.tif",
+          "mtime": 1791919272.4960954
+        },
+        "2023/TreeMap2023_CONUS_CARBON_DWN.tif": {
+          "sha256": "a635be72c3fb80b616b682f746c12a01f5b1b3287e3f0a6f42019ad5dfd1382a",
+          "size_bytes": 4031827759,
+          "href": "treemap/2023/TreeMap2023_CONUS_CARBON_DWN.tif",
+          "mtime": 1791919616.457118
+        },
+        "2023/TreeMap2023_CONUS_CARBON_L.tif": {
+          "sha256": "221165a3da904a613e9bb61b4d2484e30707d25369c001d41b5f818789f5e66a",
+          "size_bytes": 4103089995,
+          "href": "treemap/2023/TreeMap2023_CONUS_CARBON_L.tif",
+          "mtime": 1791919966.2787204
+        },
+        "2023/TreeMap2023_CONUS_DRYBIO_D.tif": {
+          "sha256": "81a80497aeea4994c5d16ffbc202dcac019ba8c457fbc1e596a763f2f9177fd6",
+          "size_bytes": 3439606012,
+          "href": "treemap/2023/TreeMap2023_CONUS_DRYBIO_D.tif",
+          "mtime": 1791920259.5716498
+        },
+        "2023/TreeMap2023_CONUS_DRYBIO_L.tif": {
+          "sha256": "e11bdc4f9f20da864c7a19411a7d67222e90f1c6b93f8df1de67ce8dc46ec263",
+          "size_bytes": 4119059958,
+          "href": "treemap/2023/TreeMap2023_CONUS_DRYBIO_L.tif",
+          "mtime": 1791920610.8334026
+        },
+        "2023/TreeMap2023_CONUS_FLDSZCD.tif": {
+          "sha256": "c83915cc185fa67eb5738eb9a25067b098383b8858fd21ccc67a83e747043eed",
+          "size_bytes": 1160329662,
+          "href": "treemap/2023/TreeMap2023_CONUS_FLDSZCD.tif",
+          "mtime": 1791920709.856642
+        },
+        "2023/TreeMap2023_CONUS_FLDTYPCD.tif": {
+          "sha256": "208da7cbabc4b17084b07ef21ce84fde6bfab6688e663e5b470d4edd7eaade64",
+          "size_bytes": 2029078192,
+          "href": "treemap/2023/TreeMap2023_CONUS_FLDTYPCD.tif",
+          "mtime": 1791920883.0515532
+        },
+        "2023/TreeMap2023_CONUS_FORTYPCD.tif": {
+          "sha256": "d76dd52ef75251ea425978fb2d969c6847a78749b31fa8160b8eb063b8cb0e0a",
+          "size_bytes": 2072760559,
+          "href": "treemap/2023/TreeMap2023_CONUS_FORTYPCD.tif",
+          "mtime": 1791921059.7585595
+        },
+        "2023/TreeMap2023_CONUS_GSSTK.tif": {
+          "sha256": "ad146f6a84a429c9025616e2d2f662c2b321380f629ba9db2a61884efd47c75d",
+          "size_bytes": 3871056641,
+          "href": "treemap/2023/TreeMap2023_CONUS_GSSTK.tif",
+          "mtime": 1791921389.702897
+        },
+        "2023/TreeMap2023_CONUS_QMD.tif": {
+          "sha256": "2bb4c6ae58edd6028ae171c40375f846cbc77abc27ccc362ed50600ea4f75df8",
+          "size_bytes": 4066643883,
+          "href": "treemap/2023/TreeMap2023_CONUS_QMD.tif",
+          "mtime": 1791921737.2152917
+        },
+        "2023/TreeMap2023_CONUS_SDIsum.tif": {
+          "sha256": "eabdfe0e9d74b1b5da10071a669c0f03220432a61956bb491c2380dfacd14ffe",
+          "size_bytes": 4150420975,
+          "href": "treemap/2023/TreeMap2023_CONUS_SDIsum.tif",
+          "mtime": 1791922091.32647
+        },
+        "2023/TreeMap2023_CONUS_STANDHT.tif": {
+          "sha256": "03cb4ee780072ff46be8c194fd52a8857b04d2fe0fd98bae437352d9f3c9fee5",
+          "size_bytes": 2949021522,
+          "href": "treemap/2023/TreeMap2023_CONUS_STANDHT.tif",
+          "mtime": 1791922342.9653747
+        },
+        "2023/TreeMap2023_CONUS_STDSZCD.tif": {
+          "sha256": "2c622ccbad22aaf623b94d074a01fcdd497c59c66a031cd513fe9272fac45e31",
+          "size_bytes": 1107112512,
+          "href": "treemap/2023/TreeMap2023_CONUS_STDSZCD.tif",
+          "mtime": 1791922437.4090788
+        },
+        "2023/TreeMap2023_CONUS_TM_ID.tif": {
+          "sha256": "4cf04ef4a0b0636663aa727f965239589f035f29e5fb89fbb51f380cac8ae6b6",
+          "size_bytes": 3500500087,
+          "href": "treemap/2023/TreeMap2023_CONUS_TM_ID.tif",
+          "mtime": 1791922736.0600688
+        },
+        "2023/TreeMap2023_CONUS_TPA_DEAD.tif": {
+          "sha256": "8bc540d557f7fc466f115a54002afad5cec8e8ab5a379e930205c16faff3ebe3",
+          "size_bytes": 2706233853,
+          "href": "treemap/2023/TreeMap2023_CONUS_TPA_DEAD.tif",
+          "mtime": 1791922966.9509404
+        },
+        "2023/TreeMap2023_CONUS_TPA_LIVE.tif": {
+          "sha256": "a467a493703e7022be2c6ed0095b5e9bdbcd9f22646461cae608ccdff2954e33",
+          "size_bytes": 4088723439,
+          "href": "treemap/2023/TreeMap2023_CONUS_TPA_LIVE.tif",
+          "mtime": 1791923315.687748
+        },
+        "2023/TreeMap2023_CONUS_VOLBFNET_L.tif": {
+          "sha256": "164c104432f365c4664016a1435bbd44f454b85f24ce1c9faf6cf428556e56c4",
+          "size_bytes": 3789040998,
+          "href": "treemap/2023/TreeMap2023_CONUS_VOLBFNET_L.tif",
+          "mtime": 1791923638.6828737
+        },
+        "2023/TreeMap2023_CONUS_VOLCFNET_D.tif": {
+          "sha256": "426d991bc04d67b5062f68954906be9ad1b19b041a3137cc485e370893cc1c52",
+          "size_bytes": 3477166892,
+          "href": "treemap/2023/TreeMap2023_CONUS_VOLCFNET_D.tif",
+          "mtime": 1791923935.0976996
+        },
+        "2023/TreeMap2023_CONUS_VOLCFNET_L.tif": {
+          "sha256": "21f72ae153e9c6a7ccce64fe751c0e110f7bf191e42ea49cf7a3e149dfd5e9bd",
+          "size_bytes": 4032288817,
+          "href": "treemap/2023/TreeMap2023_CONUS_VOLCFNET_L.tif",
+          "mtime": 1791924279.488803
+        },
+        "2023/TreeMap2023_CONUS_BALIVE.thumb.jpg": {
+          "sha256": "56061bac0ca884f3140f6ab6b33318e1107420e96a3fe605265aeed555c2b911",
+          "size_bytes": 39380,
+          "href": "treemap/2023/TreeMap2023_CONUS_BALIVE.thumb.jpg",
+          "mtime": 1791924623.2954462
+        },
+        "2023/TreeMap2023_CONUS_CARBON_DWN.thumb.jpg": {
+          "sha256": "963b62bfe00e5374b67fac8164afc2bd616dfeb8b41e31efd7c7ca3142e4b522",
+          "size_bytes": 28542,
+          "href": "treemap/2023/TreeMap2023_CONUS_CARBON_DWN.thumb.jpg",
+          "mtime": 1791925081.639835
+        },
+        "2023/TreeMap2023_CONUS_DRYBIO_D.thumb.jpg": {
+          "sha256": "25f0cfa6819c59cdeb35a1d25ed33969946de8583d27d9ed28291a21348e3a64",
+          "size_bytes": 29290,
+          "href": "treemap/2023/TreeMap2023_CONUS_DRYBIO_D.thumb.jpg",
+          "mtime": 1791925081.6064546
+        },
+        "2023/TreeMap2023_CONUS_CARBON_L.thumb.jpg": {
+          "sha256": "32a38fc1963728d75c6f2e6fd31a89d3eb8c8ce359ed5f5119e998ac621800da",
+          "size_bytes": 32886,
+          "href": "treemap/2023/TreeMap2023_CONUS_CARBON_L.thumb.jpg",
+          "mtime": 1791925081.6683006
+        },
+        "2023/TreeMap2023_CONUS_DRYBIO_L.thumb.jpg": {
+          "sha256": "317178a57bd11dbceb1d3d313fea4b0f9fc1eed14e4c7c2205f7568b9efb643e",
+          "size_bytes": 32889,
+          "href": "treemap/2023/TreeMap2023_CONUS_DRYBIO_L.thumb.jpg",
+          "mtime": 1791925086.5141206
+        },
+        "2023/TreeMap2023_CONUS_FLDSZCD.thumb.jpg": {
+          "sha256": "c293175595f1f73eef92b5589992d449a633eb9af94b35c933e67a18335fb42a",
+          "size_bytes": 1504,
+          "href": "treemap/2023/TreeMap2023_CONUS_FLDSZCD.thumb.jpg",
+          "mtime": 1791925535.1724741
+        },
+        "2023/TreeMap2023_CONUS_FLDTYPCD.thumb.jpg": {
+          "sha256": "d1d877f5d0549150d6b33a9f36f2a95b245d5166785c9d3a52740303a78e76db",
+          "size_bytes": 39920,
+          "href": "treemap/2023/TreeMap2023_CONUS_FLDTYPCD.thumb.jpg",
+          "mtime": 1791925535.2195709
+        },
+        "2023/TreeMap2023_CONUS_FORTYPCD.thumb.jpg": {
+          "sha256": "87596eeaff413c3026280de1dc79fbd3e4f238b81d5007647abb9f58bd89ee6c",
+          "size_bytes": 41151,
+          "href": "treemap/2023/TreeMap2023_CONUS_FORTYPCD.thumb.jpg",
+          "mtime": 1791925535.2576823
+        },
+        "2023/TreeMap2023_CONUS_GSSTK.thumb.jpg": {
+          "sha256": "a8786579f017238778d3e1045e3e4294baaa0162014075d30fac09bf9145707c",
+          "size_bytes": 39365,
+          "href": "treemap/2023/TreeMap2023_CONUS_GSSTK.thumb.jpg",
+          "mtime": 1791925543.205675
+        },
+        "2023/TreeMap2023_CONUS_STANDHT.thumb.jpg": {
+          "sha256": "6686b3660ad10cce20ae31e9e40630e927b5e3af9b436a894528a6e0f50d88dc",
+          "size_bytes": 38440,
+          "href": "treemap/2023/TreeMap2023_CONUS_STANDHT.thumb.jpg",
+          "mtime": 1791925993.5057416
+        },
+        "2023/TreeMap2023_CONUS_QMD.thumb.jpg": {
+          "sha256": "fd399e886348873b9cc64df36e0153d90f9640627af8258ab6425015f8096086",
+          "size_bytes": 42872,
+          "href": "treemap/2023/TreeMap2023_CONUS_QMD.thumb.jpg",
+          "mtime": 1791925993.5843263
+        },
+        "2023/TreeMap2023_CONUS_SDIsum.thumb.jpg": {
+          "sha256": "7386f0f41363d7d920921a59389920ac748d4b1b76daf7805fcd3cc598a7c44e",
+          "size_bytes": 40286,
+          "href": "treemap/2023/TreeMap2023_CONUS_SDIsum.thumb.jpg",
+          "mtime": 1791925993.5531216
+        },
+        "2023/TreeMap2023_CONUS_STDSZCD.thumb.jpg": {
+          "sha256": "f5cbc0d2d7ce6e9ca14d06c5f3946332fa357940b125f398eca17069a84887a4",
+          "size_bytes": 1112,
+          "href": "treemap/2023/TreeMap2023_CONUS_STDSZCD.thumb.jpg",
+          "mtime": 1791926002.9866216
+        },
+        "2023/TreeMap2023_CONUS_TM_ID.thumb.jpg": {
+          "sha256": "75dd01d96bf49c6bf1009598fcca1f618954836dbdf292fa7cb36c3b78ba9d06",
+          "size_bytes": 46527,
+          "href": "treemap/2023/TreeMap2023_CONUS_TM_ID.thumb.jpg",
+          "mtime": 1791926451.715318
+        },
+        "2023/TreeMap2023_CONUS_TPA_DEAD.thumb.jpg": {
+          "sha256": "c0d0da512cc00f19be7f20b41f20e39f9d1e4b7b9fa414189460dfdc2a4fc404",
+          "size_bytes": 34501,
+          "href": "treemap/2023/TreeMap2023_CONUS_TPA_DEAD.thumb.jpg",
+          "mtime": 1791926451.8297882
+        },
+        "2023/TreeMap2023_CONUS_TPA_LIVE.thumb.jpg": {
+          "sha256": "1445b2ed963d0bfec90e09cc6c5096470e532231454b4a8eae506a8a1f537fdd",
+          "size_bytes": 37352,
+          "href": "treemap/2023/TreeMap2023_CONUS_TPA_LIVE.thumb.jpg",
+          "mtime": 1791926451.8078847
+        },
+        "2023/TreeMap2023_CONUS_VOLBFNET_L.thumb.jpg": {
+          "sha256": "ed46bd02c6cbe6bcbefa73a39070dc0bab1abfca9d7a30fea5d7b8a441588813",
+          "size_bytes": 23627,
+          "href": "treemap/2023/TreeMap2023_CONUS_VOLBFNET_L.thumb.jpg",
+          "mtime": 1791926462.1420636
+        },
+        "2023/TreeMap2023_CONUS_VOLCFNET_D.thumb.jpg": {
+          "sha256": "31a1a3695d32976c51e84a845df43f4a4eb4966b2b6298db8ebae87ce3bbffaa",
+          "size_bytes": 27078,
+          "href": "treemap/2023/TreeMap2023_CONUS_VOLCFNET_D.thumb.jpg",
+          "mtime": 1791926915.5953677
+        },
+        "2023/TreeMap2023_CONUS_VOLCFNET_L.thumb.jpg": {
+          "sha256": "f7285242c0777d783a5b20282a35c1888086ff06183d41aa797856f1b87198f7",
+          "size_bytes": 31132,
+          "href": "treemap/2023/TreeMap2023_CONUS_VOLCFNET_L.thumb.jpg",
+          "mtime": 1791926916.0011873
+        },
+        "items.parquet": {
+          "sha256": "d3cfe19da7ab41d9d6658c5fe87425b48219f838057d2a5d7aa3f9717a569059",
+          "size_bytes": 182464,
+          "href": "treemap/items.parquet",
+          "mtime": 1791975144.4375935
+        }
+      },
+      "changes": [
+        "items.parquet"
+      ],
+      "message": "Generated items.parquet for STAC GeoParquet queries"
+    },
+    {
+      "version": "1.0.3",
+      "created": "2026-10-14T19:37:21.092405Z",
+      "breaking": false,
+      "assets": {
+        "2023/TreeMap2023_CONUS_ALSTK.thumb.jpg": {
+          "sha256": "45acc2edf62c40b87e256ef92302065765f68a8705655ea5c2607475b423e41d",
+          "size_bytes": 46189,
+          "href": "treemap/2023/TreeMap2023_CONUS_ALSTK.thumb.jpg",
+          "mtime": 1791924623.2340693
+        },
+        "2023/TreeMap2023_CONUS_ALSTK.tif": {
+          "sha256": "b7c596eb644e17b4f5062ebe56b2399764d0fca577d8f31c3d3527f049f9e6a2",
+          "size_bytes": 4015525744,
+          "href": "treemap/2023/TreeMap2023_CONUS_ALSTK.tif",
+          "mtime": 1791918375.6101377
+        },
+        "2023/TreeMap2023_CONUS_BALIVE.tif": {
+          "sha256": "ae8414920be187dbd3c884a2a2d1607cf78309829bc1fd0cfbb663e5ecb93063",
+          "size_bytes": 4032411416,
+          "href": "treemap/2023/TreeMap2023_CONUS_BALIVE.tif",
+          "mtime": 1791918734.9406927
+        },
+        "2023/TreeMap2023_CONUS_CANOPYPCT.thumb.jpg": {
+          "sha256": "0a44422f4aa852b31be488bb66a553766b63fc0d2c793815d225a9dc9fbd22c1",
+          "size_bytes": 38719,
+          "href": "treemap/2023/TreeMap2023_CONUS_CANOPYPCT.thumb.jpg",
+          "mtime": 1791924623.1707866
+        },
+        "2023/TreeMap2023_CONUS_CANOPYPCT.tif": {
+          "sha256": "8ec9aa00456f7d91beb10a85c7a4503ac5ca94a24f2109ef922ef2756f969b10",
+          "size_bytes": 2886970944,
+          "href": "treemap/2023/TreeMap2023_CONUS_CANOPYPCT.tif",
+          "mtime": 1791918981.7989845
+        },
+        "2023/TreeMap2023_CONUS_CARBON_D.thumb.jpg": {
+          "sha256": "f260f30f17c8d910b7adf79a2afbd1cad55ee649bf8ff3aed77859b37f549a01",
+          "size_bytes": 29299,
+          "href": "treemap/2023/TreeMap2023_CONUS_CARBON_D.thumb.jpg",
+          "mtime": 1791924623.2497714
+        },
+        "2023/TreeMap2023_CONUS_CARBON_D.tif": {
+          "sha256": "276030800d233b00cafd20d3f848c944682b743401cebda7a505090a43ec1cd1",
+          "size_bytes": 3400446541,
+          "href": "treemap/2023/TreeMap2023_CONUS_CARBON_D.tif",
+          "mtime": 1791919272.4960954
+        },
+        "2023/TreeMap2023_CONUS_CARBON_DWN.tif": {
+          "sha256": "a635be72c3fb80b616b682f746c12a01f5b1b3287e3f0a6f42019ad5dfd1382a",
+          "size_bytes": 4031827759,
+          "href": "treemap/2023/TreeMap2023_CONUS_CARBON_DWN.tif",
+          "mtime": 1791919616.457118
+        },
+        "2023/TreeMap2023_CONUS_CARBON_L.tif": {
+          "sha256": "221165a3da904a613e9bb61b4d2484e30707d25369c001d41b5f818789f5e66a",
+          "size_bytes": 4103089995,
+          "href": "treemap/2023/TreeMap2023_CONUS_CARBON_L.tif",
+          "mtime": 1791919966.2787204
+        },
+        "2023/TreeMap2023_CONUS_DRYBIO_D.tif": {
+          "sha256": "81a80497aeea4994c5d16ffbc202dcac019ba8c457fbc1e596a763f2f9177fd6",
+          "size_bytes": 3439606012,
+          "href": "treemap/2023/TreeMap2023_CONUS_DRYBIO_D.tif",
+          "mtime": 1791920259.5716498
+        },
+        "2023/TreeMap2023_CONUS_DRYBIO_L.tif": {
+          "sha256": "e11bdc4f9f20da864c7a19411a7d67222e90f1c6b93f8df1de67ce8dc46ec263",
+          "size_bytes": 4119059958,
+          "href": "treemap/2023/TreeMap2023_CONUS_DRYBIO_L.tif",
+          "mtime": 1791920610.8334026
+        },
+        "2023/TreeMap2023_CONUS_FLDSZCD.tif": {
+          "sha256": "c83915cc185fa67eb5738eb9a25067b098383b8858fd21ccc67a83e747043eed",
+          "size_bytes": 1160329662,
+          "href": "treemap/2023/TreeMap2023_CONUS_FLDSZCD.tif",
+          "mtime": 1791920709.856642
+        },
+        "2023/TreeMap2023_CONUS_FLDTYPCD.tif": {
+          "sha256": "208da7cbabc4b17084b07ef21ce84fde6bfab6688e663e5b470d4edd7eaade64",
+          "size_bytes": 2029078192,
+          "href": "treemap/2023/TreeMap2023_CONUS_FLDTYPCD.tif",
+          "mtime": 1791920883.0515532
+        },
+        "2023/TreeMap2023_CONUS_FORTYPCD.tif": {
+          "sha256": "d76dd52ef75251ea425978fb2d969c6847a78749b31fa8160b8eb063b8cb0e0a",
+          "size_bytes": 2072760559,
+          "href": "treemap/2023/TreeMap2023_CONUS_FORTYPCD.tif",
+          "mtime": 1791921059.7585595
+        },
+        "2023/TreeMap2023_CONUS_GSSTK.tif": {
+          "sha256": "ad146f6a84a429c9025616e2d2f662c2b321380f629ba9db2a61884efd47c75d",
+          "size_bytes": 3871056641,
+          "href": "treemap/2023/TreeMap2023_CONUS_GSSTK.tif",
+          "mtime": 1791921389.702897
+        },
+        "2023/TreeMap2023_CONUS_QMD.tif": {
+          "sha256": "2bb4c6ae58edd6028ae171c40375f846cbc77abc27ccc362ed50600ea4f75df8",
+          "size_bytes": 4066643883,
+          "href": "treemap/2023/TreeMap2023_CONUS_QMD.tif",
+          "mtime": 1791921737.2152917
+        },
+        "2023/TreeMap2023_CONUS_SDIsum.tif": {
+          "sha256": "eabdfe0e9d74b1b5da10071a669c0f03220432a61956bb491c2380dfacd14ffe",
+          "size_bytes": 4150420975,
+          "href": "treemap/2023/TreeMap2023_CONUS_SDIsum.tif",
+          "mtime": 1791922091.32647
+        },
+        "2023/TreeMap2023_CONUS_STANDHT.tif": {
+          "sha256": "03cb4ee780072ff46be8c194fd52a8857b04d2fe0fd98bae437352d9f3c9fee5",
+          "size_bytes": 2949021522,
+          "href": "treemap/2023/TreeMap2023_CONUS_STANDHT.tif",
+          "mtime": 1791922342.9653747
+        },
+        "2023/TreeMap2023_CONUS_STDSZCD.tif": {
+          "sha256": "2c622ccbad22aaf623b94d074a01fcdd497c59c66a031cd513fe9272fac45e31",
+          "size_bytes": 1107112512,
+          "href": "treemap/2023/TreeMap2023_CONUS_STDSZCD.tif",
+          "mtime": 1791922437.4090788
+        },
+        "2023/TreeMap2023_CONUS_TM_ID.tif": {
+          "sha256": "4cf04ef4a0b0636663aa727f965239589f035f29e5fb89fbb51f380cac8ae6b6",
+          "size_bytes": 3500500087,
+          "href": "treemap/2023/TreeMap2023_CONUS_TM_ID.tif",
+          "mtime": 1791922736.0600688
+        },
+        "2023/TreeMap2023_CONUS_TPA_DEAD.tif": {
+          "sha256": "8bc540d557f7fc466f115a54002afad5cec8e8ab5a379e930205c16faff3ebe3",
+          "size_bytes": 2706233853,
+          "href": "treemap/2023/TreeMap2023_CONUS_TPA_DEAD.tif",
+          "mtime": 1791922966.9509404
+        },
+        "2023/TreeMap2023_CONUS_TPA_LIVE.tif": {
+          "sha256": "a467a493703e7022be2c6ed0095b5e9bdbcd9f22646461cae608ccdff2954e33",
+          "size_bytes": 4088723439,
+          "href": "treemap/2023/TreeMap2023_CONUS_TPA_LIVE.tif",
+          "mtime": 1791923315.687748
+        },
+        "2023/TreeMap2023_CONUS_VOLBFNET_L.tif": {
+          "sha256": "164c104432f365c4664016a1435bbd44f454b85f24ce1c9faf6cf428556e56c4",
+          "size_bytes": 3789040998,
+          "href": "treemap/2023/TreeMap2023_CONUS_VOLBFNET_L.tif",
+          "mtime": 1791923638.6828737
+        },
+        "2023/TreeMap2023_CONUS_VOLCFNET_D.tif": {
+          "sha256": "426d991bc04d67b5062f68954906be9ad1b19b041a3137cc485e370893cc1c52",
+          "size_bytes": 3477166892,
+          "href": "treemap/2023/TreeMap2023_CONUS_VOLCFNET_D.tif",
+          "mtime": 1791923935.0976996
+        },
+        "2023/TreeMap2023_CONUS_VOLCFNET_L.tif": {
+          "sha256": "21f72ae153e9c6a7ccce64fe751c0e110f7bf191e42ea49cf7a3e149dfd5e9bd",
+          "size_bytes": 4032288817,
+          "href": "treemap/2023/TreeMap2023_CONUS_VOLCFNET_L.tif",
+          "mtime": 1791924279.488803
+        },
+        "2023/TreeMap2023_CONUS_BALIVE.thumb.jpg": {
+          "sha256": "56061bac0ca884f3140f6ab6b33318e1107420e96a3fe605265aeed555c2b911",
+          "size_bytes": 39380,
+          "href": "treemap/2023/TreeMap2023_CONUS_BALIVE.thumb.jpg",
+          "mtime": 1791924623.2954462
+        },
+        "2023/TreeMap2023_CONUS_CARBON_DWN.thumb.jpg": {
+          "sha256": "963b62bfe00e5374b67fac8164afc2bd616dfeb8b41e31efd7c7ca3142e4b522",
+          "size_bytes": 28542,
+          "href": "treemap/2023/TreeMap2023_CONUS_CARBON_DWN.thumb.jpg",
+          "mtime": 1791925081.639835
+        },
+        "2023/TreeMap2023_CONUS_DRYBIO_D.thumb.jpg": {
+          "sha256": "25f0cfa6819c59cdeb35a1d25ed33969946de8583d27d9ed28291a21348e3a64",
+          "size_bytes": 29290,
+          "href": "treemap/2023/TreeMap2023_CONUS_DRYBIO_D.thumb.jpg",
+          "mtime": 1791925081.6064546
+        },
+        "2023/TreeMap2023_CONUS_CARBON_L.thumb.jpg": {
+          "sha256": "32a38fc1963728d75c6f2e6fd31a89d3eb8c8ce359ed5f5119e998ac621800da",
+          "size_bytes": 32886,
+          "href": "treemap/2023/TreeMap2023_CONUS_CARBON_L.thumb.jpg",
+          "mtime": 1791925081.6683006
+        },
+        "2023/TreeMap2023_CONUS_DRYBIO_L.thumb.jpg": {
+          "sha256": "317178a57bd11dbceb1d3d313fea4b0f9fc1eed14e4c7c2205f7568b9efb643e",
+          "size_bytes": 32889,
+          "href": "treemap/2023/TreeMap2023_CONUS_DRYBIO_L.thumb.jpg",
+          "mtime": 1791925086.5141206
+        },
+        "2023/TreeMap2023_CONUS_FLDSZCD.thumb.jpg": {
+          "sha256": "c293175595f1f73eef92b5589992d449a633eb9af94b35c933e67a18335fb42a",
+          "size_bytes": 1504,
+          "href": "treemap/2023/TreeMap2023_CONUS_FLDSZCD.thumb.jpg",
+          "mtime": 1791925535.1724741
+        },
+        "2023/TreeMap2023_CONUS_FLDTYPCD.thumb.jpg": {
+          "sha256": "d1d877f5d0549150d6b33a9f36f2a95b245d5166785c9d3a52740303a78e76db",
+          "size_bytes": 39920,
+          "href": "treemap/2023/TreeMap2023_CONUS_FLDTYPCD.thumb.jpg",
+          "mtime": 1791925535.2195709
+        },
+        "2023/TreeMap2023_CONUS_FORTYPCD.thumb.jpg": {
+          "sha256": "87596eeaff413c3026280de1dc79fbd3e4f238b81d5007647abb9f58bd89ee6c",
+          "size_bytes": 41151,
+          "href": "treemap/2023/TreeMap2023_CONUS_FORTYPCD.thumb.jpg",
+          "mtime": 1791925535.2576823
+        },
+        "2023/TreeMap2023_CONUS_GSSTK.thumb.jpg": {
+          "sha256": "a8786579f017238778d3e1045e3e4294baaa0162014075d30fac09bf9145707c",
+          "size_bytes": 39365,
+          "href": "treemap/2023/TreeMap2023_CONUS_GSSTK.thumb.jpg",
+          "mtime": 1791925543.205675
+        },
+        "2023/TreeMap2023_CONUS_STANDHT.thumb.jpg": {
+          "sha256": "6686b3660ad10cce20ae31e9e40630e927b5e3af9b436a894528a6e0f50d88dc",
+          "size_bytes": 38440,
+          "href": "treemap/2023/TreeMap2023_CONUS_STANDHT.thumb.jpg",
+          "mtime": 1791925993.5057416
+        },
+        "2023/TreeMap2023_CONUS_QMD.thumb.jpg": {
+          "sha256": "fd399e886348873b9cc64df36e0153d90f9640627af8258ab6425015f8096086",
+          "size_bytes": 42872,
+          "href": "treemap/2023/TreeMap2023_CONUS_QMD.thumb.jpg",
+          "mtime": 1791925993.5843263
+        },
+        "2023/TreeMap2023_CONUS_SDIsum.thumb.jpg": {
+          "sha256": "7386f0f41363d7d920921a59389920ac748d4b1b76daf7805fcd3cc598a7c44e",
+          "size_bytes": 40286,
+          "href": "treemap/2023/TreeMap2023_CONUS_SDIsum.thumb.jpg",
+          "mtime": 1791925993.5531216
+        },
+        "2023/TreeMap2023_CONUS_STDSZCD.thumb.jpg": {
+          "sha256": "f5cbc0d2d7ce6e9ca14d06c5f3946332fa357940b125f398eca17069a84887a4",
+          "size_bytes": 1112,
+          "href": "treemap/2023/TreeMap2023_CONUS_STDSZCD.thumb.jpg",
+          "mtime": 1791926002.9866216
+        },
+        "2023/TreeMap2023_CONUS_TM_ID.thumb.jpg": {
+          "sha256": "75dd01d96bf49c6bf1009598fcca1f618954836dbdf292fa7cb36c3b78ba9d06",
+          "size_bytes": 46527,
+          "href": "treemap/2023/TreeMap2023_CONUS_TM_ID.thumb.jpg",
+          "mtime": 1791926451.715318
+        },
+        "2023/TreeMap2023_CONUS_TPA_DEAD.thumb.jpg": {
+          "sha256": "c0d0da512cc00f19be7f20b41f20e39f9d1e4b7b9fa414189460dfdc2a4fc404",
+          "size_bytes": 34501,
+          "href": "treemap/2023/TreeMap2023_CONUS_TPA_DEAD.thumb.jpg",
+          "mtime": 1791926451.8297882
+        },
+        "2023/TreeMap2023_CONUS_TPA_LIVE.thumb.jpg": {
+          "sha256": "1445b2ed963d0bfec90e09cc6c5096470e532231454b4a8eae506a8a1f537fdd",
+          "size_bytes": 37352,
+          "href": "treemap/2023/TreeMap2023_CONUS_TPA_LIVE.thumb.jpg",
+          "mtime": 1791926451.8078847
+        },
+        "2023/TreeMap2023_CONUS_VOLBFNET_L.thumb.jpg": {
+          "sha256": "ed46bd02c6cbe6bcbefa73a39070dc0bab1abfca9d7a30fea5d7b8a441588813",
+          "size_bytes": 23627,
+          "href": "treemap/2023/TreeMap2023_CONUS_VOLBFNET_L.thumb.jpg",
+          "mtime": 1791926462.1420636
+        },
+        "2023/TreeMap2023_CONUS_VOLCFNET_D.thumb.jpg": {
+          "sha256": "31a1a3695d32976c51e84a845df43f4a4eb4966b2b6298db8ebae87ce3bbffaa",
+          "size_bytes": 27078,
+          "href": "treemap/2023/TreeMap2023_CONUS_VOLCFNET_D.thumb.jpg",
+          "mtime": 1791926915.5953677
+        },
+        "2023/TreeMap2023_CONUS_VOLCFNET_L.thumb.jpg": {
+          "sha256": "f7285242c0777d783a5b20282a35c1888086ff06183d41aa797856f1b87198f7",
+          "size_bytes": 31132,
+          "href": "treemap/2023/TreeMap2023_CONUS_VOLCFNET_L.thumb.jpg",
+          "mtime": 1791926916.0011873
+        },
+        "items.parquet": {
+          "sha256": "9e88f446b699d2bddaed2b24762ca60597b10aed4cfc603782112b7754b77529",
+          "size_bytes": 195213,
+          "href": "treemap/items.parquet",
+          "mtime": 1792004199.940261
+        }
+      },
+      "changes": [
+        "items.parquet"
+      ],
+      "message": "Add TreeMap 2023 Raster Attribute Table metadata"
+    },
+    {
+      "version": "1.0.4",
+      "created": "2026-10-15T15:48:01.314343Z",
+      "breaking": false,
+      "assets": {
+        "2023/TreeMap2023_CONUS_ALSTK.thumb.jpg": {
+          "sha256": "45acc2edf62c40b87e256ef92302065765f68a8705655ea5c2607475b423e41d",
+          "size_bytes": 46189,
+          "href": "treemap/2023/TreeMap2023_CONUS_ALSTK.thumb.jpg",
+          "mtime": 1791924623.2340693
+        },
+        "2023/TreeMap2023_CONUS_ALSTK.tif": {
+          "sha256": "b7c596eb644e17b4f5062ebe56b2399764d0fca577d8f31c3d3527f049f9e6a2",
+          "size_bytes": 4015525744,
+          "href": "treemap/2023/TreeMap2023_CONUS_ALSTK.tif",
+          "mtime": 1791918375.6101377
+        },
+        "2023/TreeMap2023_CONUS_BALIVE.tif": {
+          "sha256": "ae8414920be187dbd3c884a2a2d1607cf78309829bc1fd0cfbb663e5ecb93063",
+          "size_bytes": 4032411416,
+          "href": "treemap/2023/TreeMap2023_CONUS_BALIVE.tif",
+          "mtime": 1791918734.9406927
+        },
+        "2023/TreeMap2023_CONUS_CANOPYPCT.thumb.jpg": {
+          "sha256": "0a44422f4aa852b31be488bb66a553766b63fc0d2c793815d225a9dc9fbd22c1",
+          "size_bytes": 38719,
+          "href": "treemap/2023/TreeMap2023_CONUS_CANOPYPCT.thumb.jpg",
+          "mtime": 1791924623.1707866
+        },
+        "2023/TreeMap2023_CONUS_CANOPYPCT.tif": {
+          "sha256": "8ec9aa00456f7d91beb10a85c7a4503ac5ca94a24f2109ef922ef2756f969b10",
+          "size_bytes": 2886970944,
+          "href": "treemap/2023/TreeMap2023_CONUS_CANOPYPCT.tif",
+          "mtime": 1791918981.7989845
+        },
+        "2023/TreeMap2023_CONUS_CARBON_D.thumb.jpg": {
+          "sha256": "f260f30f17c8d910b7adf79a2afbd1cad55ee649bf8ff3aed77859b37f549a01",
+          "size_bytes": 29299,
+          "href": "treemap/2023/TreeMap2023_CONUS_CARBON_D.thumb.jpg",
+          "mtime": 1791924623.2497714
+        },
+        "2023/TreeMap2023_CONUS_CARBON_D.tif": {
+          "sha256": "276030800d233b00cafd20d3f848c944682b743401cebda7a505090a43ec1cd1",
+          "size_bytes": 3400446541,
+          "href": "treemap/2023/TreeMap2023_CONUS_CARBON_D.tif",
+          "mtime": 1791919272.4960954
+        },
+        "2023/TreeMap2023_CONUS_CARBON_DWN.tif": {
+          "sha256": "a635be72c3fb80b616b682f746c12a01f5b1b3287e3f0a6f42019ad5dfd1382a",
+          "size_bytes": 4031827759,
+          "href": "treemap/2023/TreeMap2023_CONUS_CARBON_DWN.tif",
+          "mtime": 1791919616.457118
+        },
+        "2023/TreeMap2023_CONUS_CARBON_L.tif": {
+          "sha256": "221165a3da904a613e9bb61b4d2484e30707d25369c001d41b5f818789f5e66a",
+          "size_bytes": 4103089995,
+          "href": "treemap/2023/TreeMap2023_CONUS_CARBON_L.tif",
+          "mtime": 1791919966.2787204
+        },
+        "2023/TreeMap2023_CONUS_DRYBIO_D.tif": {
+          "sha256": "81a80497aeea4994c5d16ffbc202dcac019ba8c457fbc1e596a763f2f9177fd6",
+          "size_bytes": 3439606012,
+          "href": "treemap/2023/TreeMap2023_CONUS_DRYBIO_D.tif",
+          "mtime": 1791920259.5716498
+        },
+        "2023/TreeMap2023_CONUS_DRYBIO_L.tif": {
+          "sha256": "e11bdc4f9f20da864c7a19411a7d67222e90f1c6b93f8df1de67ce8dc46ec263",
+          "size_bytes": 4119059958,
+          "href": "treemap/2023/TreeMap2023_CONUS_DRYBIO_L.tif",
+          "mtime": 1791920610.8334026
+        },
+        "2023/TreeMap2023_CONUS_FLDSZCD.tif": {
+          "sha256": "c83915cc185fa67eb5738eb9a25067b098383b8858fd21ccc67a83e747043eed",
+          "size_bytes": 1160329662,
+          "href": "treemap/2023/TreeMap2023_CONUS_FLDSZCD.tif",
+          "mtime": 1791920709.856642
+        },
+        "2023/TreeMap2023_CONUS_FLDTYPCD.tif": {
+          "sha256": "208da7cbabc4b17084b07ef21ce84fde6bfab6688e663e5b470d4edd7eaade64",
+          "size_bytes": 2029078192,
+          "href": "treemap/2023/TreeMap2023_CONUS_FLDTYPCD.tif",
+          "mtime": 1791920883.0515532
+        },
+        "2023/TreeMap2023_CONUS_FORTYPCD.tif": {
+          "sha256": "d76dd52ef75251ea425978fb2d969c6847a78749b31fa8160b8eb063b8cb0e0a",
+          "size_bytes": 2072760559,
+          "href": "treemap/2023/TreeMap2023_CONUS_FORTYPCD.tif",
+          "mtime": 1791921059.7585595
+        },
+        "2023/TreeMap2023_CONUS_GSSTK.tif": {
+          "sha256": "ad146f6a84a429c9025616e2d2f662c2b321380f629ba9db2a61884efd47c75d",
+          "size_bytes": 3871056641,
+          "href": "treemap/2023/TreeMap2023_CONUS_GSSTK.tif",
+          "mtime": 1791921389.702897
+        },
+        "2023/TreeMap2023_CONUS_QMD.tif": {
+          "sha256": "2bb4c6ae58edd6028ae171c40375f846cbc77abc27ccc362ed50600ea4f75df8",
+          "size_bytes": 4066643883,
+          "href": "treemap/2023/TreeMap2023_CONUS_QMD.tif",
+          "mtime": 1791921737.2152917
+        },
+        "2023/TreeMap2023_CONUS_SDIsum.tif": {
+          "sha256": "eabdfe0e9d74b1b5da10071a669c0f03220432a61956bb491c2380dfacd14ffe",
+          "size_bytes": 4150420975,
+          "href": "treemap/2023/TreeMap2023_CONUS_SDIsum.tif",
+          "mtime": 1791922091.32647
+        },
+        "2023/TreeMap2023_CONUS_STANDHT.tif": {
+          "sha256": "03cb4ee780072ff46be8c194fd52a8857b04d2fe0fd98bae437352d9f3c9fee5",
+          "size_bytes": 2949021522,
+          "href": "treemap/2023/TreeMap2023_CONUS_STANDHT.tif",
+          "mtime": 1791922342.9653747
+        },
+        "2023/TreeMap2023_CONUS_STDSZCD.tif": {
+          "sha256": "2c622ccbad22aaf623b94d074a01fcdd497c59c66a031cd513fe9272fac45e31",
+          "size_bytes": 1107112512,
+          "href": "treemap/2023/TreeMap2023_CONUS_STDSZCD.tif",
+          "mtime": 1791922437.4090788
+        },
+        "2023/TreeMap2023_CONUS_TM_ID.tif": {
+          "sha256": "4cf04ef4a0b0636663aa727f965239589f035f29e5fb89fbb51f380cac8ae6b6",
+          "size_bytes": 3500500087,
+          "href": "treemap/2023/TreeMap2023_CONUS_TM_ID.tif",
+          "mtime": 1791922736.0600688
+        },
+        "2023/TreeMap2023_CONUS_TPA_DEAD.tif": {
+          "sha256": "8bc540d557f7fc466f115a54002afad5cec8e8ab5a379e930205c16faff3ebe3",
+          "size_bytes": 2706233853,
+          "href": "treemap/2023/TreeMap2023_CONUS_TPA_DEAD.tif",
+          "mtime": 1791922966.9509404
+        },
+        "2023/TreeMap2023_CONUS_TPA_LIVE.tif": {
+          "sha256": "a467a493703e7022be2c6ed0095b5e9bdbcd9f22646461cae608ccdff2954e33",
+          "size_bytes": 4088723439,
+          "href": "treemap/2023/TreeMap2023_CONUS_TPA_LIVE.tif",
+          "mtime": 1791923315.687748
+        },
+        "2023/TreeMap2023_CONUS_VOLBFNET_L.tif": {
+          "sha256": "164c104432f365c4664016a1435bbd44f454b85f24ce1c9faf6cf428556e56c4",
+          "size_bytes": 3789040998,
+          "href": "treemap/2023/TreeMap2023_CONUS_VOLBFNET_L.tif",
+          "mtime": 1791923638.6828737
+        },
+        "2023/TreeMap2023_CONUS_VOLCFNET_D.tif": {
+          "sha256": "426d991bc04d67b5062f68954906be9ad1b19b041a3137cc485e370893cc1c52",
+          "size_bytes": 3477166892,
+          "href": "treemap/2023/TreeMap2023_CONUS_VOLCFNET_D.tif",
+          "mtime": 1791923935.0976996
+        },
+        "2023/TreeMap2023_CONUS_VOLCFNET_L.tif": {
+          "sha256": "21f72ae153e9c6a7ccce64fe751c0e110f7bf191e42ea49cf7a3e149dfd5e9bd",
+          "size_bytes": 4032288817,
+          "href": "treemap/2023/TreeMap2023_CONUS_VOLCFNET_L.tif",
+          "mtime": 1791924279.488803
+        },
+        "2023/TreeMap2023_CONUS_BALIVE.thumb.jpg": {
+          "sha256": "56061bac0ca884f3140f6ab6b33318e1107420e96a3fe605265aeed555c2b911",
+          "size_bytes": 39380,
+          "href": "treemap/2023/TreeMap2023_CONUS_BALIVE.thumb.jpg",
+          "mtime": 1791924623.2954462
+        },
+        "2023/TreeMap2023_CONUS_CARBON_DWN.thumb.jpg": {
+          "sha256": "963b62bfe00e5374b67fac8164afc2bd616dfeb8b41e31efd7c7ca3142e4b522",
+          "size_bytes": 28542,
+          "href": "treemap/2023/TreeMap2023_CONUS_CARBON_DWN.thumb.jpg",
+          "mtime": 1791925081.639835
+        },
+        "2023/TreeMap2023_CONUS_DRYBIO_D.thumb.jpg": {
+          "sha256": "25f0cfa6819c59cdeb35a1d25ed33969946de8583d27d9ed28291a21348e3a64",
+          "size_bytes": 29290,
+          "href": "treemap/2023/TreeMap2023_CONUS_DRYBIO_D.thumb.jpg",
+          "mtime": 1791925081.6064546
+        },
+        "2023/TreeMap2023_CONUS_CARBON_L.thumb.jpg": {
+          "sha256": "32a38fc1963728d75c6f2e6fd31a89d3eb8c8ce359ed5f5119e998ac621800da",
+          "size_bytes": 32886,
+          "href": "treemap/2023/TreeMap2023_CONUS_CARBON_L.thumb.jpg",
+          "mtime": 1791925081.6683006
+        },
+        "2023/TreeMap2023_CONUS_DRYBIO_L.thumb.jpg": {
+          "sha256": "317178a57bd11dbceb1d3d313fea4b0f9fc1eed14e4c7c2205f7568b9efb643e",
+          "size_bytes": 32889,
+          "href": "treemap/2023/TreeMap2023_CONUS_DRYBIO_L.thumb.jpg",
+          "mtime": 1791925086.5141206
+        },
+        "2023/TreeMap2023_CONUS_FLDSZCD.thumb.jpg": {
+          "sha256": "c293175595f1f73eef92b5589992d449a633eb9af94b35c933e67a18335fb42a",
+          "size_bytes": 1504,
+          "href": "treemap/2023/TreeMap2023_CONUS_FLDSZCD.thumb.jpg",
+          "mtime": 1791925535.1724741
+        },
+        "2023/TreeMap2023_CONUS_FLDTYPCD.thumb.jpg": {
+          "sha256": "d1d877f5d0549150d6b33a9f36f2a95b245d5166785c9d3a52740303a78e76db",
+          "size_bytes": 39920,
+          "href": "treemap/2023/TreeMap2023_CONUS_FLDTYPCD.thumb.jpg",
+          "mtime": 1791925535.2195709
+        },
+        "2023/TreeMap2023_CONUS_FORTYPCD.thumb.jpg": {
+          "sha256": "87596eeaff413c3026280de1dc79fbd3e4f238b81d5007647abb9f58bd89ee6c",
+          "size_bytes": 41151,
+          "href": "treemap/2023/TreeMap2023_CONUS_FORTYPCD.thumb.jpg",
+          "mtime": 1791925535.2576823
+        },
+        "2023/TreeMap2023_CONUS_GSSTK.thumb.jpg": {
+          "sha256": "a8786579f017238778d3e1045e3e4294baaa0162014075d30fac09bf9145707c",
+          "size_bytes": 39365,
+          "href": "treemap/2023/TreeMap2023_CONUS_GSSTK.thumb.jpg",
+          "mtime": 1791925543.205675
+        },
+        "2023/TreeMap2023_CONUS_STANDHT.thumb.jpg": {
+          "sha256": "6686b3660ad10cce20ae31e9e40630e927b5e3af9b436a894528a6e0f50d88dc",
+          "size_bytes": 38440,
+          "href": "treemap/2023/TreeMap2023_CONUS_STANDHT.thumb.jpg",
+          "mtime": 1791925993.5057416
+        },
+        "2023/TreeMap2023_CONUS_QMD.thumb.jpg": {
+          "sha256": "fd399e886348873b9cc64df36e0153d90f9640627af8258ab6425015f8096086",
+          "size_bytes": 42872,
+          "href": "treemap/2023/TreeMap2023_CONUS_QMD.thumb.jpg",
+          "mtime": 1791925993.5843263
+        },
+        "2023/TreeMap2023_CONUS_SDIsum.thumb.jpg": {
+          "sha256": "7386f0f41363d7d920921a59389920ac748d4b1b76daf7805fcd3cc598a7c44e",
+          "size_bytes": 40286,
+          "href": "treemap/2023/TreeMap2023_CONUS_SDIsum.thumb.jpg",
+          "mtime": 1791925993.5531216
+        },
+        "2023/TreeMap2023_CONUS_STDSZCD.thumb.jpg": {
+          "sha256": "f5cbc0d2d7ce6e9ca14d06c5f3946332fa357940b125f398eca17069a84887a4",
+          "size_bytes": 1112,
+          "href": "treemap/2023/TreeMap2023_CONUS_STDSZCD.thumb.jpg",
+          "mtime": 1791926002.9866216
+        },
+        "2023/TreeMap2023_CONUS_TM_ID.thumb.jpg": {
+          "sha256": "75dd01d96bf49c6bf1009598fcca1f618954836dbdf292fa7cb36c3b78ba9d06",
+          "size_bytes": 46527,
+          "href": "treemap/2023/TreeMap2023_CONUS_TM_ID.thumb.jpg",
+          "mtime": 1791926451.715318
+        },
+        "2023/TreeMap2023_CONUS_TPA_DEAD.thumb.jpg": {
+          "sha256": "c0d0da512cc00f19be7f20b41f20e39f9d1e4b7b9fa414189460dfdc2a4fc404",
+          "size_bytes": 34501,
+          "href": "treemap/2023/TreeMap2023_CONUS_TPA_DEAD.thumb.jpg",
+          "mtime": 1791926451.8297882
+        },
+        "2023/TreeMap2023_CONUS_TPA_LIVE.thumb.jpg": {
+          "sha256": "1445b2ed963d0bfec90e09cc6c5096470e532231454b4a8eae506a8a1f537fdd",
+          "size_bytes": 37352,
+          "href": "treemap/2023/TreeMap2023_CONUS_TPA_LIVE.thumb.jpg",
+          "mtime": 1791926451.8078847
+        },
+        "2023/TreeMap2023_CONUS_VOLBFNET_L.thumb.jpg": {
+          "sha256": "ed46bd02c6cbe6bcbefa73a39070dc0bab1abfca9d7a30fea5d7b8a441588813",
+          "size_bytes": 23627,
+          "href": "treemap/2023/TreeMap2023_CONUS_VOLBFNET_L.thumb.jpg",
+          "mtime": 1791926462.1420636
+        },
+        "2023/TreeMap2023_CONUS_VOLCFNET_D.thumb.jpg": {
+          "sha256": "31a1a3695d32976c51e84a845df43f4a4eb4966b2b6298db8ebae87ce3bbffaa",
+          "size_bytes": 27078,
+          "href": "treemap/2023/TreeMap2023_CONUS_VOLCFNET_D.thumb.jpg",
+          "mtime": 1791926915.5953677
+        },
+        "2023/TreeMap2023_CONUS_VOLCFNET_L.thumb.jpg": {
+          "sha256": "f7285242c0777d783a5b20282a35c1888086ff06183d41aa797856f1b87198f7",
+          "size_bytes": 31132,
+          "href": "treemap/2023/TreeMap2023_CONUS_VOLCFNET_L.thumb.jpg",
+          "mtime": 1791926916.0011873
+        },
+        "items.parquet": {
+          "sha256": "49a4ef2f35bf069d82bf59351bd4ac9dc0f285632699c68f5503fb34a89869de",
+          "size_bytes": 231556,
+          "href": "treemap/items.parquet",
+          "mtime": 1792079281.2751575
+        }
+      },
+      "changes": [
+        "items.parquet"
+      ],
+      "message": "Generated items.parquet for STAC GeoParquet queries"
+    }
+  ]
+}

@@ -47,7 +47,8 @@ The expected annual substitutions are:
 
 Publish the 2016 `VALUE` source as `TM_ID`.
 Each `TM_ID` needs its year-specific RAT to map values to FIA `PLT_CN`.
-The RAT files are outside the first publication scope.
+The 2023 publication includes its RAT.
+Do not publish another vintage until its matching RAT is available.
 
 ## Local GDAL setup
 
@@ -132,7 +133,7 @@ Preview the catalog staging operation after COG conversion:
 
 ```powershell
 python -m treemap_portolan_ingest stage `
-  --manifest work/inventory.json `
+  --manifest work/delivery-manifest.json `
   --destination treemap
 ```
 
@@ -153,6 +154,54 @@ Use the validated files in `06_COGs/<year>/` as catalog inputs.
 Do not stage the original separated-attribute TIFFs.
 The source inventory found 87 compliant COGs that can be copied unchanged.
 Only the 2016 `VALUE` identifier raster currently requires conversion.
+The staging command requires completed COG and pixel validation records.
+It verifies each staged copy against the delivery SHA-256.
+
+## Raster Attribute Table preparation
+
+The 2023 RAT source is:
+
+```text
+\\afssxgtacnas104\TreeMap\03_outputs\06_Reference_Data\v2023\03_Raster_attributes\TM2023_RAT_tmid_contValues.csv
+```
+
+Preview the operation first:
+
+```powershell
+python -m treemap_portolan_ingest prepare-rat `
+  --metadata config/metadata.json `
+  --destination treemap `
+  --year 2023
+```
+
+Add `--confirm` only after the preview reports the expected source checksum,
+69,800 rows, and two new targets.
+
+The command copies the source CSV without modification.
+It also writes a Zstandard-compressed Parquet derivative.
+It parses source `NA` values as Parquet nulls.
+It requires complete and unique `TM_ID` and `PLT_CN` columns.
+It refuses to replace an existing output with different content.
+
+## Attribute data dictionary preparation
+
+The source workbook is:
+
+```text
+\\afssxgtacnas104\TreeMap\08_Data_Delivery\02_Metadata\2023\Data Dictionary\TreeMap2020_CONUS_DataDictionary.xlsx
+```
+
+Preview the normalized CSV export before writing it:
+
+```powershell
+python -m treemap_portolan_ingest prepare-data-dictionary `
+  --metadata config/metadata.json `
+  --destination treemap
+```
+
+Add `--confirm` to write `treemap\TreeMap2020_CONUS_DataDictionary.csv`.
+The enrichment step uses its matched rows for raster asset and band metadata.
+It publishes the CSV as a collection-level metadata asset.
 
 ## Catalog generation
 
@@ -161,8 +210,23 @@ Use the calendar year as the temporal interval.
 After Portolan creates item JSON, enrich each asset from [the metadata registry](../config/metadata.json).
 
 The enrichment step must preserve machine-derived projection and raster fields.
-It adds the verified title, unit, class definitions, annual version properties, DOI, and citation.
+It adds attribute descriptions and sources, annual version properties, DOI,
+citation, the data dictionary asset, and RAT assets.
+The RAT assets include checksums, row count, and column descriptions.
 Generate `items.parquet` after enrichment.
+
+```powershell
+portolan add treemap\2016 --datetime 2016-01-01 --no-thumbnails
+portolan add treemap\2020 --datetime 2020-01-01 --no-thumbnails
+portolan add treemap\2022 --datetime 2022-01-01 --no-thumbnails
+portolan add treemap\2023 --datetime 2023-01-01 --no-thumbnails
+python -m treemap_portolan_ingest enrich `
+  --catalog . `
+  --metadata config/metadata.json `
+  --year 2023
+portolan stac-geoparquet --collection treemap
+portolan readme
+```
 
 ## Validation
 
@@ -173,6 +237,7 @@ Then run the Portolan metadata, README, and complete catalog checks.
 
 The complete catalog must contain four items and 88 COG assets.
 Each item must contain exactly 22 data assets.
+Each published item must also include its year-specific RAT before that year is complete.
 
 Save real commands and results in [validation.md](validation.md).
 

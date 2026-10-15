@@ -2,6 +2,7 @@
     "security.allowedUNCHosts": [
         "afssxgtacnas104"
     ],
+    "python.terminal.useEnvFile": true,
     "python-envs.pythonProjects": [
         {
             "path": ".",
